@@ -1,0 +1,48 @@
+[OPTIONS]
+ROOT=d:\ingeni~1\explos~1\explocal\disco4\help
+COPYRIGHT=Help Edit - UNREGISTERED COPY
+
+CONTENTS=Topic0001
+COMPRESS=false
+ERRORLOG=HELPEDIT.ERR
+
+[CONFIG]
+BROWSEBUTTONS()
+
+[FILES]
+c:\helpedit\demo1.rtf
+
+[BITMAPS]
+
+[MAP]
+; Context        Context       Context
+; String         Number         Title
+;
+Topic0001        0x0001        ;indice
+Topic0002        0x0002        ;Explocal
+Topic0003        0x0003        ;Uso
+Topic0004        0x0004        ;teoria de la detonacion
+Topic0005        0x0005        ;Descripcion
+Topic0006        0x0006        ;Teclado
+Topic0007        0x0007        ;composicion cualitativa
+Topic0008        0x0008        ;Composicion cuantitativa
+Topic0009        0x0009        ;Introducir datos
+Topic0010        0x0010        ;Modificar reactivos
+Topic0011        0x0011        ;Introducir datos reactivo
+Topic0012        0x0012        ;Preferencias
+Topic0013        0x0013        ;Archivos  de datos
+Topic0014        0x0014        ;detonacion ideal
+Topic0015        0x0015        ;Ecuaciones Hugoniot-Rankine
+Topic0016        0x0016        ;Curva de Hugoniot
+Topic0017        0x0017        ;Rectas de Rayleigh
+Topic0018        0x0018        ;Estado CJ.
+Topic0019        0x0019        ;Tipos de detonaciones
+Topic0020        0x0020        ;Generalidades del metodo.
+Topic0021        0x0021        ;formula y energia de formacion
+Topic0022        0x0022        ;Balance de oxigeno
+Topic0023        0x0023        ;Calor y temperatura
+Topic0024        0x0024        ;Volumen normal de gases
+Topic0025        0x0025        ;Parametros de detonacion.
+Topic0027        0x0027        ;d
+Topic0028        0x0028        ;observaciones
+

@@ -1,0 +1,57 @@
+/*_____________________________________________________________________
+	Archivo:   		EXPLOCAL.RC
+	Proyecto:  		EXPLOCAL.PRJ
+	Autor:     		Enrique Pérez Herrero, E.T.S.I de Minas de Madrid.
+				  		Proyecto de Fin de Carrera.
+	Especialidad: 	Laboreo y Explosivos.
+	Descripción:   Archivo de recursos del proyecto.
+_____________________________________________________________________*/
+
+
+// Inclusión de las macros.
+
+#if !defined (__EXPLOCAL_H)
+#include "explocal.h"
+#endif
+
+
+// Icono de la aplicación: Explocal.
+ICONO_APLIC ICON   "aplic.ico"
+
+// Icono de las ventanas hija de la aplicación MDI. 
+ICONO_HIJAS ICON "hijas.ico"
+
+
+#if !defined (__DISCO_ICO)
+ICONO_DISCO ICON "disco.ico"
+#define __DISCO_ICO
+#endif
+
+MAPABITS_1 BITMAP "explocal.bmp"
+
+// Inclusión de diálogos.
+#include "kfiledia.dlg"
+#include "kstdwnds.dlg"
+#include "kinputdi.dlg"
+#include "dialogos.dlg"
+
+
+
+// Inclusión del menú y teclas aceleradoras asociadas.
+#include "menu.rc"
+
+// Inclusión de la tabla de cadenas.
+#include "tblcaden.rc"
+
+// Inclusión de la versión.
+#include "version.rc"
+
+
+/*_____________________________________________________________________
+  Fin del Archivo:   		EXPLOCAL.RC
+_____________________________________________________________________*/
+
+
+
+
+

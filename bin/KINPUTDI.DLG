@@ -1,0 +1,16 @@
+/*__________________________________________________________________________
+Archivo:  KINPUT.DLG
+Versión personalizada y traducida del archivo INPUTDIA.DLG de ObjectWindows
+__________________________________________________________________________*/	 
+
+SD_INPUTDIALOG DIALOG 22, 27, 149, 76
+STYLE WS_POPUP | WS_CAPTION | DS_SETFONT
+CLASS "bordlg"
+FONT 8, "Helv"
+BEGIN
+	CONTROL "", ID_INPUT, "EDIT", WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP | ES_AUTOHSCROLL, 11, 19, 126, 12
+	CONTROL "", IDOK, "BorBtn", BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 19, 45, 36, 24
+	CONTROL "", IDCANCEL, "BorBtn", BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 82, 44, 36, 24
+	LTEXT "", ID_PROMPT, 9, 7, 130, 8
+	CONTROL "", 4092, "BorShade", 2 | WS_CHILD | WS_VISIBLE, 4, 36, 140, 3
+END

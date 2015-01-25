@@ -1,0 +1,8 @@
+Microsoft (R) Help Compiler
+HCRTF 4.01.0950
+Copyright (c) Microsoft Corp 1990 - 1995. All rights reserved.
+AYUDA.HPJ
+    HC4006: Warning: 
+	The folder "c:\help" specified for the "ROOT" option does not exist.
+    HC5011: Error: AYUDA.HPJ : 
+	Cannot open the file "c:\help\ayuda.rtf."

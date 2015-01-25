@@ -1,0 +1,106 @@
+/*__________________________________________________________________________
+	Archivo:  		MENU.RC
+	Proyecto:  		EXPLOCAL.PRJ
+	Autor:     		Enrique Pérez Herrero, E.T.S.I de Minas de Madrid.
+				  		Proyecto de Fin de Carrera.
+	Especialidad: 	Laboreo y Explosivos.
+	Descripción:	Menu de la aplicación y teclas aceleradoras.
+__________________________________________________________________________*/
+
+#if !defined (EXPLOCAL_H_DEFINIDO)
+#include "explocal.h"
+#endif
+
+
+MENU_1 MENU 
+BEGIN
+	POPUP "&Archivo"
+	BEGIN
+		MENUITEM "&Nuevo", CM_FILENEW
+		MENUITEM "&Abrir...", CM_FILEOPEN
+		MENUITEM "&Guardar", CM_FILESAVE, GRAYED
+		MENUITEM "G&uardar como...", CM_FILESAVEAS, GRAYED
+		MENUITEM SEPARATOR
+		MENUITEM "&Imprimir...", CM_IMPRIMIR, GRAYED
+		MENUITEM SEPARATOR
+		MENUITEM "&Preferencias...", CM_PREFEREN
+		MENUITEM SEPARATOR
+		MENUITEM "&Salir\aAlt+F4", CM_EXIT
+	END
+
+	POPUP "&Edición"
+	BEGIN
+		MENUITEM "&Deshacer\aCtrl+Z", CM_EDITUNDO, GRAYED
+		MENUITEM SEPARATOR
+		MENUITEM "&Cortar\aCtrl+X", CM_EDITCUT, GRAYED
+		MENUITEM "C&opiar\aCtrl+C", CM_EDITCOPY, GRAYED
+		MENUITEM "&Pegar\aCtrl+V", CM_EDITPASTE, GRAYED
+		MENUITEM SEPARATOR
+		MENUITEM "&Borrar\aSupr", CM_EDITDELETE, GRAYED
+		MENUITEM "Bor&rar todo\aCtrl+Supr", CM_EDITCLEAR, GRAYED
+		MENUITEM SEPARATOR
+		MENUITEM "&Seleccionar todo\aCtrl+E", CM_EDITSELT, GRAYED
+	END
+
+	POPUP "&Buscar"
+	BEGIN
+		MENUITEM "&Buscar...", CM_EDITFIND, GRAYED
+		MENUITEM "&Repetir búsqueda\aF3", CM_EDITFINDNEXT, GRAYED
+		MENUITEM "R&eemplazar...", CM_EDITREPLACE, GRAYED
+	END
+
+	POPUP "&Explosivo"
+	BEGIN
+		MENUITEM "&Nuevo explosivo...\aF5", CM_NUEVOEXP
+		MENUITEM "&Abrir explosivo...\aF6", CM_ABRIREXP
+		MENUITEM "&Guardar explosivo", CM_GUARDEXP, GRAYED
+		MENUITEM "G&uardar explosivo como...", CM_GCOMOEXP, GRAYED
+		MENUITEM SEPARATOR
+		MENUITEM "&Modificar composición...\aF7", CM_COMPOSIC, GRAYED
+		MENUITEM "&Recalcular\aF8", CM_RECALCUL, GRAYED
+		MENUITEM SEPARATOR
+		MENUITEM "M&odificar lista de reactivos...", CM_MODIFICA
+	END
+
+	POPUP "&Ventana"
+	BEGIN
+		MENUITEM "&Cascada\aMayús+F5", CM_CASCADECHILDREN, GRAYED
+		MENUITEM "&Mosaico\aMayús+F4", CM_TILECHILDREN, GRAYED
+		MENUITEM "&Organizar iconos", CM_ARRANGEICONS, GRAYED
+		MENUITEM SEPARATOR
+		MENUITEM "C&errar todo", CM_CLOSECHILDREN, GRAYED
+	END
+
+	POPUP "Ay&uda", HELP
+	BEGIN
+		MENUITEM "&Índice\aF1", CM_INDICEAY, HELP
+		MENUITEM SEPARATOR
+		MENUITEM "&Acerca de Explocal...", CM_ACERCADE, HELP
+	END
+
+END
+
+//Teclas aceleradoras asociadas al menú: MENU_1
+
+MENU_1 ACCELERATORS LOADONCALL MOVEABLE DISCARDABLE 
+BEGIN
+	"Z", CM_EDITUNDO, VIRTKEY, CONTROL
+	"X", CM_EDITCUT, VIRTKEY, CONTROL
+	"C", CM_EDITCOPY, VIRTKEY, CONTROL
+	"V", CM_EDITPASTE, VIRTKEY, CONTROL
+	"E", CM_EDITSELT, VIRTKEY, CONTROL
+	VK_F1, CM_INDICEAY, VIRTKEY
+	VK_F3, CM_EDITFINDNEXT, VIRTKEY
+	VK_F4, CM_TILECHILDREN, VIRTKEY, SHIFT
+	VK_F5, CM_NUEVOEXP, VIRTKEY
+	VK_F5, CM_CASCADECHILDREN, VIRTKEY, SHIFT
+	VK_F6, CM_ABRIREXP, VIRTKEY
+	VK_F7, CM_COMPOSIC, VIRTKEY
+	VK_F8, CM_RECALCUL, VIRTKEY
+	VK_DELETE, CM_EDITDELETE, VIRTKEY
+	VK_DELETE, CM_EDITCLEAR, VIRTKEY, CONTROL
+END
+
+/*_____________________________________________________________________
+  Fin del Archivo:   		MENU.RC
+_____________________________________________________________________*/

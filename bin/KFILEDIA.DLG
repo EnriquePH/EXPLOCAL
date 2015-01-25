@@ -1,0 +1,67 @@
+ /*__________________________________________________________________________
+	Archivo:  		KFILEDIA.DLG
+	Proyecto:  		EXPLOCAL.PRJ
+	Autor:     		Enrique Pérez Herrero, E.T.S.I de Minas de Madrid.
+				  		Proyecto de Fin de Carrera.
+	Especialidad: 	Laboreo y Explosivos.
+	Descripción:	Versión personalizada y traducida del archivo
+						FILEDIAL.DLG
+						de la librería ObjectWindows. Introduce los recursos
+						para cargar los diálogos de apertura y cierre de archivos
+__________________________________________________________________________*/
+
+
+
+#if !defined (__EXPLOCAL_H)
+#include "explocal.h"
+#endif
+
+#if !defined (__DISCO_ICO)
+ICONO_DISCO ICON "disco.ico"
+#define __DISCO_ICO
+#endif
+
+
+SD_FILEOPEN DIALOG 28, 28, 154, 214
+STYLE WS_TILED | WS_CAPTION | WS_SYSMENU | DS_SETFONT | DS_MODALFRAME
+CLASS "bordlg"
+CAPTION "Abrir"
+FONT 8, "Helv"
+BEGIN
+	LTEXT "&Nombre del archivo:", -1, 44, 12, 66, 8
+	CONTROL "", ID_FNAME, "EDIT", ES_OEMCONVERT | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP | ES_AUTOHSCROLL, 41, 22, 101, 12
+	CONTROL "", ID_FLIST, "LISTBOX", WS_CHILD | WS_VISIBLE | WS_TABSTOP | LBS_STANDARD, 9, 84, 64, 82
+	CONTROL "", ID_DLIST, "LISTBOX", WS_CHILD | WS_VISIBLE | WS_TABSTOP | LBS_STANDARD, 81, 84, 64, 82
+	CONTROL "", IDCANCEL, "BorBtn", BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 98, 183, 36, 24
+	CONTROL "", IDOK, "BorBtn", BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 20, 183, 36, 24
+	LTEXT "Directorio:", -1, 7, 50, 33, 8
+	LTEXT "", ID_FPATH, 40, 50, 106, 8
+	LTEXT "&Archivos:", -1, 9, 72, 30, 10
+	LTEXT "&Directorios:", -1, 79, 72, 40, 10
+	CONTROL "", 4096, "BorShade", 2 | WS_CHILD | WS_VISIBLE, 1, 174, 152, 2
+	ICON "ICONO_DISCO", -1, 7, 12, 18, 20, WS_CHILD | WS_VISIBLE
+	CONTROL "", 4097, "BorShade", 32769 | WS_CHILD | WS_VISIBLE, 5, 71, 144, 99
+	CONTROL "", 4098, "BorShade", 32769 | WS_CHILD | WS_VISIBLE, 35, 10, 113, 29
+END
+
+SD_FILESAVE DIALOG 51, 43, 139, 148
+STYLE WS_TILED | WS_CAPTION | WS_SYSMENU | DS_SETFONT | DS_MODALFRAME
+CLASS "bordlg"
+CAPTION "Guardar como..."
+FONT 8, "Helv"
+BEGIN
+	CONTROL "", ID_FNAME, "EDIT", ES_OEMCONVERT | WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP | ES_AUTOHSCROLL, 6, 23, 101, 12
+	CONTROL "", ID_DLIST, "LISTBOX", WS_CHILD | WS_VISIBLE | WS_TABSTOP | LBS_STANDARD, 6, 62, 64, 82
+	CONTROL "", IDCANCEL, "BorBtn", BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 90, 65, 36, 24
+	CONTROL "", IDOK, "BorBtn", BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 90, 111, 36, 24
+	LTEXT "&Nombre de archivo:", -1, 8, 10, 64, 8
+	LTEXT "Directorio:", -1, 6, 38, 34, 8
+	LTEXT "", ID_FPATH, 40, 38, 92, 8
+	LTEXT "&Directorios:", -1, 6, 51, 64, 8
+	ICON "ICONO_DISCO", -1, 115, 11, 18, 20, WS_CHILD | WS_VISIBLE
+	CONTROL "", 4093, "BorShade", 3 | WS_CHILD | WS_VISIBLE, 76, 51, 3, 92
+END
+
+/*_____________________________________________________________________
+  Fin del Archivo:   		KFILEDIA.DLG
+_____________________________________________________________________*/

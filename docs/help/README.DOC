@@ -1,0 +1,485 @@
+                  WELCOME TO Help Edit V1.5 FOR WINDOWS
+                  -------------------------------------
+
+This README file contains important, last minute information about
+Help Edit V1.5 
+
+
+TABLE OF CONTENTS
+-----------------
+  1. What is Help Edit
+  2. How to Get Help
+  3. Installation
+  4. Important Notes
+  5. Files on the Disk(s)
+  6. Why Register?
+  7. History
+
+ 1. What is Help Edit
+---------------------
+
+Help Edit is a Windows Text Editor that you can use to produce Windows
+Help files. Help Edit accepts simple ASCII files, allows you to create
+Windows Help Topics, and finally produce an RTF (Rich Text Format) file for
+input to the Microsoft Help Compiler. You can create Hypertext links, pop up
+definitions, browse sequences, and include Bitmaps in your help file. Help
+Edit supports the inclusion of various Fonts and Colours.
+
+Help Edit manages all aspects of automatically generating jump labels, and
+it even creates the HPJ project file required by the Help Compiler.
+
+Once you have created your RTF files, Help Edit can call the Help compiler
+from within itself, to produce an HLP help file. Finally Help Edit can test
+the new Help file for you.
+
+The Help file for Help Edit was written using itself, and so was the Tutorial.
+All the Help material for a Demo help file is included so that you may study
+it. In the registered version all the material for Helpedit Help and the
+Tutorial Help are included.
+
+
+ 2. HOW TO GET HELP
+-------------------
+
+  If you have any problems, please read this file, and if you still have a
+  question and need assistance, help is available from the following source:
+
+     Write to me at the following address:
+
+     James Herron
+     29 Duncryne Place,
+     Bishopbriggs
+     Glasgow G64 2DP
+     Scotland
+     UK.
+
+  Alternatively call me on 041 762 0967 between 6pm and 9pm Mon - Fri, or any
+  time at Weekends (within reason!). Answering machine available.
+
+  If you have a modem you can leave me a message on the ShareWare Support BBS
+  in the UK on (0442) 891109 (3 lines). This BBS has a link to the Runway BBS
+  in the US on 215-623-6203.
+
+  If you are on Compuserve you can Email me at
+  
+                 herron@comms.eee.strathclyde.ac.uk
+  
+  This is on the JANET network but can be accessed via internet and
+  Compuserve.
+
+ 3. INSTALLATION
+----------------
+  There are two options for installation:
+
+  1. Hard Disk - This option allows you to copy all the files without
+     worrying about disk space. It allows faster program operation and is
+     recommended if you have a hard disk.
+
+  2. Single Floppy - It is perfectly feasible to run Help Edit from a single
+     floppy drive. In this case it is recommended that only the essential 
+     files that you need are copied onto this disk.
+
+
+  You should read the rest of this README file to get further
+  information about this release before you do the installation.
+
+
+  To perform the installation insert the floppy in drive A or B and run
+  INSTALL from Windows.
+  
+  This completes installation, you should now put your original disk(s) in a
+  save place. Start Windows and either run Help Edit from the Program Manager by
+  opening the File menu and selecting Run, or better still if you installed a
+  new group for Help Edit during install select it's icon for the application.
+
+
+  Please refer to the section in the online help on how to set up HC.BAT to
+  run with your version of the Help Compiler.
+
+  If you have the spell checker DLL Spelmate, either install it in the same
+  directory as Help Edit, or in a directory on your Path. Help Edit will look
+  for Spelmate on start up, and if it is found it will be available. Note that
+  Spelmate is a separate product, and it is not essential in order to run
+  Help Edit.
+
+  The current version of spelmate is V1.1, and is available on all good BBS's
+  and Compuserve as SPMATE11.zip.
+
+
+ 4. IMPORTANT NOTES
+-------------------
+  o The Executable, Help and a few Document files in this package are
+    compressed. If you don't use the installation program or you need to
+    copy one of the original files onto your hard disk, use the UNPACK.EXE
+    file located on the distribution disk. This is a Windows application.
+
+  o As mentioned in the installation section,if you are running from a single
+    drive then you should only copy the essential files required to run Help
+    Edit. This means leaving off any *.doc files, and once you have run the
+    examples you could remove them also.
+
+  o At the time of writing the MicroSoft Help Compiler is available for
+    download from Compuserve, and as a free download from the MicroSoft
+    download service. It has been placed in the Public Domain.
+
+  o To make help files for the widest range of users, the help complier for
+    Windows 3.0 should be used as it is compatible with Windows 3.1. The
+    3.1 complier will not work under Windows 3.0. Therefore a v3.0 help
+    compiler is included. The Batch file HC.BAT calls this compiler, HC30.exe
+    and also redirects output messages to a file Helpedit.err.
+
+  o If you have a Windows 3.1 Help compiler you can set the Windows 3.1
+    checkbox when making a help file. You may have to edit HC.BAT to tell it
+    the name of your help compiler. HC.BAT has been set up to work with the
+    Help compilers HC30.EXE and HC31.EXE as supplied by Borland compilers.
+
+  o IMPORTANT refer to the online Help information about HC.BAT.
+
+
+ 5. FILES ON THE DISK(S).(Registered Version)
+---------------------------------------------
+Note: File names that end in a $ indicate a compressed file.
+
+Disk 1
+
+  INSTALL  EXE    -  Windows Install Program
+  INSTALL  INF    -  Windows Install Script file
+  UNPACK   EXE    -  Unpack Utility.
+  README   DOC    -  This file
+  HELPEDIT EX$    -  Registered version of Help Edit program for Windows
+                     without unregistered copy notices.
+  HELPEDIT HL$    -  Help File for and written by Help Edit.
+  TUTORIAL HL$    -  Help File for Tutorial written by Help Edit.
+  DEMO     *      -  All the files needed to make the Demo
+  HC       BAT    -  Batch file to call help compiler
+  HC       PIF    -  Windows Pif File for Help Compiler
+
+
+Disk 2
+
+  HC30     EX$    -  Microsoft Help Compiler for Windows 3.0
+  HC31     EX$    -  Microsoft Help Compiler for Windows 3.1
+  HC31     ER$    -  Error messages for HC31.EXE.
+  TUTORIAL *      -  All the files needed to make the Tutorial
+  HELPEDIT *      -  All the files needed to make the Helpedit Help.
+
+         *.BMP    -  Sample Bitmaps
+         *.DOC    -  Sample Help Document files
+         *.HLP    -  Sample Help Files
+         *.HPJ    -  Sample Help compiler Project files
+         *.PRJ    -  Sample Help Edit Project files
+         *.SHG    -  Sample Segmented Bitmap
+         *.TXT    -  Sample Help Text Files.
+
+Professional Version.
+---------------------
+
+If you order the professional version which includes the Spell checker
+Spelmate DLL then you will have the additional files Spelmate.dl$ and either
+MainUK.di$ or MainUS.di$ depending on whether you requested the British or
+American version.
+
+The above listing is for 5.25 (360K) disks only. If you request 5.25 (1.2M)
+or 3.5 (720K) you will only get one disk containing all the files.
+
+NOTE: The Microsoft Help Compiler is copyright by Microsoft but has been
+placed in the Public Domain. It is supplied for completeness, but no charge
+is made or implied for it's use. The registration fee is only for Help Edit.
+
+
+6. Why Register?
+----------------
+
+Registering brings with it a number of advantages.
+
+First of all the Unregistered Copy notice will no longer appear.
+
+Second, The Unregistered Message will not be place in the Contents Page
+of your Help file, nor in the About box of the Help System.
+
+Third you will have technical support should you have any problems.
+
+And Finally, your support will encourage me to continue to improve Help Edit.
+
+And Finally, as a registered user you will be entitled to FREE updates for
+6 months or TWO updates (which ever comes first), and to favourable price
+reductions on future versions after that period. So make sure you complete
+the registration form (INVOICE.DOC) as completely as possible.
+
+7. History
+----------
+Note: all dates are in UK format dd/mm/yy.
+
+18/2/93 V1.0
+Initial release of Help Edit.
+
+............................................................................
+
+25/2/93 V1.1
+Print Set-up and Print items added to File Menu.
+
+Make Help item replaces Make HPJ,RTF and HLP menu option. Help Edit now reads
+project file list and compiles only those RTF files that are new or have been
+updated.
+
+HPJ file now contains the information to make a context sensitive help system.
+
+............................................................................
+
+8/3/93 V1.2
+Bug fix in editing of browse sequences.
+
+Bug fix when trying to cancel Make Help
+
+Fonts and Colour capability added.
+
+............................................................................
+
+16/4/93 V1.3
+Bug Fix so that Topics without keywords do not cause missing Footnote
+errors.
+
+Bug Fix. If no edit text loaded and attempt to print, got run time error.
+Print option disabled unless text in editor.
+
+Bug Fix. If no printer selected in the Windows control panel and attempts
+made to print, nothing happens, not even a warning. Help Edit now issues
+a message that there is no current printer.
+
+Bug Fix. Could add files to a new project, and if quit, project not updated.
+Help Edit now warns that project has changed and should be saved.
+
+Bug Fix. If changed a file and attempt to exit get save file - Yes, No,
+Cancel. Cancel did not work.
+
+Bug Fix. When making a Help file, if the Topic to be used as the Index or
+Contents page happened to be the one already in the combobox, and the user
+did not activate the combobox, then the Topic was never selected, and a run
+time error occurs. This has been corrected.
+
+Bug Fix. If selected more that 255 characters when changing fonts, the extra
+text was lost. Corrected.
+
+New Features - Modifications.
+-----------------------------
+
+Help Edit routes all Warning and Error messages from the Microsoft Help
+compiler into a file called HelpEdit.err. It checks this file after
+compilation and if any errors it invokes an editor of your choice to view
+the messages. The default editor is NotePad, but you can use any other
+Editor e.g. WinEdit, by selecting Choose Editor from the Options menu.
+
+The Edit menu accelerator keys have been changed to CUA standard.
+
+New Accelerator keys have been added to the most commom used functions such
+as make Topic and make Jump.
+
+The right mouse button is used in making Topics and Jumps to speed things up
+for experienced users.
+
+The common dialog box for files is now used.
+
+A number of menu options have been disabled if the editor does not contain
+text or have text selected. These include Save, Save As, Print, Cut, Copy,
+find, and replace.
+Paste only works if the clipboard has valid text.
+
+
+A Windows Pif file has been added so that the Help compiler can run in a 
+Window or as an icon. The default is icon.
+
+
+A new HC.BAT file has been created.
+
+IMPORTANT Refer to the online help about HC.BAT.
+---------
+
+Help Edit can call the Windows 3.0 help compiler or 3.1.
+
+
+While the help compiler is running, Help Edit is disabled and becomes an
+icon. This is to stop you altering files that the help compiler is using.
+
+All messages moved to string tables.
+
+If you change the editor text, then attempt to make a Help file without
+saving the changes, Help Edit will ask if you want to save first. As
+Helpedit uses the text on disk and not the editor, you should let helpedit
+save the text if you want your changes to be part of the new make.
+
+The Help Edit help file has been updated.
+
+The Tutorial has been completely re-written.
+
+............................................................................
+
+26/5/93 V1.4
+------------
+
+1).
+Help Edit can now make use of the Spelmate DLL. This is a DLL that adds
+spell checking capabilities to any of your Windows applications. Both
+American and British versions are available.
+
+In order to keep file sizes down for users of BBS's the spelmate DLL is not
+included in the version placed on BBS's, but can be obtained as a separate
+file splmateX.zip where X is the current version number. At this time you
+should look for splmate1.zip.
+
+If you obtain Help Edit from a Software Library, Spelmate may be included.
+
+Spelmate is a separate Shareware program in it's own right and requires 
+registration if you wish to use it. If you order the professional version
+of Help Edit, then Spelmate is included at a discount price, and you can use
+it in other programs of your own.
+
+2).
+The Options menu has been changed and now contains the items
+Select Editor
+Check Spelling
+Windows 3.1
+
+Select Editor is the same as for Verison 1.3.
+Check Spelling invokes the Spelmate Dll if it is present, AND if you have
+some text in the Edit window.
+
+Windows 3.1 is used to replace the checkbox that you had to set every time
+you wanted to make a Windows 3.1 Help file from the make Help dialog box.
+
+If you select this menu option a tick mark is inserted, and your selection is
+saved in the .INI file so you need only set it once. Help Edit needs to know
+this information as it affects new features that are only applicable if you
+are using Windows 3.1.
+
+
+3).
+The insert menu can now insert a program. This is only available if you are
+using Windows 3.1 as it is a macro. Select text as you would to create a 
+jump link, but instead select insert program. You can then enter a program
+name and command line parameters, and when the user clicks on this word or
+phrase, the program will run. Note it is your responsibility to ensure that
+the program exists, and that Windows will be able to find it.
+
+4).
+The insert Bitmap has been updated. Help Edit now allows the insertion of
+.BMP, .SHG and .WMF files. In addition you can make these bitmaps active
+Hotspots to jump links, Definitions or even run programs.
+
+At the present time you can only preview .BMP files.
+
+.SHG files contain their own jump links and program references. You must
+create these using your own Hotspot Editor. If you use Borland compilers
+this is called SHED.EXE.
+
+You should create your topics and definitions as normal. Then after making
+a Help file look at the [MAP] section of the .HPJ file to get a list of the
+context strings assigned to your topics. Use these strings as the context
+strings in your Hotspot Editor. Create the .SHG file, then go back and add
+it at the appropriate place in the help file.
+
+5).
+The online help and Tutorial have been updated to reflect these changes.
+
+............................................................................
+
+01/7/93 V1.5
+------------
+
+Bug Fix. When Help Edit cannot find a Topic or Definition it did not give the
+option to abort the compilation. It went ahead anyway and you were forced to
+wait for an inevitable error. User now offered the chance to abort.
+
+Bug Fix. If entered text without having opened or created a Project, and then
+try to exit without saving, get a stream access error because there is no
+Project name to save. User can now save at any time, with or without a Project
+open, and exit. If there is no Project open, user is warned, and given the 
+chance to open or create a project, and the file name added before exit. If user
+does not open a project, the text file is still safely saved, and the system
+will exit without an error. The user can always add the text file to a Project
+at a later date. Note the file can only contain text, no Topic, Definitions or
+Bitmaps can be included unless a Project exists.
+
+Bug Fix. (More like a work around an MS problem). The MS Help Compiler will
+accept a fully qualified input .HPJ file name and path, but insists on placing
+the Help file it generates in the current directory, what ever it may be.
+Help Edit expects the Help file to be in the Project directory when asked to
+test it. If the user should change the current directory just before making
+the help file, it ends up there. Help Edit now explicitly sets the current
+directory to that of the Project, immediately before it calls the Help
+Compiler.
+
+New Features - Modifications.
+-----------------------------
+
+1)
+The most obvious new feature is the addition of a Toolbar which mimics a
+number of commonly used menu items with toolbar buttons.
+
+2)
+The next obvious change is in the improved Status bar. It has a better 3D
+look and now gives additional information. As well as showing the current
+line and column position, it now displays the word 'Modified' when the text
+has changed. If you use the mouse or cursor keys to highlight menu items, a
+short description of what each menu does appears in the status bar.
+The state of the CAPS, NUM and SCROLL lock keys are also displayed.
+
+3)
+The Editor now comes up in Word Wrap mode. You can toggle the word wrap on
+and off from the Edit menu. Word wrapping was originally used in V1.0 but
+was dropped as the so called soft line breaks ended up in the Help file and
+it looked awful. Help Edit now temporarily turns word wrap off during a save
+if word wrap is enabled. Note that when word wrapping is on the editor needs
+more room to hold all the additional soft line break characters. If you load
+a file which is around 30K with word wrap off, you may not be able to turn
+Word Wrap on. Help Edit will warn you that it has insuffient memory to perform
+the operation, and you text will be unchanged.
+
+4)
+The default Windows is now assummed to be Version 3.1 and the menu item under
+the Options menu is checked unless reset by the user, or you have an existing
+.INI file with your settings.
+
+5)
+During spell checking by the Spelmate DLL the cursor is turned to an Hour
+Glass as you may have long delays between words, (unless you are a poor
+speller). Remember that spell checking will be on-going until it tells you
+it has finished, or you explicitly cancel it.
+
+6)
+Help Edit now has an interface to another support program called Index-It.
+Index-It is a general indexing program which is used to scan text files to
+identify words that could be used as Keywords or Index words. Such word lists
+are used when compiling the Index lists in books or journals, and when creating
+a Hypertext system, such as a Windows Help File. Index-It will generate a word
+list consisting of simple ASCII text arranged one word to a line, so that it
+can be used by a number of systems, such as a DeskTop Publishing Package, to
+create an Index. The file has the extension *.Idx. When you load a Project file
+into Help Edit it looks to see if an Index file exists with the same name as
+the Project, but with the extension .Idx. If found it is loaded.
+
+7)
+When creating or Editing Topics a number of new controls are present in the
+Topic dialog box. These will only be active if an Index file was loaded.
+The Keywords List box contains the index list, and words may be selected
+from this list and used as keywords. See the on-line help for details.
+
+
+The Help Edit help file has been updated.
+
+The Tutorial has been re-written.
+
+
+Supporting Programs.
+--------------------
+
+SPELMATE.
+.........
+The spell checker DLL Spelmate is now at version 1.1. It now has sample
+programs in C and Visual Basic as well as Pascal. Spelmate is included in 
+the professional version of Help Edit. The Shareware file is now SPMATE11.ZIP.
+
+Index-It.
+.........
+Index-It Version 1.0 can be used to create keyword lists that can be used by
+Help Edit, as well as other programs, eg. DTP. The Shareware file is
+INDXIT11.ZIP.

@@ -1,0 +1,22 @@
+;
+;				Archivo:		ERROR.DAT
+;           
+;
+[Error]
+	0=- ERRORES:
+	1=- Aviso: Falta el nombre de la mezcla explosiva.
+	2=- Aviso: Densidad de encartuchado errónea. Usando valor por defecto.
+	3=- Aviso: No se producen productos de explosión gaseosos.
+	4=- Aviso: No existen productos de explosión.
+	5=- Aviso: Ecuación temperatura. Número máximo de iteraciones rebasado.
+	6=- Error: No se encuentran los datos de todos los reactivos.
+	7=- Error: Archivo 'TABLPROD.DAT' no accesible.
+	8=- Error: Archivo 'CONSTANT.DAT' no accesible.
+	9=- Error: Archivo 'REACTIVO.DAT' no accesible.
+	10=- Error: Reacción no exotérmica. No hay detonación.
+	11=- Error: Ecuación temperatura. Sistema sin solución.
+	12=- Error: Ecuación temperatura. Error en el grado del sistema.
+	13=- Error: Índice acceso a tabla de datos no válido.
+	14=- Error: Índice acceso a tabla de datos no válido.
+	15=- Error: División por cero.
+	16=- Error: Error en la consigna de errores.

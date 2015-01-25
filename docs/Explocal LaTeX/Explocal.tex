@@ -1,0 +1,72 @@
+% !TeX encoding = ISO-8859-1
+%-----------------------------------------------------------------------
+% Filename: 	Explocal.tex
+% Description:	PROYECTO DE UNA APLICACIÓN INFORMÁTICA PARA EL CÁLCULO
+%				DE LAS PRINCIPALES CARACTERÍSTICAS TEÓRICAS DE LOS 
+%				EXPLOSIVOS
+% Author:   	Enrique Pérez Herrero
+% Date:     	13/Ene/2015
+%-----------------------------------------------------------------------
+\documentclass[11pt,a4paper]{book}          % Book class 11pt A4
+
+\usepackage[spanish, es-tabla]{babel} 		% Acentos en español
+											% Cambiar tabla por cuadro
+\usepackage[latin1]{inputenc}				% Acentos directos
+\usepackage{amsmath}
+\usepackage{enumerate}
+\usepackage[table,xcdraw]{xcolor}			% Color de las tablas
+\usepackage{import}  						% Importa archivos
+\usepackage{subfiles}
+\usepackage{chngcntr}
+\usepackage{standalone}
+
+
+\numberwithin{equation}{chapter}
+\renewcommand{\theequation}{\thechapter--\arabic{equation}}  
+
+\parindent0pt  
+\parskip10pt             				% make block paragraphs
+\raggedright                            % do not right justify
+
+\interfootnotelinepenalty=10000
+
+
+\title{PROYECTO DE UNA APLICACIÓN INFORMÁTICA PARA EL CÁLCULO DE LAS PRINCIPALES CARACTERÍSTICAS TEÓRICAS DE LOS EXPLOSIVOS}    
+\author{Enrique Pérez Herrero}              
+\date{12/01/1996}                           
+
+
+
+% Note that book class by default is formatted to be printed back-to-back.
+
+\begin{document}                        % End of preamble, start of text.
+\frontmatter                            % only in book class (roman page #s)
+\maketitle                              % Print title page.
+\tableofcontents                        % Print table of contents
+\mainmatter                             % only in book class (arabic page #s)
+
+\part{SÍNTESIS}
+\input{Explocal_01.tex}
+
+\part{MEMORIA}
+\input{Explocal_02.tex}
+
+\part{ESTUDIO ECONÓMICO}
+\input{Explocal_03.tex}
+
+
+%\input{tablas/Explocal_TB73.tex}
+
+%-----------------------------------------------
+
+\newpage
+%-----------------------------------------------
+% BIBLIOGRAFÍA
+%-----------------------------------------------
+
+\nocite{*}
+\bibliographystyle{abbrv}
+\bibliography{Explocal}  % expects file 'Explocal.bib'
+
+
+\end{document}     		% The required last line

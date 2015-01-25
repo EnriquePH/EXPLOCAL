@@ -1,0 +1,55 @@
+
+/*__________________________________________________________________________
+	Archivo:  		KSTWNDS.DLG
+	Proyecto:  		EXPLOCAL.PRJ
+	Autor:     		Enrique Pérez Herrero, E.T.S.I de Minas de Madrid.
+				  		Proyecto de Fin de Carrera.
+	Especialidad: 	Laboreo y Explosivos.
+	Descripción:	Versión personalizada y traducida del archivo STWNDS.DLG
+						de la librería ObjectWindows. Introduce los recursos
+						para cargar los diálogos de edición de textos.
+__________________________________________________________________________*/
+
+
+#if !defined (__EXPLOCAL_H)
+#include "explocal.h"
+#endif
+
+ 
+SD_SEARCH DIALOG 50, 65, 205, 60
+STYLE WS_POPUP | WS_CLIPSIBLINGS | WS_CAPTION | WS_SYSMENU | DS_SETFONT | DS_MODALFRAME
+CLASS "bordlg"
+CAPTION "Buscar"
+FONT 8, "Helv"
+BEGIN
+	CONTROL "&Buscar:", 205, "STATIC", WS_CHILD | WS_VISIBLE, 17, 11, 27, 9
+	CONTROL "", ID_SEARCHTEXT, "EDIT", WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP | ES_AUTOHSCROLL, 49, 9, 149, 12
+	CONTROL "Mayúsculas/Minúsculas.", ID_CASESENSITIVE, "BorCheck", BS_AUTOCHECKBOX | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 11, 35, 89, 10
+	CONTROL "", IDCANCEL, "BorBtn", BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 113, 28, 36, 24
+	CONTROL "", IDOK, "BorBtn", BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 160, 28, 36, 24
+	CONTROL "", 206, "BorShade", 32769 | WS_CHILD | WS_VISIBLE, 8, 32, 96, 15
+END
+
+SD_REPLACE DIALOG 58, 64, 208, 86
+STYLE WS_POPUP | WS_CLIPSIBLINGS | WS_CAPTION | WS_SYSMENU | DS_SETFONT | DS_MODALFRAME
+CLASS "bordlg"
+CAPTION "Reemplazar"
+FONT 8, "Helv"
+BEGIN
+	CONTROL "&Buscar:", 205, "STATIC", WS_CHILD | WS_VISIBLE, 11, 9, 53, 7
+	CONTROL "", ID_SEARCHTEXT, "EDIT", WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP | ES_AUTOHSCROLL, 65, 6, 137, 12
+	CONTROL "Reemplazar por:", 206, "STATIC", WS_CHILD | WS_VISIBLE, 10, 27, 55, 8
+	CONTROL "", ID_REPLACETEXT, "EDIT", WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP | ES_AUTOHSCROLL, 65, 25, 137, 12
+	CONTROL "Sensible a Máy/Mín.", ID_CASESENSITIVE, "BUTTON", WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP | BS_AUTOCHECKBOX, 15, 46, 77, 8
+	CONTROL "&Todas las apariciones.", ID_REPLACEALL, "BUTTON", WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_AUTOCHECKBOX, 15, 57, 84, 8
+	CONTROL "&Cursor en el reemplazo.", ID_PROMPTONREPLACE, "BUTTON", WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_AUTOCHECKBOX, 15, 68, 89, 8
+	CONTROL "Button", IDOK, "BorBtn", BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 162, 50, 36, 24
+	CONTROL "Button", IDCANCEL, "BorBtn", BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 120, 50, 36, 24
+	CONTROL "", 207, "BorShade", 32769 | WS_CHILD | WS_VISIBLE, 11, 44, 96, 35
+	CONTROL "", 207, "BorShade", 32769 | WS_CHILD | WS_VISIBLE, 114, 45, 91, 35
+END
+
+
+/*_____________________________________________________________________
+  Fin del Archivo:   		KSTDWNDS.DLG
+_____________________________________________________________________*/

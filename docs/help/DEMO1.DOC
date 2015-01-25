@@ -1,0 +1,193 @@
+§Topic0001
+
+Indice:
+¤Descripcion de Explocal.«Topic0002»
+¤Uso  de  Explocal.«Topic0003»
+¤Teoria de la detonacion.«Topic0004»
+¤Descripcion del  metodo de  calculo.«Topic0005»
+
+§Topic0002
+Descripcion  de  Explocal
+
+Explocal  es  una  aplicacion  informatica,  basada  en  la  norma
+ ®UNE 31-002«Definition0001»  que permite  obtener  las  principales  caracteristicas  teoricas de cualquier ® explosivo«Definition0010»,  a  partir  de  su  composicion  porcentual  en  peso  y  su  ®densidad  inicial«Definition0005».
+El  programa  trabaja   como  un   procesador  de  textos  e  incorpora  todas  las  funciones basicas  de  manejo  de  textos  y  del  calculo  de  un  exposivo ,  como:
+
+	Manejo  del  portapapeles (Cortar y  Pegar)
+	Manejo de multiples ventanas.
+	Impresion  de  resultados
+	Cambio de  unidades  energeticas
+	Buscar,  y  repetir  busqueda.
+	Seleccion  de  texto.
+   	Abrir  y  Guardar  ficheros  de  texto.
+	Abrir  y  Guardar  ficheros  con  datos de  un  explosivo.
+	Ayuda  en  hipertexto.
+	Calculo de  un  explosivo.
+	Anadir  datos  de  sustencias  explosivas.	
+
+§Topic0003
+Uso  de  Explocal
+	
+	¤El  teclado«Topic0006»
+	¤Composicion  cualitativa  de  la  mezcla  explosiva.«Topic0007»
+	¤Composicion  cuantitativa  de  la  mezcla.«Topic0008»
+	¤Introducir  datos  adicionales.«Topic0009»
+	¤Modificar lista  de  reactivos«Topic0010»
+	¤Introducir  datos del  reactivo.«Topic0011»
+	¤Preferencias.«Topic0012»
+	¤Archivos  de  datos.«Topic0013»
+	 	  
+
+§Topic0004
+Teoria de la detonacion.
+	
+	¤Detonacion  ideal«Topic0014»
+	¤Ecuaciones de Hugoniot - Rankine.«Topic0015»
+	¤Curva de hugoniot.«Topic0016»
+	¤Rectas de Rayleigh.«Topic0017»
+	¤El  estado  de  Chapman - Jouguet (CJ).«Topic0018»
+	¤Tipos  de  detonaciones.«Topic0019»
+	
+
+§Topic0005
+Descripcion del  metodo de  calculo:
+
+	¤Generalidades.«Topic0020»
+	¤Formula  energia  de  formacion del  explosivo.«Topic0021»
+	¤Balance  de oxigeno  y  productos  de  reaccion.«Topic0022»
+	¤Calor  y  Temperatura  de  explosion.«Topic0023»
+	¤Volumen  normal  de  gases.«Topic0024»
+	¤Parametros de detonacion.«Topic0025»
+	¤Observaciones.«Topic0028»
+
+§Topic0006
+El  teclado.
+
+§Topic0007
+Composicion  cualitativa  de  la   mezcla  explosiva.
+
+
+§Topic0008
+Composicion  cuantitativa  de  la   mezcla  explosiva.
+
+
+§Topic0009
+Introducir datos adicionales.
+
+§Topic0010
+Modificar lista  de  reactivos: 
+
+§Topic0011
+Introducir datos del reactivo.
+
+§Topic0012
+preferencias:
+
+§Topic0013
+Archivos de datos:
+
+§Topic0014
+detonacion ideal
+
+§Topic0015
+Ecuaciones de Hugoniot-Rankine:
+
+§Topic0016
+Curva de hugoniot.
+
+§Topic0017
+Rectas de  Rayleigh.
+
+§Topic0018
+El  estado CJ.
+
+
+§Topic0019
+Tipos de  detonaciones.
+
+
+§Topic0020
+Generalidades de metodo de calculo.
+
+§Topic0021
+Formula  energia  de  formacion del  explosivo.
+
+§Topic0022
+Balance  de oxigeno  y  productos  de  reaccion.
+
+§Topic0023
+Calor  y  Temperatura  de  explosion.
+
+§Topic0024
+Volumen  normal  de  gases.
+
+§Topic0025
+Parametros.
+
+§Topic0028
+Observaciones.
+
+
+¿Definition0001
+UNE 31-002-94:
+Calculo de  las  principales  caracteristicas  teoricas  de  los explosivos
+Describe  el  metodo  de  calculo  que  emplea  Explocal
+para  mas  informacion,  dirijase  a:
+		AENOR
+	c/ Fernadez  de  la  Hoz, 52
+	28010 Madrid - Tlf: 310 49 61
+
+¿Definition0002
+balance de oxigeno.
+Es  eso...
+
+¿Definition0003
+calor  de  explosion
+es...
+
+¿Definition0004
+coeficiente adiabatico
+es...
+
+¿Definition0005
+densidad inicial
+es..
+
+¿Definition0006
+detonacion
+es..
+
+¿Definition0007
+detonacion ideal
+es..
+
+¿Definition0008
+deflagracion
+es...
+
+¿Definition0009
+Estado CJ
+
+¿Definition0010
+explosivo
+es...
+
+¿Definition0011
+explosion
+es...
+
+¿Definition0012
+presion  de  detonacion
+es...
+
+¿Definition0013
+temperatura de detonacion
+es...
+
+¿Definition0014
+velocidad  de  detonacion
+es...
+
+¿Definition0015
+Volumen de  gases  en  condiciones  normales
+es..

@@ -1,0 +1,25 @@
+% !TeX encoding = ISO-8859-1
+
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|l|}
+\hline
+\rowcolor[HTML]{EFEFEF} 
+\textbf{Nombre  de la  clase:} & \textbf{Descendiente  de:} & \textbf{Propósito}                                                                                                                                                                                                                                                                                                                                     \\ \hline
+VentanaHijaMDI                 & TEditWindow                & Constituye  una  con  un  editor  de  texto,  que  incluye  todas  las  funciones  necesarias  para  manejar  el  texto y  los  datos  de  un explosivo,  así  como  la  impresión  de  los  resultados  por  impresora  o  pantalla. Además  se  encarga  de  responder  a  todas  las  funciones  del  menú  relativas  a  la  ventana hija  activa. \\ \hline
+VentanaMarcoMDI                & TMDIFrame                  & Realiza   el  manejo  de  las  funciones  del  menú  y   de  las  ventanas  hijas,  es  la   ventana  principal  de  la  aplicación.  Es  de  hacer  notar  que  la  gestión  de  trasfondo  de la  aplicación  la  realiza  la  clase  TMDIClient  con  la  que  la  ventana  marco  intercambia  información.                                        \\ \hline
+Dialogo\_Base                  & TDialog                    & Diálogo  que  incorpora  las  funciones  del  manejo  de  los  datos  del  archivo  de  reactivos:  REACTIVO.DAT                                                                                                                                                                                                                                       \\ \hline
+Dialogo1                       & Dialogo\_Base              & Añade  las  funciones  y  los  controles  para  introducir  la  composición  cualitativa  de  la  mezcla.                                                                                                                                                                                                                                              \\ \hline
+Dialogo2                       & TDialog                    & Añade  las  funciones  y  los  controles  para  introducir  la  composición  cuantitativa  de  la  mezcla:   El  porcentaje  en  peso  de  cada  reactivo.                                                                                                                                                                                             \\ \hline
+Dialogo3                       & TDialog                    & Añade  las  funciones  y  los  controles  para  introducir  los  datos  adicionales:  densidad  inicial  y  nombre  de  la  mezcla.                                                                                                                                                                                                                    \\ \hline
+Dialogo4                       & Dialogo\_Base              & Modifica  la  lista  de  reactivos.                                                                                                                                                                                                                                                                                                                    \\ \hline
+Dialogo5                       & TDialog                    & Introduce los datos  de  un  nuevo  reactivo.                                                                                                                                                                                                                                                                                                          \\ \hline
+Dialogo6                       & TDialog                    & Preferencias,  accede  al  archivo  EXPLOCAL.INI                                                                                                                                                                                                                                                                                                       \\ \hline
+AplicacionMDI                  & TApplication               & Clase  principal  de  la  aplicación,  se  encarga  de  manejar  el  resto  de  las  clases  y  de  acceder  a  la  biblioteca  de  enlace  dinámico  con  los  controles  al  estilo  Borland (BWCC.DLL).                                                                                                                                             \\ \hline
+\end{tabular}
+\caption{My caption}
+\label{my-label}
+\end{table}

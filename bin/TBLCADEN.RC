@@ -1,0 +1,89 @@
+
+/*__________________________________________________________________________
+	Archivo:  		TBLCADEN.RC
+	Proyecto:  		EXPLOCAL.PRJ
+	Autor:     		Enrique Pérez Herrero, E.T.S.I de Minas de Madrid.
+				  		Proyecto de Fin de Carrera.
+	Especialidad: 	Laboreo y Explosivos.
+	Descripción:	Tablas de cadenas empleadas por EXPLOCAL.CPP se agrupan
+   					y se cargan como recurso para facilitar la traducción
+__________________________________________________________________________*/
+
+#if !defined (__EXPLOCAL_H)
+#include "explocal.h"
+#endif
+
+
+
+STRINGTABLE
+BEGIN
+	IDS_TITULO, "Explocal 1.0"
+	IDS_ERROR1, "Error de Archivo:"
+	IDS_ERROR2, "No se ha encontrado el Archivo:\n\n  REACTIVOS.DAT."
+	IDS_ERROR3, "Demasiados Reactivos."
+	IDS_ERROR4, "Elimine algunos de la Caja de Selección."
+	IDS_ERROR5, "Error de Sistema"
+	IDS_ERROR6, "No se puede cargar la libería\n de controles: BWCC.DLL"
+	IDS_ERROR7, "El archivo no contiene\n datos de ningún explosivo."
+END
+
+STRINGTABLE
+BEGIN
+	IDS_NOMBRE, "Nombre:   "
+	IDS_FORMUL, "Fórmula:   "
+	IDS_ENEFOR, "Energía de formación (298K):   "
+	IDS_PSOMOL, "Peso molecular:   "
+	IDS_BALOXI, "Balance de oxígeno:   "
+END
+
+STRINGTABLE 
+BEGIN
+	IDS_CARACT, "\r\n-CARACTERÍSTICAS DE LA MEZCLA EXPLOSIVA:\r\n\r\n"
+	IDS_PRNOMB, "\t-Nombre del explosivo:\r\n\t\t %s\r\n"
+	IDS_PRCOMP, "\r\n-COMPOSICIÓN DE LA MEZCLA EXPLOSIVA:\r\n"
+	IDS_NUMERO, "\r\n (%.0f)"
+	IDS_RNOMBR, "\t- %s:"
+	IDS_RFORMU, "  %s\r\n"
+	IDS_RENERG, "\t- Eo=%.3f %s/mol\r\n"
+	IDS_RPSOMO, "\t- Pm=%.3f g/mol\r\n"
+	IDS_RPORCE, "\t- Peso=%.3f %%\r\n"
+	IDS_RBALOX, "\t- BO=%+.3f %%\r\n"
+	IDS_PRDENS, "\t-Densidad de encartuchado:\r\n\t\t do=%.3f g/cm³\r\n"
+	IDS_PRODEX, "\r\n-PRODUCTOS DE EXPLOSIÓN:\r\n"
+	IDS_REACIO, "\r\n-REACCIÓN A VOLUMEN CONSTANTE:\r\n\r\n"
+	IDS_PRODUC, "\t- %s: "
+	IDS_PMOLES, "%.4f mol/kg\r\n"
+	IDS_EFORMA, "\t- Ef=%.3f %s/mol\r\n"
+	IDS_PRENER, "\t-Energía interna:\r\n\t\t Eo=%.3f %s/kg\r\n"
+	IDS_PRFORM, "\t-Fórmula para 1kg de explosivo:\r\n"
+	IDS_PRFOR1,	"\t\t%2s"
+	IDS_PRFOR2, "=%.4f mol/kg \r\n"
+	IDS_PRBALO, "\t-Balance de Oxígeno:\r\n\t\t BO=%+.3f %%\r\n"
+	IDS_PREXCE, "\t-El explosivo es excedentario en Oxígeno.\r\n"
+	IDS_PREQUI, "\t-El explosivo está equilibrado en Oxígeno.\r\n"
+	IDS_PRDEFI, "\t-El explosivo es deficitario en Oxígeno.\r\n"
+	IDS_PRQEXP, "\t-Calor de explosión:\r\n\t\t Q=%.1f %s/kg\r\n"
+	IDS_PRTEXP, "\t-Temperatura de explosión:\r\n\t\t T=%.0f K\r\n"
+	IDS_PRMOLE, "\t-Moles de productos gaseosos:\r\n\t\t ng=%.2f mol/kg\r\n"
+	IDS_PRMASA, "\t-Masa molecular media gases:\r\n\t\t M=%.3f g/mol\r\n"
+	IDS_PRVOLG, "\t-Volumen de gases en C.N.:\r\n\t\t Vcn=%.3f m³/kg\r\n"
+	IDS_PRESPE, "\t-Energía específica.:\r\n\t\t f=%.3f %s/kg\r\n"
+	IDS_ESTIMA, "\r\n-PARÁMETROS DE DETONACIÓN: (Fórmulas de Kamlet)\r\n\r\n"
+	IDS_PRPRFI, "\t-Parámetro Fi.:\r\n\t\t Ø=%.0f J·(mol/g)½ \r\n"
+	IDS_PRPRES, "\t-Presión de detonación:\r\n\t\t P=%.1f GPa\r\n"
+	IDS_PRVELD, "\t-Velocidad de detonación:\r\n\t\t D=%.1f m/s\r\n"
+	IDS_PRDECJ, "\t-Densidad de detonación:\r\n\t\t dcj=%.3f g/cm³\r\n"
+	IDS_PRCOAD, "\t-Coeficiente Adiabático:\r\n\t\t L=%.3f \r\n"
+	IDS_ERRRRR, "\r\n-ERRORES EN EL PROCESO DE CÁLCULO\r\n\r\n"
+END
+
+STRINGTABLE
+BEGIN
+	IDS_ELIMIN,"Eliminar"
+	IDS_ESTECP,"¿Está seguro de querer eliminar el reactivo?  %s"
+END
+
+
+/*_____________________________________________________________________
+  Fin del Archivo:   		TBLCADEN.RC
+_____________________________________________________________________*/

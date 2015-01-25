@@ -1,0 +1,437 @@
+% !TeX encoding = ISO-8859-1
+%-----------------------------------------------------------------------
+% Filename: 	Explocal_ME.tex
+% Description: 	PROYECTO DE UNA APLICACIÓN INFORMÁTICA 
+%				PARA EL CÁLCULO DE LAS PRINCIPALES 
+%				CARACTERÍSTICAS TEÓRICAS DE LOS EXPLOSIVOS
+% Author: 	Enrique Pérez Herrero
+% Date: 	13/Ene/2015
+%-----------------------------------------------------------------------
+ 
+
+\chapter{OBJETIVOS Y ALCANCE DEL PROYECTO} 
+
+El objeto del presente proyecto es desarrollar una aplicación informática profesional de bajo coste denominada Explocal, que permita facilitar y sistematizar el cálculo de las principales caracterí­sticas teóricas de los explosivos.
+
+El método de cálculo empleado por la aplicación informática es el recogido en la norma UNE 31-002-94 \cite{une} ''Cálculo de las principales caracterí­sticas teóricas de los explosivos'' 
+
+La herramienta informática, además permitirá comparar, con una cierta comodidad, el efecto que produce en los resultados, cualquier variación en la composición de la mezcla explosiva.
+
+Es de hacer notar aunque la aplicación informática esté destinada a cualquier persona con conocimientos técnicos en la materia e interesado en el tema, no se ha descuidado el interfaz de usuario, procurando que la aplicación informática sea de fácil manejo y que la introducción de datos sea lo más simple posible.
+
+La informatización del método de cálculo, según la norma UNE 31-002-94 \cite{une}, permitirá desarrollar una herramienta de cálculo, con que se puedan obtener las caracterí­sticas de cualquier mezcla explosiva, de una forma rápida, ágil y eficaz. Esto es debido a que se conseguirá reducir el tiempo necesario para efectuar el cálculo de forma manual, de aproximadamente una hora, a décimas de segundo que es lo que se tarda en llevarlo a cabo de forma automática.
+
+
+\section{Caracterí­sticas y limitaciones del método de cálculo 	descrito en la norma UNE 31-002-94}
+
+En el proceso de detonación de una sustancia explosiva influyen un gran número de parámetros.
+Debido a la gran complejidad del fenómeno, cualquier enfoque teórico admisible, implica la necesidad de establecer un gran número de hipótesis de partida y simplificaciones.
+
+Estas simplificaciones introducirán inevitablemente un sesgo en los resultados.
+
+El método consiste, en esencia, en efectuar un estudio del estado de detonación ideal a volumen constante, de una mezcla explosiva a partir del estado normal, y aproximar el estado de detonación CJ mediante unas fórmulas empí­ricas.
+
+El análisis del estado de detonación a volumen constante proporcionará una primera aproximación a una serie de parámetros termoquímicos como pueden ser:
+
+\begin{enumerate}[a)]
+\item La temperatura de explosión.
+\item El calor de explosión.
+\item La composición de los productos de explosión.
+\end{enumerate}
+
+El resto de los parámetros de detonación: (presión, velocidad y densidad de detonación), se aproximarán mediante unas fórmulas empí­ricas que recreen el estado de detonación CJ.
+El método de cálculo, aunque mucho menos exacto que otros métodos que parten de un enfoque teórico mucho más genérico, es suficiente para obtener una primera estimación de los parámetros de detonación de cualquier mezcla explosiva.
+Las principales limitaciones de los resultados obtenidos por el método de cálculo UNE 31-002-94 \cite{une}, son las siguientes:
+
+\begin{enumerate}[a)]
+
+\item Las temperaturas de explosión calculadas son excesivamente altas en comparación con las obtenidas mediante códigos de detonación más complejos.
+
+\item En las detonaciones que se apartan del régimen ideal de detonación, el método sólo proporciona unos límites máximos de presión y velocidad.
+
+\item La composición de los productos de detonación obtenida no tendrá en consideración los componentes menores como pueden ser: el metano (CH$_4$), el amoniaco (NH$_3$), el cianhí­drico (CNH) y los óxidos de nitrógeno entre otros.
+Por lo que el método no es útil para cuantificar la toxicidad de los humos producidos en la detonación, aunque sí­ determine el contenido en monóxido de carbono (CO). 
+
+\item El método no es aplicable a deflagraciones, puesto que el método se fundamenta en un análisis a volumen constante y no a presión constante y tampoco se tienen en cuenta los efectos de 	difusión de materia y transmisión del calor. 
+
+\end{enumerate}
+
+\section{Caracterí­sticas y limitaciones de la aplicación informática comercial Explocal.}
+
+Una aplicación informática comercial se destaca del resto por un conjunto de caracterí­sticas, que cuando confluyen en un mismo producto, proporcionan a este un toque de calidad profesional, siempre beneficioso, y que a menudo se convierte en condición necesaria para conseguir el éxito comercial de la aplicación, e incluso para permitir la viabilidad de su distribución.
+
+Para garantizar una aplicación informática de alta calidad y bajo coste se debe emplear una metodologí­a que aborde el diseño, la escritura y el mantenimiento eficiente de los programas.
+Esta metodologí­a constituye la Ingenierí­a del software.
+
+La Ingenierí­a del software implica una serie de fases generales en el desarrollo de la aplicación informática (véase figura 4-1) . Estas fases incluyen unas reglas que evitan realizar elecciones caprichosas y que constituyen lo que se denomina disciplina de programación.
+El proyecto sigue todas las fases de la Ingenierí­a del software, en las que se justifican todas decisiones que se han tomado, hasta obtener una primera versión ejecutable de la aplicación informática (conocida como \textbf{versión Beta}), cuyo código y datos se incluyen, tanto en forma de listado como en soporte electromagnético, en los anexos del proyecto.
+
+La versión Beta incluida se puede ejecutar (bajo el entorno {\tiny Windows}) en cualquiera de sus versiones más extendidas como son: 3.1, 3.11 para Trabajo en Grupo ó \textit{Windows 95}, puesto que todas las aplicaciones que funcionan con la versión 3.1 de \textit{Windows} son perfectamente compatibles con versiones más modernas.
+
+La aplicación informática es ejecutable, por lo tanto, en máquinas tipo PC y compatibles que tengan instalada una versión de \textit{Windows} superior a la 3.1.
+
+La versión Beta de la aplicación informática incluye, además, todos los archivos necesarios para su funcionamiento, esto es:
+
+\begin{itemize}
+\item Archivos de datos: (\texttt{*.DAT})
+\item Programa de instalación.
+\item Datos de la instalación.
+\item Archivos ejemplo: (\texttt{*.XPL})
+\item Bibliotecas de enlace dinámico: (\texttt{*.DLL})
+\item Archivo de ayuda, en hipertexto: (\texttt{*.HLP}) 
+\item Datos de inicialización: (\texttt{*.INI}) 
+\end{itemize}
+
+El código ejecutable de la versión Beta está realizado en lenguaje C++, y utiliza la jerarquía de clases para el interfaz de Windows de la biblioteca \textit{Object Windows 1.0 (OWL}) incluida con la versión 3.1 del entorno integrado (IDE) del compilador de \textit{Borland}.
+
+La biblioteca \textit{Object Windows} es una implementación de la \textbf{Programación Orientada a Objetos (OOP)},combinada con los procesos de programación basada en eventos, (que constituyen la filosofía de la programación en \textit{Windows}), y ejemplifica lo bien que estas dos metodologías pueden coexistir.
+\textit{Object Windows} proporciona una alternativa a la programación directa en \textit{Windows} y simplifica enórmemente la tarea de crear una aplicación informática para \textit{Windows}.
+
+
+\chapter{INTRODUCCIÓN A LA TEORÍA DE LA DETONACIÓN.}
+
+\section{Definiciones}
+
+\begin{itemize}
+\item \textbf{Balance de Oxí­geno}: Cantidad de oxí­geno que sobra o falta a una mezcla explosiva para oxidar completamente todos los elementos quí­micos que la componen, salvo el nitrógeno que se supone inerte, expresada en tanto por ciento en peso. Es negativo (deficitario) si falta y positivo (excedentario) si sobra.
+\item \textbf{Calor de Explosión}: Máxima energí­a que se puede liberar en la reacción de un explosivo. Se trata de la caracterí­stica más importante de un explosivo, puesto que representa la capacidad del explosivo para generar choques e impartir movimiento al medio en el que está confinado, es decir su poder energético.
+\item \textbf{Coeficiente Adiabático}: Disminución de la presión, respecto a un aumento de volumen manteniendo la entropí­a constante. En los gases ideales es igual a la relación entre calores especí­ficos.
+\item \textbf{Densidad Inicial}: Densidad de la mezcla explosiva intacta, es decir, antes de sufrir el proceso de explosión. Se denomina a veces densidad del encartuchado (o del granel). 
+\item \textbf{Detonación}: Proceso de explosión en el cual se produce flujo de productos de reacción, inducido por la propagación de la onda de reacción de velocidad supersónica respecto al material intacto. 
+\item \textbf{Detonación Ideal}: Detonación con un frente de onda plano (diámetro infinito), en el que la reacción se produce instantáneamente en el frente de discontinuidad (entre reactivos y productos), y se mueve a velocidad constante (de forma estacionaria).
+\item \textbf{Deflagración}: Proceso de explosión en el cual la onda de reacción se propaga a una velocidad inferior a la del sonido en el material sin reaccionar o intacto.
+\item \textbf{Estado Champman-Jouguet o Estado C-J}: Estado que alcanzan los productos en una detonación en régimen estacionario, en el instante de completarse la reacción.
+\item \textbf{Explosivo}: Sustancia susceptible de sufrir una explosión.
+\item \textbf{Explosión}: Proceso por el cual una sustancia se transforma bruscamente en productos, en su mayor parte en estado gaseoso, con una velocidad de transformación suficientemente alta, de forma que los productos se encuentran a presiones y temperaturas elevadas. 
+\item \textbf{Presión de Detonación}: Presión en el estado C-J (Champman - Jouguet). Difiere de la presión a volumen constante. 
+\item \textbf{Temperatura de Explosión}: Temperatura que alcanzan los productos de explosión considerando que la energí­a liberada (calor de explosión) se invierte exclusivamente en calentar los productos de reacción.
+\item \textbf{Velocidad de Detonación}: Velocidad de propagación de la onda de detonación.
+\item \textbf{Volumen de Gases en Condiciones Normales}: Volumen que ocuparí­an los productos gaseosos de la explosión (de 1 kg de explosivo) a una temperatura de 273,15 K (0 ºC) y a una presión de $1,013 \cdot 10^5 Pa$ (1 atm).
+
+\end{itemize}
+
+\section{Detonación ideal}
+
+Para que se produzca la detonación de una sustancia deben concurrir, dos fenómenos fundamentales: una reacción exotérmica y una onda de choque.
+Cuando el frente de la onda de choque alcanza a la sustancia explosiva, produce una activación del explosivo (debido a una compresión) que reacciona exotérmicamente y a gran velocidad, liberándose energí­a suficiente para mantener la onda de choque.
+La detonación es por lo tanto un proceso auto mantenido, que continua mientras no se haya agotado todo el explosivo.
+
+Debido a que el proceso de detonación es un proceso de gran complejidad es necesario despreciar los factores que influyen en él en menor medida, aunque sin perderlos de vista.
+La detonación ideal, se representa en la figura 2-1 y supone que el frente de detonación (de forma plana) se mueve hacia el explosivo intacto a una velocidad constante D.
+ 
+Figura 2-1: Detonación ideal.
+
+La onda de choque activa el explosivo intacto (que posee una propiedades de volumen especí­fico $v_0$, velocidad másica $u_0$, energí­a interna especí­fica $e_0$ y presión $P_0$) y se transforma en los productos 
+(con propiedades $v$, $u$, $e$, $P$).
+
+
+\section{Ecuaciones de Hugoniot-Rankine}
+
+Aunque originalmente fueron deducidas para choques no reactivos (es decir: onda de choque pero sin reacción exotérmica) son perfectamente aplicables a choques reactivos (y por lo tanto a detonaciones).
+
+Las ecuaciones de \textit{Hugoniot-Rankine} se basan en aplicar las condiciones de conservación: de la masa \eqref{eq:HR1}, de la cantidad de movimiento \eqref{eq:HR2} y un balance de energí­a \eqref{eq:HR3} a un dominio que englobe al frente de detonación. 
+
+
+
+\begin{equation} \label{eq:HR1}
+\frac{(D-u)}{v} = \frac{(D-u_0)}{v_0}
+\end{equation}
+
+\begin{equation} \label{eq:HR2}
+\frac{(D-u_0)\cdot(u-u_0)}{v_0} = P-P_0
+\end{equation}
+
+\begin{equation} \label{eq:HR3}
+E(P,v)-E_0(P_0,v_0) = - \frac{1}{2}\cdot (P+P_0)\cdot(v-v_0)
+\end{equation}
+
+Donde:
+\begin{itemize}
+\item $D$:	Velocidad de detonación, en (m/s). 
+
+\item $u_0$:	Velocidad inicial del explosivo, en (m/s), el caso tí­pico es el de un explosivo inicialmente en reposo: $u_0=0$.
+
+\item $u$:	Velocidad de los productos de explosión. 
+
+\item $v_0$:	Volumen especí­fico inicial (o de encartuchado), en (m$^3$/kg).
+ 
+\item $v$:	Volumen especí­fico\footnote{Como $v=1/\rho(kg/m^3)$, la ecuaciones H-R se pueden expresar en función de la densidad, en vez del volumen especí­fico} de los productos de explosión, en (m$^3$/kg). 
+
+\item $P_0$	Presión inicial, en (Pa) (como por ejemplo 1 atm)
+
+\item $P$:	Presión de los productos de detonación, en (Pa).
+
+\item $E_0$:	Energí­a interna del explosivo intacto, en (J/kg), es una función de estado que, en general, depende de la presión y del volumen especí­fico: $e_0=e_0(P_0,v_0)$
+
+\item $E$:	Energí­a interna de los productos de explosión, en (J/kg), es una función de estado que depende de la presión y del volumen especí­fico y en la mayorí­a de los casos difiere de $e_0$, puesto que la naturaleza de los productos difiere de los reactivos: $e=e(P,v)$
+
+\item $Q$: 	Calor de reacción (de explosión), en (J/kg) es la diferencia de energí­a de formación entre reactivos (explosivo) y producto. Si tomamos el estado $(P_0,v_0)$, como estado de referencia es la diferencia de energí­a interna entre reactivos y productos en dicho estado: $Q = e(P_0,v_0) - e_0 (P_0,v_0)$ 
+
+\end{itemize}
+
+Para que el calor de reacción aparezca explí­citamente en \eqref{eq:HR3}, sólo hay que sumar y restar $e(P_0,v_0)$ al primer término de \eqref{eq:HR3}, de este modo sustituyendo el valor de Q, en función de la diferencia de energí­as de formación entre explosivo y productos de detonación (suponiendo, que el explosivo está en inicialmente en el estado normal de referencia y en reposo), se tiene: 
+
+
+\begin{equation} \label{eq:HR4}
+\frac{(D-u)}{v} = \frac{(D)}{v_0}
+\end{equation}
+
+\begin{equation} \label{eq:HR5}
+\frac{D\cdot u}{v_0} = P-P_0
+\end{equation}
+
+\begin{equation} \label{eq:HR6}
+E(P,v)-E_0(P_0,v_0) = \frac{1}{2}\cdot (P+P_0)\cdot(v_0-v) + Q
+\end{equation}
+
+
+En \eqref{eq:HR6}, se puede observar, como a volumen constante ($v=v_0$): El calor de la reacción se invierte en aumentar la energí­a interna de los productos.
+
+Las ecuaciones de \textit{Hugoniot-Rankine}, constituyen un sistema de tres ecuaciones con cuatro incógnitas (si no tenemos en cuenta la composición de los productos de explosión).
+El sistema tiene por lo tanto un grado de libertad. 
+
+\section{Curva de Hugoniot}
+
+Se denomina curva de \textit{Hugoniot-Rankine} (o hugoniot), a cualquier representación de una variable de detonación en función de otra.
+En lo que sigue se va a emplear hugoniots $P-v$ (presión - volumen especí­fico).
+Si se observa la expresión \eqref{eq:HR6}, la hugoniot P-v debe tener forma similar a una hipérbola (no es idéntica, porque el primer miembro no es constante) 
+ 
+En un choque no reactivo: $Q=$0, en el estado a volumen constante: $v_0=v$, 
+\eqref{eq:HR6} se reduce a:
+ 
+ 
+\begin{equation} \label{eq:HR7}
+ E(P,v)-E_0(P_0,v_0) = 0 \Leftrightarrow P=P_0
+\end{equation}
+
+Lo significa que la curva pasa por el punto: $(P_0,v_0)$, es decir el estado inicial es compatible con los posibles estados de choque.
+
+En cambio en un choque reactivo exotérmico (como una detonación): $Q>0$, y como la energí­a interna es una función creciente de $P$, se tiene que:
+
+\begin{equation} \label{eq:HR8}
+ E(P,v)-E_0(P_0,v_0) = Q > 0 \Leftrightarrow P>P_0
+\end{equation}
+
+Estas conclusiones se representan gráficamente en la figura 2-2
+
+
+\section{Recta de Rayleigh}
+
+Si se elimina la velocidad másica $u$ de \eqref{eq:HR4} y de \eqref{eq:HR5}, se obtiene:
+
+\begin{equation} \label{eq:HR9}
+ \frac{P-P_0}{v-v_0} = - {\left(\frac{D}{v_0}\right)}^2
+\end{equation}
+
+que se puede considerar como una haz de rectas, que pasa por el punto $(P_0,v_0)$, y con una pendiente variable función del parámetro $D$ (velocidad de reacción). 
+
+Estas rectas se denominan \textit{rectas de Rayleigh}. 
+
+Como el segundo miembro de la expresión \eqref{eq:HR9} es siempre negativo, se deduce que es imposible los estados en los que $v>v_0$ y además $P>P_0$. Sólo son admisibles dos opciones (véase la figura 2-3): 
+
+\begin{enumerate}[a)]
+\item $v \leq v_0$ y $P>P_0$ (que corresponde a las detoaciones)
+\item $v>v_0$ y $P \geq P_0$ (que son las deflagraciones)
+\end{enumerate}
+
+En las figuras 2-2, 2-3 y 2-4, se puede ver como la presencia del calor de explosión exotérmico: aleja la hugoniot del estado inicial del explosivo, y además: divide la curva en dos ramas diferentes, separadas por un tramo de estados incompatibles que está limitado por los estados a volumen y presión constante.
+Como se puede apreciar en la figura 2-3, en general cada recta de Rayleigh corta a la hugoniot en dos puntos. 
+Excepto cuando la recta es tangente a la hugoniot.
+
+El estado de detonación a volumen constante implica una pendiente de 90º, o lo que es lo mismo una velocidad de detonación infinita ($D=\infty$). Esta razón obliga a pensar que el estado a volumen constante es un estado sin existencia real, aunque de gran interés teórico.
+
+El estado de reacción a presión constante, por el contrario, es la intersección de una recta de Rayleigh horizontal que implica una velocidad de reacción nula: $D=0$.
+
+En la rama de las deflagraciones las ondas de reacción poseen propiedades cualitativas similares a las ondas de combustión ordinaria. De hecho, las temperaturas de llama se calculan mediante un análisis a presión constante.
+
+Aunque para estudiar las ondas de deflagración, se debe tener en cuenta, que: los fenómenos de transmisión del calor y de difusión de materia no son despreciables, por lo que la rama de las deflagraciones de la hugoniot, no constituye una buena aproximación de lo que acontece en cualquier deflagración. 
+
+
+\section{El estado de Chapman-Jouguet (CJ)}
+
+En la figura 2-3 se comprueba como de todos los estados de detonación posibles, existe uno en el que la velocidad de detonación es mí­nima, denominado estado C-J. Precisamente corresponde al punto donde una de las rectas de Rayleigh es tangente a la hugoniot.
+
+Se puede comprobar de forma experimental como los explosivos, en régimen próximo al ideal, poseen una velocidad de detonación única que corresponde con la calculada por la condición de tangencia (denominada condición de Chapman-Jouguet.)
+
+Sin aportar una demostración teórica, debido a la brevedad de este trabajo, se debe recalcar que: las detonaciones CJ son las únicas que tienen posibilidad de propagarse de forma estacionaria.
+ 
+El estado CJ de las detonaciones presenta las siguientes propiedades:
+
+
+\begin{enumerate}[a)]
+\item La recta de Rayleigh y la hugoniot son tangentes: (y la velocidad de detonación es mí­nima):
+
+\begin{equation} \label{eq:HR10}
+{\bigg( \frac{\partial P}{\partial v} \bigg)}_{Hug.} = \frac{P-P_0}{v-v_0} = - {\left(\frac{D}{v_0}\right)}^2
+\end{equation}
+
+\item La hugoniot es tangente a la isentrópica de los productos.
+
+\item El frente de detonación se aleja de los productos a una velocidad c que coincide con la del sonido propagándose en los productos de detonación; siendo:
+
+
+\begin{equation} \label{eq:HR11}
+c^2 = {\bigg( \frac{\partial P}{\partial \rho} \bigg)}_{S} = -v^2 \cdot {\bigg( \frac{\partial P}{\partial v} \bigg)}_{S}
+\end{equation}
+
+\end{enumerate}
+
+\section{Tipos de detonaciones y deflagraciones}
+
+En la rama de las deflagraciones, de la condición de tangencia entre la hugoniot y la recta de Rayleigh se deduce una velocidad de reacción máxima.
+
+Cada estado CJ divide a cada una de las ramas de la hugoniot en dos tramos, por lo que en la hugoniot aparecerán: detonaciones fuertes, detonación CJ, detonación débiles, estado a volumen constante, estados incompatibles, deflagración a presión constante, deflagraciones débiles, deflagración CJ y deflagraciones fuertes, como se puede apreciar en la 
+figura 2-4. En la tabla 2-1, aparecen algunas de sus caracterí­sticas.
+
+
+
+\chapter{DESCRIPCIÓN DEL MÉTODO DE CÁLCULO SIMPLIFICADO}
+
+\section{Generalidades}
+
+El método de cálculo empleado que incorpora Explocal es el que ha sido recogido por AENOR en la norma UNE 31-002-94 \cite{une} y coincide con el descrito por Sanchidrián Blanco [2].
+La norma UNE 31-002-94 \cite{une} establece un método simplificado de cálculo de las principales caracterí­sticas de los explosivos, como son:
+
+\begin{itemize}
+\item Balance de oxí­geno.
+\item Calor de explosión.
+\item Temperatura de explosión.
+\item Presión de detonación. 
+\item Velocidad de detonación.
+\item Composición de los productos de explosión mayoritarios.
+\item Volumen de gases en condiciones normales.
+\end{itemize}
+
+
+
+Como datos de partida de problema se considerarán: la composición de la mezcla explosiva (expresada como porcentaje en peso de cada componente), y la densidad inicial. 
+Debido a que se trata de un método simplificado, se asumen ciertas hipótesis de partida que alejan los resultados del comportamiento real de los explosivos. Por este motivo los resultados obtenidos por aplicación de la norma UNE 31-002-94 \cite{une} deben considerarse como una aproximación a las caracterí­sticas reales de funcionamiento de los explosivos. 
+ 
+El método de cálculo presupone un régimen de detonación ideal por lo que se desprecian los fenómenos cinéticos y los de difusión térmica.
+
+Para calcular la composición de los productos de explosión y la temperatura de explosión, el método considera el estado de detonación a volumen constante como una aproximación al estado de detonación CJ. 
+
+
+A volumen constante: el volumen especí­fico de explosión es igual al inicial ($v=v_0$) y la ecuación de la energí­a \eqref{eq:HR2} de la detonación queda:
+\begin{equation} \label{eq:HR12}
+E-E_0=0
+\end{equation}
+
+La expresión \eqref{eq:HR12} es una ecuación en temperatura que se resolverá suponiendo que la energí­a interna depende en exclusiva de la temperatura, es decir, los productos de explosión se comportan como gases ideales. 
+
+La energí­a interna total depende de la composición de los productos de explosión. Con el objetivo de reducir el número de incógnitas se considera que: cada elemento de la mezcla explosiva forma un único producto de explosión, con las excepciones del carbono, el hidrógeno y el oxí­geno que forman: C (grafito), CO, CO$_2$, H$_2$ y H$_2$O. 
+
+El resto de los parámetros de detonación se determinan mediante las fórmulas empí­ricas de Kamlet,M.J y Jacobs, S.J. [3].
+Los parámetros numéricos que incluyen las fórmulas, fueron ajustados para mezclas explosivas de densidades comprendidas entre 1 g/cm$^3$ y 2 g/cm$^3$ formadas únicamente por C, H, O y N. 
+Cuanto mayor sea la proporción de otros elementos distintos de los cuatro anteriores, menor será la precisión obtenida.
+El método de cálculo se esquematiza, en la figura 3-1. 
+
+\section{Desarrollo del cálculo.}	
+
+\subsection{Planteamiento de la fórmula del explosivo}
+
+A partir de la composición porcentual de las especies quí­micas (o reactivos), que componen el explosivo, y que constituyen los datos del problema planteado, se calcula la fórmula para un kilogramo de explosivo del siguiente modo:
+
+\begin{equation} \label{eq:HR13}
+b_j = 10 \cdot \sum_{i=1}^{N_c}{a_{ij} \cdot \frac{p_i}{Pm_i}}, j=1,2,\dots , N_e
+\end{equation}
+
+Donde:
+\begin{itemize}
+\item $b_j$: 	Átomos del elemento $j$ en la fórmula de 1 kg de explosivo.
+\item $N_c$:	Número de componentes de la mezcla explosiva.
+\item $a_{ij}$:	Átomos del elemento $j$ en la fórmula del componente $i$. 
+\item $p_i$: Porcentaje en peso del componente $i(\%)$
+\item $Pm_i$: Peso molecular del componente $i$ en (g/mol),(se calcula a partir de las masas atómicas de la tabla 3-1)
+\item $N_e$: Número de elementos quí­micos que forman la composición del explosivo.
+\end{itemize}
+
+
+\subsection{Cálculo de la energí­a de formación del explosivo}
+
+Se tomará como temperatura de referencia: $T_0 = 298 K$.
+
+La energí­a de formación del explosivo se determina a partir de las energí­as de formación a 298 K de cada componente (véase UNE 31-002-94 ).
+
+A diferencia de la norma UNE 31-002-94 \cite{une}, se considera que todas las variables energéticas están expresadas en calorí­as, puesto que todas las tablas termoquí­micas están expresadas, generalmente, en calorí­as (o en kilocalorí­as):
+1 cal = 4,184 J. 
+
+La energí­a de formación del explosivo se calcula mediante la fórmula:
+
+\begin{equation} %\label{eq:HR14}
+ E_0 = \Delta Ef = \sum_{i=1}^{N_c}{ \Delta Ef_i \cdot \frac{p_i}{100}}
+\end{equation}
+
+\section{Balance de oxí­geno y productos de reacción}
+
+\subsection{Balance de oxí­geno}
+
+Se calcula, expresado en porcentaje, mediante la expresión:
+
+\begin{equation} \label{eq:HR14}
+BO = 100 \cdot Pm[O] \cdot \frac{( OE - ON )}{Pm}
+\end{equation}
+
+
+Donde:
+\begin{itemize}
+\item $BO$:	Balance de oxí­geno en $(\%) =$ (g/100g).
+\item $Pm[O]$:	Peso molecular del oxí­geno atómico: \footnote{$OE$ y $ON$, se consideran en la norma UNE 31-002 en g/mol, es decir ya incluyen el factor: 15,9994.} 15,9994 g/mol
+(véase tabla 3-1).
+\item $Pm$: Peso molecular del explosivo, si el explosivo está 	expresado por su fórmula para 1 kg, en (g/mol). $Pm$ =1 kg/mol = 1000 g/mol.
+\item $OE$:	Oxí­geno existente (o el oxí­geno que contiene el explosivo).
+o los átomos de oxí­geno que figuran en la fórmula de 1 kg de explosivo. 
+\item $ON$:	(Oxí­geno necesario para oxidar los elementos del explosivo.
+\end{itemize}
+
+Para calcular el oxí­geno necesario, se considera que los elementos se oxidan para formar los productos que se indican en la tabla \ref{tabla31}. 
+El oxí­geno necesario es igual a la suma de los átomos de cada elemento, multiplicado por el peso para el cálculo de balance de oxí­geno. 
+Como se puede apreciar en la tabla \ref{tabla31}, existen diferencias entre los productos para el balance de oxí­geno y los productos de explosión. 
+Los datos de las masas atómicas que incluye la norma UNE 31-002-94 \cite{une}, en su anexo A, son menos precisos que los del Fórum Atómico Español [4], por lo que se ha preferido emplear estos últimos. 
+ 
+\subsection{Productos de explosión}
+
+Con el único objetivo de simplificar el cálculo de la composición de los productos de detonación, se limita el número total de estos.
+Sólo se toman en consideración los productos de detonación mayoritarios (véase tabla \ref{tabla31} o tabla 3-2).
+Se tienen en cuenta los siguientes productos, según el caso:
+
+\begin{enumerate}[a)]
+
+\item	\textbf{Balance de oxí­geno positivo (o nulo)}: El explosivo es excedentario en oxí­geno: se forma un producto por cada 		elemento en la composición de la mezcla.
+Como: CO$_2$, CO, H$_2$O, O$_2$ y N$_2$ entre otros. (Nótese la presencia de oxí­geno libre O$_2$).
+
+\item \textbf{Balance de oxí­geno negativo}:	se forma un producto por cada elemento y además se pueden formar C, CO, y H$_2$.(No hay oxí­geno libre, pero sí­ hidrógeno gas.)
+
+\end{enumerate}
+ 
+Como se puede observar, los productos de explosión difieren, en general, de los productos que se emplean para el cálculo del balance de oxí­geno. Esta circunstancia provoca una inconsistencia en la elección de los productos de detonación, puesto que es posible que existan mezclas explosivas con balance de oxí­geno positivo en las que no se produzca oxí­geno libre (y sean en realidad deficitarias)
+
+Para solucionar este problema se podrí­a cambiar la definición de balance de oxí­geno por otra en la que se considere que el balance de oxí­geno sea la cantidad de oxí­geno que sobra o falta para oxidar los elementos de su composición hasta formar los productos de detonación que se forman en mezclas excedentarias.
+
+El programa Explocal considera dos definiciones distintas, puesto que así­ se sigue la norma y además se soluciona la inconsistencia. 	
+
+%------------------------------------------------
+% TABLA DATOS DE LOS PRODUCTOS DE EXPLOSIÓN
+%------------------------------------------------
+\input{tablas/Explocal_TB31.tex}
+
+\footnote{Los tres últimos productos de explosión, sólo se pueden producir en explosivos deficitarios en oxí­geno, y no se consideran asociado a ningún elemento.
+Esta circunstancia implica que, en realidad esta tabla se pueda considerar como dos tablas unidas: una de productos de explosión y otra de elementos.}
+\footnote{El programa Explocal necesita acceder a ciertas posiciones de la tabla, esto 		obliga a conservar el orden de las entradas de la tabla.}
+\footnote{Los productos con $T_{Vaporiz}>6000 K$, se consideran sólidos o lí­quidos		en el intervalo 298 K - 6000 K atendiendo al criterio de la norma UNE 31-002-94, aunque existan casos como el grafito que sublima 3925 K, o los carbonatos quese descomponen al alcanzar cierta temperatura.}
+
+
+\section{Calor y temperatura de explosión}
+
+\subsection{Composición de los productos}
+
+Coincidiendo con la clasificación por el balance de oxí­geno se suponen dos casos: (Siendo: $Np$, el número de productos formados en la explosión y $Ne$, el número de elementos distintos de la mezcla)
+
+\begin{enumerate}[a)]
+\item \textbf{Balance de oxí­geno positivo (o nulo)}:	($Np=Ne$)
+El número de productos de explosión coincide con el número de elementos. Estableciendo los balances estequiométricos de cada elemento se obtiene un sistema 		de ecuaciones lineales, cuya resolución (inmediata en 			muchos casos) proporciona la composición de los productos.
+
+\item \textbf{Balance de oxí­geno negativo}:	($Np=Ne+2$)
+Se tienen dos productos más que elementos ya que se producen C, CO, H$_2$ pero no O$_2$.
+El sistema de ecuaciones se forma con los balances estequiométricos de cada elemento junto con las dos ecuaciones de equilibrio siguientes:
+\end{enumerate}

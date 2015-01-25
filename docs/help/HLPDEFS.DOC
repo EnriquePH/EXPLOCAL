@@ -1,0 +1,30 @@
+Browse
+
+The Windows Help system has the facility of Browse buttons, which can be used to guide the user in a particular direction, when logic would indicated that a particular sequence of Topics is desired. You can create browse sequences using Help Edit by defining the parent and sequence number of the Topics that you wish to be grouped together.
+
+Definition
+
+A definition in the Help system is an explanation of a word or phrase that might not be famialiar to the user. Often this is a techical term that has specific meaning in the context in which it is used. When the user clicks the mouse button on words that have definitions attached to them, a pop up window appears giving this extra information, and remains until the user presses enter, or clicks the mouse again.
+
+
+HyperText
+
+HyperText is a form of electronic book in which the reader, instead of following a preset path from beginning to end, is able to move around by means of selecting key words or phrases within the 'Book' that perform a jump to a new location within the 'Book'.
+
+
+Project
+
+Help Edit works with Project files. This file contains information about the files your Help file needs, and all the topic and definition information. This makes it easier to create the HPJ file that is needed by the Microsoft Help Compiler.
+
+It also makes it easier for you to keep track of your topics. The burden of creating and maintaining a list of topic and definition labels for your hypertext links is automated.
+
+RTF
+
+The Microsoft Help Compiler requires your Topic files to be in RTF (Rich Text Format).
+
+This is a format devised by Microsoft in 1987, and is only supported by the top of the range worprocessors such as Microsoft Word and WordPerfect. Help Edit removes the need for this by compiling your text files in a suitable RTF format.
+
+Topic
+
+The term Topic in this context refers to a HyperText page of information. Each Topic has a label by which it is accessed, and optionally a Title which can be used when performing a search.
+

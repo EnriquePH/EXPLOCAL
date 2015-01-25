@@ -1,0 +1,12 @@
+Nombre  de la  clase:;Descendiente  de:;Propósito
+VentanaHijaMDI;TEditWindow;Constituye  una  con  un  editor  de  texto,  que  incluye  todas  las  funciones  necesarias  para  manejar  el  texto y  los  datos  de  un explosivo,  así  como  la  impresión  de  los  resultados  por  impresora  o  pantalla. Además  se  encarga  de  responder  a  todas  las  funciones  del  menú  relativas  a  la  ventana hija  activa.   
+VentanaMarcoMDI;TMDIFrame;Realiza   el  manejo  de  las  funciones  del  menú  y   de  las  ventanas  hijas,  es  la   ventana  principal  de  la  aplicación.  Es  de  hacer  notar  que  la  gestión  de  trasfondo  de la  aplicación  la  realiza  la  clase  TMDIClient  con  la  que  la  ventana  marco  intercambia  información.
+Dialogo_Base;TDialog;Diálogo  que  incorpora  las  funciones  del  manejo  de  los  datos  del  archivo  de  reactivos:  REACTIVO.DAT
+Dialogo1;Dialogo_Base;Añade  las  funciones  y  los  controles  para  introducir  la  composición  cualitativa  de  la  mezcla.
+Dialogo2;TDialog;Añade  las  funciones  y  los  controles  para  introducir  la  composición  cuantitativa  de  la  mezcla:   El  porcentaje  en  peso  de  cada  reactivo.
+Dialogo3;TDialog;Añade  las  funciones  y  los  controles  para  introducir  los  datos  adicionales:  densidad  inicial  y  nombre  de  la  mezcla.
+Dialogo4;Dialogo_Base;Modifica  la  lista  de  reactivos.
+Dialogo5;TDialog;Introduce los datos  de  un  nuevo  reactivo.
+Dialogo6;TDialog;Preferencias,  accede  al  archivo  EXPLOCAL.INI
+AplicacionMDI;TApplication;Clase  principal  de  la  aplicación,  se  encarga  de  manejar  el  resto  de  las  clases  y  de  acceder  a  la  biblioteca  de  enlace  dinámico  con  los  controles  al  estilo  Borland (BWCC.DLL).
+;;

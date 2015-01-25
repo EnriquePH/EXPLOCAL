@@ -1,0 +1,42 @@
+/*_____________________________________________________________________
+	Archivo:   		VERSION.RC
+	Proyecto:  		EXPLOCAL.PRJ
+	Autor:     		Enrique Pérez Herrero, E.T.S.I de Minas de Madrid.
+				  		Proyecto de Fin de Carrera.
+	Especialidad: 	Laboreo y Explosivos.
+	Descripción:   Versión de la aplicación.
+						Archivo de recursos del proyecto.
+_____________________________________________________________________*/
+
+
+
+VERSION VERSIONINFO LOADONCALL MOVEABLE 
+FILEVERSION 1, 0, 0, 4055
+PRODUCTVERSION 1, 0, 0, 4055
+FILEFLAGSMASK VS_FF_DEBUG | VS_FF_PRERELEASE | VS_FF_PATCHED | VS_FF_PRIVATEBUILD | VS_FF_INFOINFERRED | VS_FF_SPECIALBUILD
+FILEOS VOS__WINDOWS16
+FILETYPE VFT_APP
+BEGIN
+	BLOCK "StringFileInfo"
+	BEGIN
+		BLOCK "040904E4"
+		BEGIN
+			VALUE "Comments", 29264, 31087, 25445, 28532, 25632, 8293, 26950, 8302, 25956, 17184, 29281, 25970, 24946, 8250, 28229, 26994, 30065, 8293, 59728, 25970, 8314, 25928, 29298, 29285, 111
+			VALUE "CompanyName", "Kikesoft® - PROTEvS\000"
+			VALUE "FileDescription", 57667, 25452, 27765, 8303, 25956, 27680, 29537, 28704, 26994, 25454, 28777, 27745, 29541, 25376, 29281, 25441, 25972, 60786, 29811, 25449, 29537, 29728, 62309, 26994, 24931, 8307, 25956, 29984, 8302, 30821, 27760, 29551, 30313, 11887
+			VALUE "FileVersion", "1.00\000"
+			VALUE "InternalName", "xplcal\000"
+			VALUE "LegalCopyright", "Copyright© E.T.S.I de Minas de Madrid 1996.\000"
+			VALUE "OriginalFilename", "explocal.exe\000"
+			VALUE "ProductName", "Explocal\000"
+			VALUE "ProductVersion", "1.00\000"
+		END
+
+	END
+
+END
+
+
+/*_____________________________________________________________________
+  Fin del Archivo:   		VERSION.RC
+_____________________________________________________________________*/
