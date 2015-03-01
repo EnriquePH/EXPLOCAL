@@ -1,18 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.10)  18 JAN 2015 00:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.21)  1 MAR 2015 22:24
 entering extended mode
 **Explocal.tex
-("C:\EXPLOCAL\Explocal-GIT\docs\Explocal LaTeX\Explocal.tex"
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
- lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
-ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
-an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
-ishmax, welsh, loaded.
+(Explocal.tex
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 68 languages loaded.
 ("C:\CODE\MiKTeX 2.9\tex\latex\base\book.cls"
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\CODE\MiKTeX 2.9\tex\latex\base\bk11.clo"
@@ -34,9 +25,6 @@ File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 ("C:\CODE\MiKTeX 2.9\tex\latex\babel\babel.sty"
 Package: babel 2014/09/25 3.9l The Babel package
 
-("C:\CODE\MiKTeX 2.9\tex\latex\babel\switch.def"
-File: switch.def 2014/09/25 3.9l Babel switching mechanism
-)
 *************************************
 * Local config file bblopts.cfg used
 *
@@ -48,9 +36,6 @@ Language: spanish.ldf 2014/04/24 v5.0n Spanish support from the babel system
 
 ("C:\CODE\MiKTeX 2.9\tex\latex\babel\babel.def"
 File: babel.def 2014/09/25 3.9l Babel common definitions
-
-("C:\Documents and Settings\All Users\Datos de programa\MiKTeX\2.9\tex\generic\
-config\language.def")
 \babel@savecnt=\count88
 \U@D=\dimen103
 )
@@ -60,7 +45,8 @@ Package babel Info: Making " an active character on input line 516.
 Package babel Info: Making . an active character on input line 617.
 Package babel Info: Making < an active character on input line 662.
 Package babel Info: Making > an active character on input line 662.
-)) ("C:\CODE\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+))
+("C:\CODE\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2014/04/30 v1.2b Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
@@ -305,8 +291,7 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 ("C:\CODE\MiKTeX 2.9\tex\latex\filemod\filemod-expmin.sty"
 Package: filemod-expmin 2011/09/19 v1.2 Get and compare file modification times
  (expandable; minimal)
-))
-("C:\EXPLOCAL\Explocal-GIT\docs\Explocal LaTeX\Explocal.aux"
+)) (Explocal.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 )
@@ -345,8 +330,7 @@ LaTeX Info: Redefining \% on input line 42.
 {C:/Documents and Settings/All Users/Datos de programa/MiKTeX/2.9/pdftex/config
 /pdftex.map}] [2
 
-]
-("C:\EXPLOCAL\Explocal-GIT\docs\Explocal LaTeX\Explocal.toc"
+] (Explocal.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
  [3])
@@ -356,8 +340,7 @@ LaTeX Info: Redefining \% on input line 46.
  [4] [1
 
 
-]
-[2] ("C:\EXPLOCAL\Explocal-GIT\docs\Explocal LaTeX\Explocal_01.tex"
+] [2] (Explocal_01.tex
 Cap\'{\i }tulo 1.
 [3
 
@@ -377,7 +360,7 @@ LaTeX Info: Redefining \% on input line 51.
 
 [6] [7
 
-] [8] ("C:\EXPLOCAL\Explocal-GIT\docs\Explocal LaTeX\Explocal_02.tex"
+] [8] (Explocal_02.tex
 Cap\'{\i }tulo 3.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -474,7 +457,7 @@ Overfull \hbox (41.95801pt too wide) has occurred while \output is active
 TODO DE C[]ALCULO SIMPLIFICADO
  []
 
-[24] ("C:\EXPLOCAL\Explocal-GIT\docs\Explocal LaTeX\tablas/Explocal_TB31.tex"
+[24] (tablas/Explocal_TB31.tex
 Overfull \hbox (13.41588pt too wide) in paragraph at lines 8--53
 [][] 
  []
@@ -508,7 +491,7 @@ TODO DE C[]ALCULO SIMPLIFICADO
 
 [28
 
-] [29] [30] ("C:\EXPLOCAL\Explocal-GIT\docs\Explocal LaTeX\Explocal_03.tex"
+] [29] [30] (Explocal_03.tex
 Cap\'{\i }tulo 6.
 [31
 
@@ -519,23 +502,31 @@ LaTeX Info: Redefining \% on input line 31.
 
 ]
 Cap\'{\i }tulo 7.
-) [33] ("C:\EXPLOCAL\Explocal-GIT\docs\Explocal LaTeX\Explocal.bbl"
-LaTeX Info: Redefining \. on input line 1.
-LaTeX Info: Redefining \% on input line 1.
- [34
+[33]
 
-])
-[35] ("C:\EXPLOCAL\Explocal-GIT\docs\Explocal LaTeX\Explocal.aux"
+LaTeX Warning: Command \textonequarter invalid in math mode on input line 71.
+
+
+Overfull \hbox (48.34904pt too wide) in paragraph at lines 61--76
+[][] 
+ []
+
+)
+LaTeX Info: Redefining \. on input line 62.
+LaTeX Info: Redefining \% on input line 62.
+ [34] (Explocal.bbl) [35
+
+] (Explocal.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 4764 strings out of 493921
- 65834 string characters out of 3150842
- 157344 words of memory out of 3000000
- 7920 multiletter control sequences out of 15000+200000
+ 4660 strings out of 493698
+ 63384 string characters out of 3147989
+ 159701 words of memory out of 3000000
+ 7857 multiletter control sequences out of 15000+200000
  13453 words of font info for 48 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
+ 1025 hyphenation exceptions out of 8191
  66i,11n,37p,513b,441s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/CODE/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/CODE/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/CODE/MiKTeX 2.9/fonts/type1
@@ -552,7 +543,7 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/CODE/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb><C:/CODE/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmti10.pfb><C:/CODE/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pf
 b>
-Output written on Explocal.pdf (39 pages, 296514 bytes).
+Output written on Explocal.pdf (39 pages, 299857 bytes).
 PDF statistics:
  201 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
