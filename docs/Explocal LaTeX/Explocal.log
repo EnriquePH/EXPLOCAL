@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.21)  2 APR 2015 18:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.7.5)  5 JUL 2015 22:11
 entering extended mode
 **Explocal.tex
 (Explocal.tex
-LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 68 languages loaded.
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 69 languages loaded.
 ("C:\CODE\MiKTeX 2.9\tex\latex\base\book.cls"
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\CODE\MiKTeX 2.9\tex\latex\base\bk11.clo"
@@ -47,12 +47,12 @@ Package babel Info: Making < an active character on input line 662.
 Package babel Info: Making > an active character on input line 662.
 ))
 ("C:\CODE\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-Package: inputenc 2014/04/30 v1.2b Input encoding file
+Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 
 ("C:\CODE\MiKTeX 2.9\tex\latex\base\latin1.def"
-File: latin1.def 2014/04/30 v1.2b Input encoding file
+File: latin1.def 2015/03/17 v1.2c Input encoding file
 ))
 ("C:\CODE\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
@@ -113,7 +113,7 @@ LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
 ("C:\CODE\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
-Package: enumerate 2014/10/28 v3.00 enumerate extensions (DPC)
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks22
 )
 ("C:\CODE\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
@@ -139,7 +139,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
 ("C:\CODE\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen113
 \extrarowheight=\dimen114
 \NC@list=\toks23
@@ -167,7 +167,7 @@ Package: import 2009/03/23  v 5.1
 Package: subfiles 2012/05/23 Federico Garcia
 
 ("C:\CODE\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks25
 \verbatim@line=\toks26
 \verbatim@in@stream=\read1
@@ -191,17 +191,15 @@ Package ifpdf Info: pdfTeX in PDF mode is detected.
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 ("C:\CODE\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 
 ("C:\CODE\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
-("C:\CODE\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
 \XKV@toks=\toks27
 \XKV@tempa@toks=\toks28
-
-("C:\CODE\MiKTeX 2.9\tex\generic\xkeyval\keyval.tex"))
 \XKV@depth=\count104
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+
+("C:\CODE\MiKTeX 2.9\tex\generic\xkeyval\keyval.tex")))
 ("C:\CODE\MiKTeX 2.9\tex\latex\currfile\currfile.sty"
 Package: currfile 2013/02/01 v0.7b Provides the file path elements of the curre
 nt input file
@@ -252,7 +250,7 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 ("C:\CODE\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 )
 \Gin@req@height=\dimen115
 \Gin@req@width=\dimen116
@@ -327,8 +325,8 @@ LaTeX Info: Redefining \% on input line 42.
 
 
 
-{C:/Documents and Settings/All Users/Datos de programa/MiKTeX/2.9/pdftex/config
-/pdftex.map}] [2
+{C:/Documents and Settings/U1/Configuración local/Datos de programa/MiKTeX/2.9
+/pdftex/config/pdftex.map}] [2
 
 ] (Explocal.toc
 LaTeX Info: Redefining \. on input line 1.
@@ -340,7 +338,8 @@ LaTeX Info: Redefining \% on input line 46.
  [4] [1
 
 
-] [2] (Explocal_01.tex
+] [2]
+(Explocal_01.tex
 Cap\'{\i }tulo 1.
 [3
 
@@ -521,10 +520,10 @@ LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 4660 strings out of 493698
- 63384 string characters out of 3147989
- 159701 words of memory out of 3000000
- 7857 multiletter control sequences out of 15000+200000
+ 4654 strings out of 493671
+ 63253 string characters out of 3147476
+ 159957 words of memory out of 3000000
+ 7875 multiletter control sequences out of 15000+200000
  13453 words of font info for 48 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  66i,11n,37p,513b,441s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -543,7 +542,7 @@ MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/CODE/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb><C:/CODE/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmti10.pfb><C:/CODE/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pf
 b>
-Output written on Explocal.pdf (39 pages, 299857 bytes).
+Output written on Explocal.pdf (39 pages, 299876 bytes).
 PDF statistics:
  201 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
