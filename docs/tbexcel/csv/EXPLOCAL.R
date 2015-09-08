@@ -1,6 +1,23 @@
+library(dplyr)
+library(tidyr)
 library(ggplot2)
 
-k.file <- "K.CSV"
+entalp.file <- "ENTALP.CSV"
+
+
+entalp.data <- read.csv(entalp.file,
+                        dec = ",",
+                        sep = ";"
+                        )
+
+View(entalp.data)
+
+entalp.data <- entalp.data %>%
+    gather(key = FORMULA, value = ENTHALPY, -TEMP)
+
+ggplot(entalp.data, aes(TEMP , ENTHALPY, col = FORMULA)) + 
+    ylab("Concentration") + 
+    geom_line()
 
 
 # Constants data
