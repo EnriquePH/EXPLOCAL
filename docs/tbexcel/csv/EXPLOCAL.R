@@ -1,5 +1,8 @@
 library(ggplot2)
 
+k.file <- "K.CSV"
+
+
 # Constants data
 # File K1.csv
 k1.file <- "K1.CSV"
