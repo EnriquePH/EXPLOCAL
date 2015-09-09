@@ -2,6 +2,8 @@ library(dplyr)
 library(tidyr)
 library(ggplot2)
 
+
+
 entalp.file <- "ENTALP.CSV"
 
 
@@ -12,8 +14,16 @@ entalp.data <- read.csv(entalp.file,
 
 View(entalp.data)
 
+carbonates <- as.data.frame(colnames(entalp.data), optional = TRUE)
+colnames(carbonates) <- c("FORMULA")
+carbonates <- filter(carbonates,  grepl("CO3", FORMULA))
+
+
+View(carbonates)
+
 entalp.data <- entalp.data %>%
     gather(key = FORMULA, value = ENTHALPY, -TEMP)
+
 
 ggplot(entalp.data, aes(TEMP , ENTHALPY, col = FORMULA)) + 
     ylab("Concentration") + 
