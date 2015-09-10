@@ -3,30 +3,30 @@ library(tidyr)
 library(ggplot2)
 
 
-
 entalp.file <- "ENTALP.CSV"
-
 
 entalp.data <- read.csv(entalp.file,
                         dec = ",",
                         sep = ";"
                         )
 
-View(entalp.data)
+explosion.products <- as.data.frame(colnames(entalp.data), optional = TRUE)
+colnames(explosion.products) <- c("FORMULA")
+explosion.products  <- filter(explosion.products, !grepl("TEMP", FORMULA))
 
-carbonates <- as.data.frame(colnames(entalp.data), optional = TRUE)
-colnames(carbonates) <- c("FORMULA")
-carbonates <- filter(carbonates,  grepl("CO3", FORMULA))
+carbonates <- filter(explosion.products,  grepl("CO3", FORMULA))
 
-
-View(carbonates)
 
 entalp.data <- entalp.data %>%
     gather(key = FORMULA, value = ENTHALPY, -TEMP)
 
+carbonates.entalp.data <- entalp.data %>%
+    filter(FORMULA %in% carbonates$FORMULA)
 
-ggplot(entalp.data, aes(TEMP , ENTHALPY, col = FORMULA)) + 
-    ylab("Concentration") + 
+
+ggplot(carbonates.entalp.data, aes(TEMP , ENTHALPY, col = FORMULA)) + 
+    xlab("Temperature (K)") +
+    ylab("Enthalpy") + 
     geom_line()
 
 
