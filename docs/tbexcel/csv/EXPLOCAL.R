@@ -16,6 +16,7 @@ explosion.products  <- filter(explosion.products, !grepl("TEMP", FORMULA))
 
 carbonates <- filter(explosion.products,  grepl("CO3", FORMULA))
 
+dioxides <- filter(explosion.products,  grepl("O2", FORMULA))
 
 entalp.data <- entalp.data %>%
     gather(key = FORMULA, value = ENTHALPY, -TEMP)
@@ -26,7 +27,15 @@ carbonates.entalp.data <- entalp.data %>%
 
 ggplot(carbonates.entalp.data, aes(TEMP , ENTHALPY, col = FORMULA)) + 
     xlab("Temperature (K)") +
-    ylab("Enthalpy") + 
+    ylab("H(T)-H(298) kcal/mol") + 
+    geom_line()
+
+dioxides.entalp.data <- entalp.data %>%
+    filter(FORMULA %in% dioxides$FORMULA)
+
+ggplot(dioxides.entalp.data, aes(TEMP , ENTHALPY, col = FORMULA)) + 
+    xlab("Temperature (K)") +
+    ylab("H(T)-H(298) kcal/mol") + 
     geom_line()
 
 
