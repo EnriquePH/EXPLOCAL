@@ -12,11 +12,15 @@ entalp.data <- read.csv(entalp.file,
 
 explosion.products <- as.data.frame(colnames(entalp.data), optional = TRUE)
 colnames(explosion.products) <- c("FORMULA")
+
 explosion.products  <- filter(explosion.products, !grepl("TEMP", FORMULA))
 
 carbonates <- filter(explosion.products,  grepl("CO3", FORMULA))
+dioxides <- filter(explosion.products,
+                   grepl("O2", FORMULA) & nchar(as.character(FORMULA)) == 4
+                   )
 
-dioxides <- filter(explosion.products,  grepl("O2", FORMULA))
+sesquioxides <- filter(explosion.products,  grepl("2O3", FORMULA))
 
 entalp.data <- entalp.data %>%
     gather(key = FORMULA, value = ENTHALPY, -TEMP)
@@ -25,7 +29,8 @@ carbonates.entalp.data <- entalp.data %>%
     filter(FORMULA %in% carbonates$FORMULA)
 
 
-ggplot(carbonates.entalp.data, aes(TEMP , ENTHALPY, col = FORMULA)) + 
+ggplot(carbonates.entalp.data, aes(TEMP , ENTHALPY, col = FORMULA)) +
+    ggtitle("Carbonates") +
     xlab("Temperature (K)") +
     ylab("H(T)-H(298) kcal/mol") + 
     geom_line()
@@ -33,10 +38,21 @@ ggplot(carbonates.entalp.data, aes(TEMP , ENTHALPY, col = FORMULA)) +
 dioxides.entalp.data <- entalp.data %>%
     filter(FORMULA %in% dioxides$FORMULA)
 
-ggplot(dioxides.entalp.data, aes(TEMP , ENTHALPY, col = FORMULA)) + 
+ggplot(dioxides.entalp.data, aes(TEMP , ENTHALPY, col = FORMULA)) +
+    ggtitle("Dioxides") +
     xlab("Temperature (K)") +
     ylab("H(T)-H(298) kcal/mol") + 
     geom_line()
+
+sesquioxides.entalp.data <- entalp.data %>%
+    filter(FORMULA %in% sesquioxides$FORMULA)
+
+ggplot(sesquioxides.entalp.data, aes(TEMP , ENTHALPY, col = FORMULA)) +
+    ggtitle("Sesquioxides") +
+    xlab("Temperature (K)") +
+    ylab("H(T)-H(298) kcal/mol") +
+    geom_line()
+
 
 
 # Constants data
