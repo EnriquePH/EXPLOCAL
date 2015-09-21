@@ -107,6 +107,22 @@ ggplot(elements.entalp.data, aes(TEMP , ENTHALPY, col = FORMULA)) +
 
 
 #  ----------------------------------------------------------------------------
+#    Halides
+#  ----------------------------------------------------------------------------
+
+halides <- filter(explosion.products, grepl("H$", FORMULA))
+
+halides.entalp.data <- entalp.data %>%
+    filter(FORMULA %in% halides$FORMULA)
+
+ggplot(halides.entalp.data, aes(TEMP , ENTHALPY, col = FORMULA)) +
+    ggtitle("Halides") +
+    xlab("Temperature (K)") +
+    ylab("H(T)-H(298) kcal/mol") +
+    geom_line()
+
+
+#  ----------------------------------------------------------------------------
 # Constants data
 # File K1.csv
 k1.file <- "K1.CSV"
