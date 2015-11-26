@@ -2,7 +2,7 @@
 #  EXPLOCAL
 #  Explocal project plots
 #  File: EXPLOCAL.R
-#  Enrique Pérez Herrero
+#  Enrique PÃ©rez Herrero
 #  21/Sep/2015
 #  ----------------------------------------------------------------------------
 
@@ -127,8 +127,8 @@ ggplot(halides.entalp.data, aes(TEMP , ENTHALPY, col = FORMULA)) +
 # File K1.csv
 k1.file <- "K1.CSV"
 # Temperatura (K)
-# K1=PCO.PH2O/PCO2·PH2
-# K2=P²CO/PCO2
+# K1=PCO.PH2O/PCO2.PH2
+# K2=PCO/PCO2
 
 k1.data <- read.csv(k1.file,
                     dec = ",",
