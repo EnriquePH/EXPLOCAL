@@ -10,3 +10,4 @@
 *.aux
 *.synctex.gz
 *.blg
+.Rproj.user
