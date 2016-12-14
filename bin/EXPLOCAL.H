@@ -1,18 +1,18 @@
 /*_____________________________________________________________________
 	Archivo:   		EXPLOCAL.H
 	Proyecto:  		EXPLOCAL.PRJ
-	Autor:     		Enrique PÈrez Herrero, E.T.S.I de Minas de Madrid.
-				  		Proyecto de Fin de Carrera.
+	Autor:     		Enrique P√©rez Herrero, E.T.S.I de Minas de Madrid.
+                Proyecto de Fin de Carrera.
 	Especialidad: 	Laboreo y Explosivos.
-	DescripciÛn:   Archivo de cabecera que declara todas las clases
-						,y estructuras necesarias para compilar el cÛdigo
-						de EXPLOFAB.CPP asÌ como la definiciÛn de todos
-						las macros.
+	Descripci√≥n:   Archivo de cabecera que declara todas las clases
+                ,y estructuras necesarias para compilar el c√≥digo
+						    de EXPLOFAB.CPP as√≠ como la definici√≥n de todas
+						    las macros.
 _____________________________________________________________________*/
 
 
 
-// Macro para la compilaciÛn condicional.
+// Macro para la compilaci?n condicional.
 
 
 #define __EXPLOCAL_H
@@ -29,11 +29,11 @@ _____________________________________________________________________*/
 #define IDS_TITULO	10
 #define IDS_ERROR1	20
 #define IDS_ERROR2	30
-#define IDS_ERROR3   40
+#define IDS_ERROR3  40
 #define IDS_ERROR4	50
 #define IDS_ERROR5	60
 #define IDS_ERROR6	70
-#define IDS_ERROR7   75
+#define IDS_ERROR7  75
 
 #define IDS_NOMBRE   80
 #define IDS_FORMUL   90
@@ -119,30 +119,30 @@ _____________________________________________________________________*/
 #define ID6_EDITA1 104
 
 // BOTONES:_________________________________________________________________
-#define ID1_BTPONE 400 // Di·logo 1
+#define ID1_BTPONE 400 // Di√°logo 1
 #define ID1_BTQUIT 410
 #define ID1_BTINIC 420
 #define ID1_BTEXAM 440
 
-#define ID2_BTCAMB 450 // Di·logo 2
+#define ID2_BTCAMB 450 // Di√°logo 2
 #define ID2_BTINIC 470
 #define ID2_BTINTR 480
 
-#define ID3_BTINTR 490 // Di·logo 3
-#define ID4_BTANAD 500 // Di·logo 4
+#define ID3_BTINTR 490 // Di√°logo 3
+#define ID4_BTANAD 500 // Di√°logo 4
 #define ID4_BTELIM 510
 
-#define ID5_BTINTR 10  // Di·logo 5
+#define ID5_BTINTR 10  // Di√°logo 5
 
 
 // BOTONES DE RADIO:________________________________________________________
-#define ID6_BRJULS 101 // Di·logo 6
+#define ID6_BRJULS 101 // Di?logo 6
 #define ID6_BRCALS 102
 #define ID6_BRAJUS 106
                  
 //CADENAS:_________________________________________________________________
 #define CAD_JULIOS "julios"
-#define CAD_CALORS "calorÌas"
+#define CAD_CALORS "calor√≠as"
 #define CAD_SI	"si"
 #define CAD_NO "no"
 
@@ -151,11 +151,11 @@ _____________________________________________________________________*/
 #define __ERROR_DAT    "error.dat"     // Archivo de errores.
 #define __TABLPROD_DAT "tablprod.dat"  // Archivo con la tabla de productos.
 #define __CONSTANT_DAT "constant.dat"	// Cte. de equilibrio (K1) y (K2)
-#define __EXPLOCAL_INI "explocal.ini"	// Archivo de inicializaciÛn.
+#define __EXPLOCAL_INI "explocal.ini"	// Archivo de inicializaci√≥n.
 #define __REACTIVO_DAT "reactivo.dat"	// Datos de los reactivos.
 #define __REACTIVO_BAK "reactivo.bak"	// Seguridad del archivo de datos.
 #define __EXPLOCAL_HLP "explocal.hlp"	// Archivo de ayuda para Windows 3.1
-													// Archivo temporal,  °°falta!!
+													// Archivo temporal,  ??falta!!
 #define ARCH_CABECERO "[Explocal]"  	// Cabecero de los archivos *.xpl
 
 //OTROS:____________________________________________________________________
@@ -163,7 +163,7 @@ _____________________________________________________________________*/
 //	Emplazamiento de la ventana principal:
 #define ORGX_VENTANA	 0
 #define ORGY_VENTANA	 0
-// PosiciÛn del men˙ de acceso a la ventana hija.
+// Posici√≥n del men√∫ de acceso a la ventana hija.
 #define VENTANA_MENU_POS 4
 
 // Caracteres en el nombre de la ventana hija.
@@ -172,15 +172,15 @@ _____________________________________________________________________*/
 #define SI TRUE
 #define NO FALSE
 
-#define MAXCAD	 50  		  //TamaÒo de las cadenas alfanumÈricas.
-#define MAXTEX 250        //TamaÒo de los textos en caracteres.
+#define MAXCAD	 50  		  //Tama√±o de las cadenas alfanum√©ricas.
+#define MAXTEX 250        //Tama√±o de los textos en caracteres.
 
 
 #define TIPO_TEXTO TRUE
 #define TIPO_EXPLO FALSE
 #define TIPO_INACCESIBLE -1
 
-// Estados del men˙.
+// Estados del men√∫.
 #define MF_ACTIVO   MF_ENABLED
 #define MF_INACTIVO MF_GRAYED
 

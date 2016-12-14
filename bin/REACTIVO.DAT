@@ -13,28 +13,28 @@ C14H22O8
 Acetona
 C3H6O
 -984.8
-Ácido Esteárico
+?cido Este?rico
 C18H36O2
 -751.1
-Agua Líquida
+Agua L?quida
 H2O
 -3869.7
-Alcohol Etílico
+Alcohol Et?lico
 C2H6O
 -1395.6
-Almidón
+Almid?n
 C6H10O5
 -1203.4
 Aluminio
 Al
 0.0
-Azufre (Rómbico)
+Azufre (R?mbico)
 S
 0.0
 Bis-Dinitropropiacetal/Formal (BDNPA/F)
 C7.489H12.978N4O10
 -438.8
-Carbonato Cálcico
+Carbonato C?lcico
 CO3Ca
 -2883.0
 Carbonato de Plomo
@@ -49,16 +49,16 @@ C25H52
 Circonio
 Zr
 0.0
-Clorato Potásico
+Clorato Pot?sico
 ClO3K
 -753.3
-Clorato Sódico
+Clorato S?dico
 ClO3Na
 -801.5
-Cloruro Amónico
+Cloruro Am?nico
 ClNH4
 -1368.0
-Cloruro Sódico
+Cloruro S?dico
 ClNa
 -1693.5
 KEL-F-800
@@ -67,10 +67,10 @@ C8H2Cl3F11
 VITON-A
 C5H3.5F6.5
 -1762.7
-Criolita Potásica
+Criolita Pot?sica
 K3AlF6
 -788.1
-Criolita Sódica
+Criolita S?dica
 Na3AlF6
 -5146.9
 Dibutil Adipato (DBA)
@@ -94,10 +94,10 @@ C15H15NO2
 Diisocianato de isoforona (IPDI)
 C12H18O2N2
 -443.3
-Dióxido de Plomo
+Di?xido de Plomo
 PbO2
 -274.7
-Estearato Cálcico
+Estearato C?lcico
 C36H70O4Ca
 -786.0
 Estearato de Plomo
@@ -106,7 +106,7 @@ C36H70O4Pb
 Etilfeniluretano (EPU)
 C11H15NO2
 -545.5
-Fécula
+F?cula
 C6H10O5
 -1473.4
 Ferroceno
@@ -115,7 +115,7 @@ C10H10Fe
 Fueloil
 C7.05H14
 -358.0
-Gasóleo
+Gas?leo
 C7.05H14
 -358.0
 Glicol
@@ -130,7 +130,7 @@ C
 Hexanitrostilbeno (HNS)
 C14H6N6O12
 46.6
-Hexógeno (RDX)
+Hex?geno (RDX)
 C3H6N6O6
 99.6
 Lecitina
@@ -154,10 +154,10 @@ O3.1Al0.275Na0.129K0.085Ca0.018Si1.282
 Monooleato de Sorbitano
 C24H44O6
 43.6
-Monóxido de Plomo
+Mon?xido de Plomo
 PbO
 -229.3
-Nitrato Amónico
+Nitrato Am?nico
 N2O3H4
 -1057.0
 Nitrato de Bario
@@ -166,10 +166,10 @@ BaN2O6
 Nitrato de Litio
 NO3Li
 -1654.7
-Nitrato Potásico
+Nitrato Pot?sico
 NO3K
 -1157.0
-Nitrato Sódico
+Nitrato S?dico
 NO3Na
 -1301.0
 Nitrocelulosa 11,50% N
@@ -226,28 +226,28 @@ CH4N4O2
 Nitrometano (NM)
 CH3NO2
 -413.7
-Octógeno (RMX)
+Oct?geno (RMX)
 C4H8N8O8
 84.6
-Óxido de Magnesio
+?xido de Magnesio
 MgO
 -3538.0
-Óxido de Titanio
+?xido de Titanio
 TiO2
 -2804.0
 Pentrita (PETN)
 C5H8N4O12
 -379.9
-Perclorato Amónico
+Perclorato Am?nico
 H4NO4Cl
 -578.0
 Perclorato de Litio
 ClO4Li
 -925.4
-Perclorato Potásico
+Perclorato Pot?sico
 ClO4K
 -736.7
-Petróleo
+Petr?leo
 C7.05H14
 -358.0
 Pirolusita
@@ -262,19 +262,19 @@ C150H302O51
 Potasio
 K
 0.0
-Sílice
+S?lice
 SiO2
 -3613.1
 Silicio
 Si
 0.0
-Sulfato Cálcico
+Sulfato C?lcico
 SO4Ca
 -2493.3
 Sulfato de Bario
 SO4Ba
 -1503.5
-Sulfato potásico
+Sulfato pot?sico
 SO4K2
 -1965.1
 Talco
@@ -283,7 +283,7 @@ Mg3Si4O12H2
 Tetralita (TETRYL)
 C7H5N5O8
 46.7
-Tetróxido de Plomo (MINIO)
+Tetr?xido de Plomo (MINIO)
 Pb3O4
 -248.7
 Tiourea

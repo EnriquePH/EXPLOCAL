@@ -1,0 +1,66 @@
+---
+title: "$K_1$ and $K_2$ Equilibrium Constants"
+author: "Enrique Pérez Herrero"
+date: "December 14, 2016"
+output: html_document
+---
+
+```{r}
+library(ggplot2)
+```
+
+```{r}
+data_path <- "../data/"
+
+read_K1 <- function(path) {
+  data <- read.csv(paste0(path, "K1.csv"))
+  return(data)
+}
+
+read_K2 <- function(path) {
+  data <- read.csv(paste0(path, "K2.csv"))
+  return(data)
+}
+
+```
+
+```{r}
+ggplot_K1 <- function(path = data_path){
+  data <- read_K1(path)
+  K1_ylab <- expression(K[1])
+  K1_label <- "K[1] == frac(P[CO], P[H[2]*O]) * frac(P[CO[2]], P[H[2]])"
+  p <- ggplot(data, aes(x = Temp, y = Value)) +
+    xlab("Temperature (K)") +
+    ylab(K1_ylab) +
+    theme(axis.title.y = element_text(angle = 0)) +
+    annotate("text", x = 4000, y = 3.5, label = K1_label, parse = TRUE) + 
+    geom_line(size = 1, colour = "blue")
+  return(p)
+}
+
+ggplot_K1()
+```
+
+
+```{r}
+
+ggplot_K2 <- function(path = data_path){
+  K2 <- read_K2(path)
+  K2_ylab <- "Pressure (bar) log10-scaling"
+  K2_label <- "K[2] == frac(P[CO]^2, P[CO[2]])"
+  p <- ggplot(K2, aes(x = Temp, y = log10(Value))) +
+    xlab("Temperature (K)") +
+    ylab(K2_ylab) +
+    annotate("text", x = 2000, y = 3.5, label = K2_label, parse = TRUE) + 
+    geom_line(size = 1, colour = "red")
+  return(p)
+}
+
+ggplot_K2()
+
+```
+
+
+# Links
+
+* [Wikipedia: Equilibrium constant](https://en.wikipedia.org/wiki/Equilibrium_constant)
