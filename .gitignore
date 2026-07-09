@@ -1,13 +1,55 @@
 # EXPLOCAL .gitignore
-# (c) Kikesoft 2015
+# (c) Enrique Pérez Herrero 2015
 
-# R Code 
+# Claude Code
+CLAUDE.md
+
+# Archivos antiguos archivados fuera del repo
+old/
+
+# R Code
 .Rhistory
 .RData
+.Rproj.user
 
 # LaTeX
 *.log
 *.aux
 *.synctex.gz
 *.blg
-.Rproj.user
+*.toc
+*.out
+*.fls
+*.fdb_latexmk
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Reimplementación en Python (motor, datos derivados, app, tests): no se
+# versiona; es regenerable a partir de legacy/ con new/scripts/convert_legacy_data.py
+new/
+
+# Libro site/: salida generada por scripts/build.sh (PDF/DOCX/TEX, regenerable)
+site/salida/
+
+# Quarto (site/): caché y salidas de "quarto render"
+site/.quarto/
+site/_book/
+site/_site/
+site/*/.jupyter_cache/

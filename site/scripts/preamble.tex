@@ -1,0 +1,20 @@
+% Las figuras convertidas desde WMF no llevan ancho explícito. Algunas
+% (diagramas grandes) superan el alto de página e invaden la cabecera;
+% otras (fórmulas cortas inline) son pequeñas y deben conservar su tamaño
+% natural. adjustbox "max width/height" solo reduce si hace falta, nunca
+% amplía, a diferencia de fijar `width=` por defecto con \pkg{graphicx}.
+\usepackage[export]{adjustbox}
+\adjustboxset{max width=0.9\textwidth, max height=0.72\textheight}
+
+% Las figuras con caption ("Figura X-Y: ...") ahora son entornos `figure`
+% flotantes reales (para que la página se corte antes de la figura en
+% vez de solaparla con la cabecera/texto). `float`+`H` las fija justo
+% donde se referencian, sin dejarlas "flotar" lejos de su texto.
+\usepackage{float}
+\floatplacement{figure}{H}
+
+% Nuestro propio texto ya incluye "Figura X-Y: ..." como pie de foto, así
+% que se anula el "Figura N:" que LaTeX añadiría automáticamente para no
+% duplicar la numeración.
+\usepackage{caption}
+\captionsetup{labelformat=empty, labelsep=none, font=it}

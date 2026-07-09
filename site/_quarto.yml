@@ -1,0 +1,58 @@
+project:
+  type: book
+  output-dir: _site
+
+book:
+  title: "Explocal"
+  subtitle: "Proyecto de una aplicación informática para el cálculo de las principales características teóricas de los explosivos"
+  author: "Enrique Pérez Herrero"
+  date: "1996"
+  page-footer:
+    left: "Explocal — E.T.S.I. de Minas de Madrid, 1996"
+    right: "Reconstrucción del PFC en Quarto"
+  repo-url: https://github.com/EnriquePH/EXPLOCAL
+  repo-actions: [edit, issue]
+  page-navigation: true
+  chapters:
+    - index.md
+    - indice-general.md
+    - indice-figuras.md
+    - indice-tablas.md
+    - part: "Memoria"
+      chapters:
+        - capitulos/02-resumen.md
+        - capitulos/03-objetivos-y-alcance.md
+        - capitulos/04-teoria-detonacion.md
+        - capitulos/05-metodo-calculo.md
+        - capitulos/06-ingenieria-software.md
+        - capitulos/07-analisis-requisitos.md
+        - capitulos/08-diseno.md
+        - capitulos/09-codificacion.md
+        - capitulos/10-comprobacion.md
+        - capitulos/11-mantenimiento.md
+        - capitulos/12-conclusiones.md
+        - capitulos/13-referencias.md
+        - capitulos/14-bibliografia.md
+        - capitulos/15-estudio-economico.md
+    - part: "Anexos"
+      chapters:
+        - anexos/a-codigo-interfaz-usuario.md
+        - anexos/b-codigo-modulo-calculos.md
+        - anexos/c-datos-recursos.md
+        - anexos/d-archivos-datos.md
+        - anexos/e-archivos-ejemplo.md
+        - anexos/f-archivos-ejemplo.md
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    code-tools: false
+    highlight-style: github
+    fig-align: center
+
+lang: es

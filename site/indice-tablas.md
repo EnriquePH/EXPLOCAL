@@ -1,0 +1,26 @@
+# Índice de tablas
+
+[Tabla 2-1: Tipos de detonaciones y deflagraciones](capitulos/04-teoria-detonacion.md#tabla-2-1)  
+[Tabla 3-1: Datos para calcular el balance de oxígeno.](capitulos/05-metodo-calculo.md#tabla-3-1)  
+[Tabla 3-2: Datos de los productos de explosión.](capitulos/05-metodo-calculo.md#tabla-3-2)  
+[Tabla 3-3: Constantes de equilibrio.](capitulos/05-metodo-calculo.md#tabla-3-3)  
+[Tabla 3-4: Entalpías de los productos de explosión](capitulos/05-metodo-calculo.md#tabla-3-4)  
+[Tabla 5-1: Costes del método automático](capitulos/07-analisis-requisitos.md#tabla-5-1)  
+[Tabla 5-2: Costes del método manual](capitulos/07-analisis-requisitos.md#tabla-5-2)  
+[Tabla 5-3: Soporte necesario y plataforma de desarrollo](capitulos/07-analisis-requisitos.md#tabla-5-3)  
+[Tabla 6-1: Clasificación de los datos](capitulos/08-diseno.md#tabla-6-1)  
+[Tabla 6-2: Datos del problema (Estructuras y variables):](capitulos/08-diseno.md#tabla-6-2)  
+[Tabla 6-3: Tablas de datos y errores (Estructuras y variables)](capitulos/08-diseno.md#tabla-6-3)  
+[Tabla 6-4: Resultados del problema (Estructuras y variables)](capitulos/08-diseno.md#tabla-6-4)  
+[Tabla 6-5: Función principal: CalcResultado](capitulos/08-diseno.md#tabla-6-5)  
+[Tabla 6-6: Descripción de las funciones de los cálculos](capitulos/08-diseno.md#tabla-6-6)  
+[Tabla 6-7: Opciones del menú](capitulos/08-diseno.md#tabla-6-7)  
+[Tabla 6-8: Cuadros diálogo](capitulos/08-diseno.md#tabla-6-8)  
+[Tabla 7-1: Contenido del archivo de proyecto](capitulos/09-codificacion.md#tabla-7-1)  
+[Tabla 7-2: Archivos de recursos](capitulos/09-codificacion.md#tabla-7-2)  
+[Tabla 7-3: Propósito de las clases definidas para Explocal](capitulos/09-codificacion.md#tabla-7-3)  
+[Tabla 8-1: Errores comunes](capitulos/10-comprobacion.md#tabla-8-1)  
+[Tabla 12-1: Costes de personal](capitulos/15-estudio-economico.md#tabla-12-1)  
+[Tabla 12-2: Costes de material](capitulos/15-estudio-economico.md#tabla-12-2)  
+
+*Total: 22 tablas.*
