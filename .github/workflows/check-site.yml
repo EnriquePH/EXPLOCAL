@@ -1,0 +1,23 @@
+name: Comprobar que site/ renderiza
+
+on:
+  pull_request:
+    paths:
+      - "site/**"
+      - ".github/workflows/check-site.yml"
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Instalar Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Regenerar índices
+        run: python3 site/scripts/build_indices.py
+
+      - name: Renderizar site/ (solo para validar, sin publicar)
+        run: quarto render site

@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Instalar Quarto
         uses: quarto-dev/quarto-actions/setup@v2
@@ -31,7 +31,7 @@ jobs:
         run: quarto render site
 
       - name: Subir artefacto de Pages
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: site/_site
 
@@ -44,4 +44,4 @@ jobs:
     steps:
       - name: Desplegar en GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
