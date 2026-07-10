@@ -2802,7 +2802,7 @@ directorio=c:\explocal
 
 *Nota editorial: además de los ficheros `.DAT` anteriores (ya integrados
 en Explocal), el material de trabajo original conservado en el
-repositorio (`docs/auxiliar/`) incluye los borradores y gráficas por
+repositorio (`docs/aux/`) incluye los borradores y gráficas por
 categoría química con los que se compilaron los datos de entalpía de la
 **tabla 3-4** y del apartado D.3 (`TBLPROD.DAT`). Dos de esos ficheros
 (`TBLENT1.DOC`, un borrador de la tabla 3-4, y `TERMOTAB.DOC`, un

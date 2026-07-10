@@ -14,11 +14,11 @@ system. __Explocal__ includes all characteristics of a modern commercial
 computer application, as: executable module, data files, hypertext help and
 installation code.
 
-![](legacy/EXPLOCAL.PNG)
+![](code/EXPLOCAL.PNG)
 
 ## Repository layout
 
-- **`legacy/`** — the original 1996 C++ source (Borland C++ 3.1 + Object
+- **`code/`** — the original 1996 C++ source (Borland C++ 3.1 + Object
   Windows 1.0), data files, resources and the compiled `EXPLOCAL.EXE`, kept
   untouched as the historical reference.
 - **`site/`** — the project's memoria (PFC) reconstructed as a Markdown/
@@ -29,4 +29,4 @@ installation code.
 - **`docs/`** — original raw source documents (1994-2015 `.DOC`/LaTeX/Word
   drafts) that `site/` was reconstructed from.
 - **`new/`** *(not versioned)* — a modern Python re-implementation of the
-  calculation engine plus a Streamlit app; regenerable from `legacy/`.
+  calculation engine plus a Streamlit app; regenerable from `code/`.

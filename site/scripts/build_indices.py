@@ -36,6 +36,7 @@ ANEXO_FILES = [
     "anexos/e-archivos-ejemplo.md",
     "anexos/f-manual-usuario.md",
     "anexos/g-norma-une.md",
+    "anexos/h-software-apoyo.md",
 ]
 
 HEADER_RE = re.compile(r"^(#{1,3})\s+(.+?)\s*$")
@@ -63,7 +64,25 @@ def indent_for(level):
 
 
 def entry(title, relpath, anchor, level=1):
-    return f"{indent_for(level)}[{title}]({relpath}#{anchor})  "
+    frag = f"#{anchor}" if anchor else ""
+    return f"{indent_for(level)}[{title}]({relpath}{frag})  "
+
+
+def pandoc_slug(title):
+    """Reproduce el algoritmo de pandoc para generar el id de un
+    encabezado (extensión auto_identifiers), que Quarto usa tal cual:
+    1) minúsculas; 2) se quita todo excepto letras/dígitos/espacios/
+    guiones/guiones bajos/puntos; 3) espacios -> guiones; 4) se elimina
+    todo lo que haya ANTES de la primera letra (por eso "3.2.1 Título"
+    pierde el número: el id empieza en "título", pero "C.1 Título"
+    conserva "c.1-título" porque ya empieza por una letra).
+    """
+    s = title.lower()
+    s = re.sub(r"[^\w\s.-]", "", s, flags=re.UNICODE)
+    s = re.sub(r"\s+", "-", s.strip())
+    m = re.search(r"[a-zà-öø-ÿ]", s)
+    s = s[m.start():] if m else "section"
+    return s or "section"
 
 
 def build_general_index():
@@ -74,15 +93,22 @@ def build_general_index():
             lines.append(f"**[FALTA: {relpath}]**  ")
             continue
         text = path.read_text(encoding="utf-8")
+        first_heading_in_file = True
         for line in text.splitlines():
             m = HEADER_RE.match(line)
             if not m:
                 continue
             level = len(m.group(1))
             title = m.group(2).strip()
-            slug = re.sub(r"[^\w\s-]", "", title.lower())
-            slug = re.sub(r"\s+", "-", slug.strip())
-            lines.append(entry(title, relpath, slug, level))
+            if first_heading_in_file:
+                # Quarto trata el primer encabezado de cada capítulo como
+                # el título de la página (sin <section id="">  propio);
+                # enlaza al fichero sin fragmento para no romper el enlace.
+                anchor = ""
+                first_heading_in_file = False
+            else:
+                anchor = pandoc_slug(title)
+            lines.append(entry(title, relpath, anchor, level))
     return "\n".join(lines) + "\n"
 
 

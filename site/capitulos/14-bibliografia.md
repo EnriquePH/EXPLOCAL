@@ -39,3 +39,254 @@
 - ZIMMERMAN, Scott y B. ZIMMERMAN, Beverly (1990): *La biblia del TURBO
   C. Fundamentos y técnicas avanzadas de programación*. Anaya
   Multimedia, Madrid.
+
+## Fichero BibTeX
+
+Como complemento a esta bibliografía, se incluye a continuación el contenido del fichero BibTeX del proyecto (`docs/EXPLOCAL-BIBLIOGRAFIA.bib`), con las referencias anteriores en formato reutilizable, ampliadas con DOI, ISBN y notas de verificación bibliográfica no presentes en el documento original:
+
+```bibtex
+% Bibliografía del proyecto EXPLOCAL (Enrique Pérez Herrero, 1996).
+% Extraída de las secciones "REFERENCIAS" y "BIBLIOGRAFÍA" de
+% docs/Explocal Memoria (corregida).md.
+%
+% Las claves de las 9 primeras entradas siguen la numeración [1]-[9]
+% usada en el cuerpo del documento (p. ej. "según UNE 31-002 [1]").
+
+@techreport{une1994,
+  title  = {UNE 31-002-94: Cálculo de las principales características teóricas de los explosivos},
+  author = {{AENOR}},
+  year   = {1994},
+  month  = jun,
+  institution = {Asociación Española de Normalización y Certificación (AENOR)},
+  address = {Madrid},
+  url    = {https://www.boe.es/diario_boe/txt.php?id=BOE-A-1994-21101},
+  urldate = {2026-07-07},
+  note   = {Referencia [1] del proyecto. Aprobada el 29 de junio de 1994, sustituye a UNE 31002:1949; recogida en la Resolución de 8 de agosto de 1994 de la Dirección General de Calidad y Seguridad Industrial (BOE núm. 230, 26/09/1994)}
+}
+
+@article{sanchidrian1991,
+  author  = {Sanchidrián Blanco, José Ángel},
+  title   = {Cálculo de las principales características teóricas de los explosivos},
+  journal = {Memorial de Ingeniería de Armamento},
+  year    = {1991},
+  number  = {124},
+  issn    = {0211-4488},
+  publisher = {Colegio Oficial de Ingenieros de Armamento},
+  address = {Madrid},
+  note    = {3.er trimestre. Referencia [2] del proyecto. No confundir con la tesis doctoral del mismo autor, "Desarrollo de un método para el cálculo de las características teóricas de los explosivos" (UPM, 1986, DOI 10.20868/UPM.thesis.384)}
+}
+
+@article{kamlet1968,
+  author  = {Kamlet, Mortimer J. and Jacobs, Sigmund J.},
+  title   = {Chemistry of Detonations. I. A Simple Method for Calculating Detonation Properties of C-H-N-O Explosives},
+  journal = {Journal of Chemical Physics},
+  year    = {1968},
+  volume  = {48},
+  number  = {1},
+  pages   = {23--35},
+  doi     = {10.1063/1.1667908},
+  url     = {https://doi.org/10.1063/1.1667908},
+  issn    = {0021-9606},
+  note    = {Referencia [3] del proyecto. pp. 23--35 confirmadas en AIP Publishing y NASA ADS (una fuente secundaria, SciRP, cita erróneamente "23--55")}
+}
+
+@misc{forum1991,
+  author = {{Forum Atómico Español}},
+  title  = {Tabla periódica de los elementos},
+  year   = {1991},
+  address = {Madrid},
+  organization = {FAE},
+  note   = {Referencia [4] del proyecto}
+}
+
+@book{janaf1971,
+  author      = {Stull, Donald R. and Prophet, Harold},
+  title       = {JANAF Thermochemical Tables},
+  edition     = {2},
+  year        = {1971},
+  institution = {National Bureau of Standards},
+  series      = {National Standard Reference Data Series},
+  number      = {37},
+  doi         = {10.6028/NBS.NSRDS.37},
+  url         = {https://doi.org/10.6028/NBS.NSRDS.37},
+  note        = {Referencia [5] del proyecto. Publicada en junio de 1971; catalogada como QC100.U573 no.37 1971. Copia digitalizada disponible en Internet Archive: https://archive.org/details/janafthermochemi37stul. Al ser un informe técnico gubernamental (serie NSRDS-NBS) no lleva ISBN}
+}
+
+@book{lide1989,
+  author    = {Weast, Robert C. and Lide, David R.},
+  title     = {CRC Handbook of Chemistry and Physics},
+  edition   = {70},
+  year      = {1989},
+  publisher = {CRC Press Inc.},
+  address   = {Boca Raton, Florida},
+  isbn      = {0-8493-0470-9},
+  note      = {Referencia [6] del proyecto. 70.\textsuperscript{a} edición (1989--1990); Robert C. Weast figura como editor-en-jefe y David R. Lide como coeditor}
+}
+
+@book{meyer1987,
+  author    = {Meyer, Rudolf},
+  title     = {Explosives},
+  edition   = {3},
+  year      = {1987},
+  publisher = {VCH Verlagsgesellschaft mbH},
+  address   = {Weinheim, Alemania},
+  isbn      = {0-89573-600-4},
+  pages     = {452},
+  note      = {Referencia [7] del proyecto. 3.\textsuperscript{a} edición revisada y ampliada; ISBN correspondiente a la edición inglesa distribuida por VCH Publishers}
+}
+
+@book{tsipkin1988,
+  author    = {Tsipkin, A. G. and Tsipkin, G. G.},
+  title     = {Fórmulas Matemáticas: Álgebra, Geometría, Análisis Matemático},
+  year      = {1988},
+  publisher = {Mir},
+  address   = {Moscú},
+  isbn      = {5-03-000623-0},
+  pages     = {183},
+  note      = {Referencia [8] del proyecto. Autoría verificada (A. G. Tsipkin y G. G. Tsipkin); no confundir con "Mathematical Handbook: Higher Mathematics" de M. Vygodsky, también publicado por Mir}
+}
+
+@techreport{mader1963,
+  author      = {Mader, Charles L.},
+  title       = {Detonation Properties of Condensed Explosives Computed Using the Becker-Kistiakowsky-Wilson Equation of State},
+  institution = {Los Alamos Scientific Laboratory},
+  number      = {LA-2900},
+  year        = {1963},
+  month       = feb,
+  url         = {https://www.osti.gov/biblio/4672852-detonation-properties-condensed-explosives-computed-using-becker-kistiakowsky-wilson-equation-state},
+  note        = {Referencia [9] del proyecto. Publicado el 19 de febrero de 1963 bajo el contrato AEC W-7405-ENG-36. La URL de OSTI se corrigió: el identificador 4740272 usado previamente correspondía a un documento distinto ("Selection Rules for Antibaryon-Nucleon Annihilation", P. H. Moravek, 1962)}
+}
+
+% --- BIBLIOGRAFÍA general (orden alfabético, sin numerar en el documento) ---
+
+@book{adams1994,
+  author    = {Adams, Lee},
+  title     = {Programación avanzada de gráficos en C para Windows},
+  year      = {1994},
+  publisher = {McGraw-Hill/Interamericana de España, S.A.},
+  address   = {Aravaca, Madrid},
+  isbn      = {84-481-0057-3},
+  translator = {Fernández Mojón, Baltasar},
+  note      = {Traducción de "High-Performance C Graphics Programming for Windows" (TAB/Windcrest, ISBN 0-8306-3790-7). Casa del Libro cataloga esta edición española como de 1993; se mantiene 1994 por ser el año que consta en la memoria original}
+}
+
+@book{aguilar1972,
+  author    = {Aguilar, F.},
+  title     = {Los explosivos y sus aplicaciones},
+  year      = {1972},
+  publisher = {Servicio de Publicaciones de la J.E.N.},
+  address   = {Madrid},
+  note      = {No localizado en BNE, REBIUN ni WorldCat; posiblemente informe/publicación interna de la Junta de Energía Nuclear no digitalizada}
+}
+
+@book{clementshammas1993,
+  author    = {Clement Shammas, Namir},
+  title     = {Guía de programación en Windows: Librería ObjectWindows},
+  year      = {1993},
+  publisher = {Anaya Multimedia},
+  address   = {Madrid},
+  isbn      = {84-7614-501-2},
+  pages     = {720},
+  note      = {ISBN verificado para "Guía de programación en Windows" de este autor/editorial/año; los catálogos consultados (Casa del Libro, Amazon) registran el subtítulo "Librería Microsoft Foundation Class" en vez de "Librería ObjectWindows" — revisar si la memoria original se refiere a una edición distinta}
+}
+
+@book{cook1985,
+  author    = {Cook, Melvin A.},
+  title     = {The Science of High Explosives},
+  year      = {1985},
+  publisher = {Robert E. Krieger Publishing Company},
+  address   = {Malabar, FL},
+  isbn      = {0-88275-010-0},
+  note      = {ISBN corregido: el 9780898747740 previamente indicado pertenece a otra obra. El 978-0-88275-010-1 es el usado consistentemente por Krieger (reimpresión facsímil de la ed. original de 1958); no se ha podido confirmar un ISBN específico distinto para la tirada de 1985 en Malabar, FL}
+}
+
+@book{fickettdavis1979,
+  author    = {Fickett, Wildon and Davis, William C.},
+  title     = {Detonation: Theory and Experiment},
+  year      = {1979},
+  publisher = {University of California Press},
+  address   = {Berkeley, CA},
+  isbn      = {0-520-03587-9},
+  note      = {Nombre de pila y ISBN corregidos: el autor es "Wildon" (no "William") Fickett; el ISBN 9780520039366 previamente indicado no corresponde a esta obra}
+}
+
+@book{francogarcia1995,
+  author    = {Franco García, Ángel},
+  title     = {Desarrollo avanzado de aplicaciones Windows con Borland C++ 4.0 y ObjectWindows 2.0},
+  year      = {1995},
+  month     = mar,
+  publisher = {McGraw-Hill},
+  address   = {Madrid},
+  isbn      = {84-481-1708-5},
+  note      = {Publicado el 14 de marzo de 1995}
+}
+
+@book{johanssonpersson1970,
+  author    = {Johansson, C. H. and Persson, P. A.},
+  title     = {Detonics of High Explosives},
+  year      = {1970},
+  publisher = {Academic Press},
+  address   = {Londres y Nueva York},
+  isbn      = {0-12-385550-0},
+  note      = {ISBN corregido: el 9780123909509 previamente indicado no resuelve en OpenLibrary/WorldCat; el ISBN correcto y consistente en todas las fuentes consultadas es 978-0-12-385550-3}
+}
+
+@book{kernighanritchie1985,
+  author    = {Kernighan, Brian W. and Ritchie, Dennis M.},
+  title     = {El lenguaje de programación C},
+  year      = {1985},
+  publisher = {Prentice Hall},
+  address   = {Barcelona},
+  note      = {No se ha podido confirmar ISBN ni datos de edición específicos para la tirada española de 1985 en Barcelona. Se localizó ISBN 968-880-205-0 para una edición posterior (Prentice-Hall Hispanoamericana, ~1991), que no se asigna aquí por no coincidir año/lugar}
+}
+
+@book{mader1979,
+  author    = {Mader, Charles L.},
+  title     = {Numerical Modeling of Detonations},
+  year      = {1979},
+  publisher = {University of California Press},
+  address   = {Berkeley, CA},
+  isbn      = {0-520-03655-7},
+  series    = {Los Alamos Series in Basic and Applied Science},
+  pages     = {485},
+  note      = {ISBN corregido: el 9780520038598 previamente indicado no corresponde a esta obra}
+}
+
+@misc{sawtell1993,
+  author = {Sawtell, Christopher},
+  title  = {Syllabus for the C Language Course},
+  year   = {1993},
+  address = {Linwood, Nueva Zelanda},
+  url    = {https://www.cs.auckland.ac.nz/~j-hamer/07.211/C/C-Lesson/},
+  note   = {Correo electrónico, chris@gerty.equinox.gen.nz. Distribuido originalmente por FTP como C-LESSON.ZIP; reproducido en la url indicada}
+}
+
+@book{schildt1994,
+  author    = {Schildt, Herbert},
+  title     = {Aplique Turbo C++ para Windows},
+  year      = {1994},
+  publisher = {McGraw-Hill/Interamericana de España},
+  address   = {Madrid},
+  isbn      = {84-481-0047-6},
+  note      = {Dialnet registra esta edición española como de 1992, no 1994; se mantiene 1994 por ser el año que consta en la memoria original. "Osborne" es el sello del original en inglés, no de la edición española}
+}
+
+@book{thorin1987,
+  author    = {Thorin, Marc},
+  title     = {Ingeniería del software},
+  year      = {1987},
+  publisher = {Paraninfo},
+  address   = {Madrid},
+  note      = {No se ha podido confirmar ISBN para la tirada de 1987. El ISBN 84-283-1547-7 localizado corresponde a una reedición posterior (c. 1991)}
+}
+
+@book{zimmerman1990,
+  author    = {Zimmerman, Scott and Zimmerman, Beverly},
+  title     = {La biblia del TURBO C: Fundamentos y técnicas avanzadas de programación},
+  year      = {1990},
+  publisher = {Anaya Multimedia},
+  address   = {Madrid},
+  isbn      = {84-7614-208-0},
+  pages     = {655}
+}
+```

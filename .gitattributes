@@ -12,9 +12,9 @@
 .gitignore      text eol=lf
 .gitattributes  text eol=lf
 
-# legacy/: se conserva byte a byte tal cual el original de 1996; nunca se
+# code/: se conserva byte a byte tal cual el original de 1996; nunca se
 # debe tocar (ni normalizar EOL, ni intentar diff de texto).
-legacy/** -text -diff
+code/** -text -diff
 
 # Binarios: nunca como texto, sin normalización de fin de línea.
 *.png   binary

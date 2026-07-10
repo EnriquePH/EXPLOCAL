@@ -2,10 +2,12 @@
 
 *El manual de usuario original de Explocal (1996) se distribuía como
 sistema de ayuda hipertexto de Windows 3.1 (`EXPLOCAL.HLP`, compilado a
-partir del código fuente `docs/help/AYUDA.RTF` con el Help Compiler de
-Microsoft, incluido también en el repositorio en `docs/help/`). Al no
-poder reproducirse aquí la navegación por hipervínculos e iconos propia
-de la ayuda de Windows, este anexo presenta linealmente el contenido de
+partir del código fuente `docs/hlp/AYUDA.RTF`, incluido también en el
+repositorio en `docs/hlp/`, con el Microsoft Help Compiler — ver
+[Anexo H](h-software-apoyo.md) para los detalles de versión de esta
+herramienta y del editor empleado para redactar el RTF). Al no poder
+reproducirse aquí la navegación por hipervínculos e iconos propia de la
+ayuda de Windows, este anexo presenta linealmente el contenido de
 `AYUDA.RTF`: la descripción de la aplicación y las instrucciones de uso
 completas. Se omiten los apartados de la ayuda que explican la teoría de
 la detonación y el método de cálculo, ya que reproducen literalmente el
@@ -48,7 +50,7 @@ explosivo, como:
 ### F.2.1 El menú
 
 
-*La tabla detallada de opciones del menú (equivalente a esta sección de la ayuda) se reproduce como **Tabla 6-7: Opciones del menú** en el apartado [6.3.3 Menú. Funciones respuesta](../capitulos/08-diseno.md#633-menú-funciones-respuesta) de esta memoria; se omite aquí para no duplicar contenido.*
+*La tabla detallada de opciones del menú (equivalente a esta sección de la ayuda) se reproduce como **Tabla 6-7: Opciones del menú** en el apartado [6.3.3 Menú. Funciones respuesta](../capitulos/08-diseno.md#menú.-funciones-respuesta) de esta memoria; se omite aquí para no duplicar contenido.*
 
 ### F.2.2 Introducir datos adicionales
 
