@@ -118,7 +118,7 @@ tanto la construcción como la utilización de la aplicación informática y
 se pueden clasificar según la siguiente división de *costes
 interdependientes:*
 
-(véase **tabla 5-1**)
+(véase **tabla [5-1](07-analisis-requisitos.md#tabla-5-1)**)
 
 []{#tabla-5-1}
 **Tabla 5-1: Costes del método automático**
@@ -257,7 +257,7 @@ Como consecuencia de lo anterior se consigue disminuir el tiempo de
 aprendizaje.
 
 Si no empleamos el ordenador incurriremos en los siguientes costes
-reflejados en la **tabla 5-2**:
+reflejados en la **tabla [5-2](07-analisis-requisitos.md#tabla-5-2)**:
 
 []{#tabla-5-2}
 **Tabla 5-2: Costes del método manual**
@@ -368,9 +368,9 @@ determinada, viene condicionado por las características que un sistema
 (o equipo) debe poseer para poder utilizar aplicaciones *Windows*.
 
 Tanto el *hardware* como el *software* necesario para ejecutar
-***Explocal*** es el que viene reflejado en la **tabla 5-3**.
+***Explocal*** es el que viene reflejado en la **tabla [5-3](07-analisis-requisitos.md#tabla-5-3)**.
 
-En la **tabla 5-3** también se incluyen las características del sistema
+En la **tabla [5-3](07-analisis-requisitos.md#tabla-5-3)** también se incluyen las características del sistema
 que se va a emplear en la codificación de ***Explocal***.
 
 []{#tabla-5-3}
@@ -620,11 +620,11 @@ sus datos adicionales (como pueden ser su fórmula, nombre completo,
 energía de formación, etc.) y de calcular otros (como su peso molecular,
 y su balance de oxígeno).
 
-Esto obliga a crear un archivo de datos (que se denominará REACTIVO.DAT)
+Esto obliga a crear un archivo de datos (que se denominará [REACTIVO.DAT](../anexos/d-archivos-datos.md#d.1-datos-de-los-reactivos-reactivos.dat))
 conteniendo información con datos de diversos componentes de explosivos.
 
 En el *ANEXO B* de la norma UNE 31-002 [[1]](13-referencias.md#referencia-1) se puede encontrar la
-información necesaria para crear REACTIVO.DAT.
+información necesaria para crear [REACTIVO.DAT](../anexos/d-archivos-datos.md#d.1-datos-de-los-reactivos-reactivos.dat).
 
 También se necesita incorporar información sobre los productos de
 detonación con datos sobre: átomo asociado al producto de detonación
@@ -632,10 +632,10 @@ detonación con datos sobre: átomo asociado al producto de detonación
 producto para el cálculo del balance de oxígeno, incremento de entalpía
 específica en un intervalo amplio de temperaturas, temperatura de
 vaporización y energía de formación. Todos estos datos se almacenan en
-el archivo TABLPROD.DAT.
+el archivo [TABLPROD.DAT](../anexos/d-archivos-datos.md#d.3-datos-de-los-productos-tablprod.dat).
 
 Los datos sobre los valores de las constantes de equilibrio se
-encuentran en el archivo CONSTANT.DAT y son los que incluye la norma UNE
+encuentran en el archivo [CONSTANT.DAT](../anexos/d-archivos-datos.md#d.2-datos-de-las-constantes-de-equilibrio-constant.dat) y son los que incluye la norma UNE
 31-002 [[1]](13-referencias.md#referencia-1) en su ANEXO C.
 
 Como se puede deducir de todo lo anterior se intenta colocar todos los
@@ -644,7 +644,7 @@ para que se puedan modificar sin esfuerzo. Esto es interesante debido a
 que los datos pueden variar dependiendo de la fuente de donde se tomen.
 
 Por último se considera un archivo con las descripciones de los errores
-que pueden ocurrir en la aplicación de los cálculos: ERROR.DAT.
+que pueden ocurrir en la aplicación de los cálculos: [ERROR.DAT](../anexos/d-archivos-datos.md#d.5-descripción-de-los-errores-error.dat).
 
 ## 5.6 Requisitos del mantenimiento
 

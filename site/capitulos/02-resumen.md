@@ -40,7 +40,7 @@ teóricas de cualquier mezcla explosiva.
 El método que se va a informatizar es un método que ha sido normalizado
 por la Asociación Española de Normalización
 ([AENOR](http://www.aenor.es)) y se encuentra recogido en la norma UNE
-31-002 \[1\].
+31-002 [[1]](13-referencias.md#referencia-1).
 
 El método se basa en un balance termoquímico a volumen constante, que
 permite conseguir una primera aproximación a parámetros como: el calor

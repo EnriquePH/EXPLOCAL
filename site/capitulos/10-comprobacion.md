@@ -21,7 +21,7 @@ Para aproximarse a la depuración, es necesario en primer lugar, evitar
 errores utilizando disciplinas de programación apropiadas y tener
 conocimiento de los errores potenciales.
 
-En la **tabla 8-1** se muestran algunos errores comunes, que se pueden
+En la **tabla [8-1](10-comprobacion.md#tabla-8-1)** se muestran algunos errores comunes, que se pueden
 evitar fácilmente mientras se escribe el código; prestando un poco de
 atención se puede ahorrar mucho tiempo en el proceso de comprobación:
 

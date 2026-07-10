@@ -23,12 +23,12 @@ las siguientes:
 
 - **Traducción a otros idiomas**: Se puede conseguir sin ni siquiera
   tener una copia del código C++ de la aplicación, puesto que todas las
-  cadenas de caracteres se almacenan en los recursos (EXPLOCAL.RC y sus
+  cadenas de caracteres se almacenan en los recursos ([EXPLOCAL.RC](../anexos/c-datos-recursos.md#c.1-código-del-archivo-de-recursos-principal-explocal.rc) y sus
   módulos de inclusión) y se pueden modificar con la aplicación *Resource
   Workshop* accediendo directamente al archivo ejecutable (EXPLOCAL.EXE).
 
 - **Actualización a *Windows* 95:** Se necesita cambiar el interfaz de
-  usuario (EXPLOCAL.CPP), dejando intacto el módulo de los cálculos.
+  usuario ([EXPLOCAL.CPP](../anexos/a-codigo-interfaz-usuario.md#a.1-código-del-módulo-principal-explocal.cpp)), dejando intacto el módulo de los cálculos.
 
   La actualización está facilitada por la modularidad del programa y
   dificultada por la necesidad de emplear una nueva biblioteca C++ para

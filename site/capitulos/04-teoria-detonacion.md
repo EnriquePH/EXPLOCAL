@@ -79,7 +79,7 @@ Debido a que el proceso de detonación es un proceso de gran complejidad
 es necesario despreciar los factores que influyen en él en menor medida,
 aunque sin perderlos de vista.
 
-La detonación ideal, se representa en la ***figura 2-1*** y supone que
+La detonación ideal, se representa en la ***figura [2-1](04-teoria-detonacion.md#figura-2-1)*** y supone que
 el frente de detonación (de forma plana) se mueve hacia el explosivo
 intacto a una velocidad constante **D**.
 
@@ -183,7 +183,7 @@ que:
 $$e(P,v_0) - e(P_0,v_0) = Q > 0 \Leftrightarrow P > P_0
 \tag{2-8}$$
 
-Estas conclusiones se representan gráficamente en la ***figura 2-2***.
+Estas conclusiones se representan gráficamente en la ***figura [2-2](04-teoria-detonacion.md#figura-2-2)***.
 
 ![Figura 2-2: Hugoniot: Reactiva y No Reactiva](../assets/figuras/image15.png){#figura-2-2}
 
@@ -209,13 +209,13 @@ a\) **v≤v~0~** y **P\>P~0~** (que corresponde a las detonaciones.)
 
 b\) **v\>v~0~** y **P≤P~0~** (deflagraciones.)
 
-En las ***figuras 2-2**, **2-3** y **2-4***, se puede ver como la
+En las ***figuras [2-2](04-teoria-detonacion.md#figura-2-2)**, **[2-3](04-teoria-detonacion.md#figura-2-3)** y **[2-4](04-teoria-detonacion.md#figura-2-4)***, se puede ver como la
 presencia del calor de explosión exotérmico: aleja la hugoniot del
 estado inicial del explosivo, y además: divide la curva en dos ramas
 diferentes, separadas por un tramo de estados incompatibles que está
 limitado por los estados a volumen y presión constante.
 
-Como se puede apreciar en la ***figura 2-3***, en general cada *recta de
+Como se puede apreciar en la ***figura [2-3](04-teoria-detonacion.md#figura-2-3)***, en general cada *recta de
 Rayleigh* corta a la hugoniot en **dos puntos**.
 
 Excepto cuando la *recta es tangente* a la *hugoniot*.
@@ -244,7 +244,7 @@ cualquier deflagración.
 
 ## 2.6 El estado de Chapman-Jouguet (CJ)
 
-En la ***figura 2-3*** se comprueba como de todos los estados de
+En la ***figura [2-3](04-teoria-detonacion.md#figura-2-3)*** se comprueba como de todos los estados de
 detonación posibles, existe uno en el que la velocidad de detonación es
 mínima, denominado estado C-J. Precisamente corresponde al punto donde
 una de las *rectas de Rayleigh* es tangente a la *hugoniot*.
@@ -286,7 +286,7 @@ tramos, por lo que en la hugoniot aparecerán: detonaciones fuertes,
 detonación CJ, detonaciones débiles, estado a volumen constante, estados
 incompatibles, deflagración a presión constante, deflagraciones débiles,
 deflagración CJ y deflagraciones fuertes, como se puede apreciar en la
-***figura 2-4***. En la **tabla 2-1**, aparecen algunas de sus
+***figura [2-4](04-teoria-detonacion.md#figura-2-4)***. En la **tabla [2-1](04-teoria-detonacion.md#tabla-2-1)**, aparecen algunas de sus
 características.
 
 ![Figura 2-4: Hugoniot: Detonaciones y deflagraciones fuertes y débiles](../assets/figuras/image20.png){#figura-2-4}

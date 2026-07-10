@@ -284,7 +284,7 @@ empleando un modelo de memoria *Large* (grande) y con instrucciones para
 el procesador 80386 con procesador matemático 80387.
 
 Los archivos que forman parte del proyecto de la aplicación informática
-***Explocal***, se relacionan en la **tabla 7-1**.
+***Explocal***, se relacionan en la **tabla [7-1](09-codificacion.md#tabla-7-1)**.
 
 []{#tabla-7-1}
 **Tabla 7-1: Contenido del archivo de proyecto**
@@ -304,13 +304,13 @@ En la inclusión de módulos se emplea la inclusión condicional:
 más veces y ralentizar el proceso de compilación. Por esta razón cada
 módulo define un macro de identificación propio, cuyo nombre es casi
 coincidente con el del archivo (por ejemplo el macro identificador del
-archivo de cabecera EXPLOCAL.H es __EXPLOCAL_H).
+archivo de cabecera [EXPLOCAL.H](../anexos/a-codigo-interfaz-usuario.md#a.2-cabecera-con-las-macros-explocal.h) es __EXPLOCAL_H).
 
-EXPLOCAL.CPP incluye el archivo que contiene los macros empleados en el
-código (EXPLOCAL.H) y también el archivo con los cálculos (CALCULOS.H).
+[EXPLOCAL.CPP](../anexos/a-codigo-interfaz-usuario.md#a.1-código-del-módulo-principal-explocal.cpp) incluye el archivo que contiene los macros empleados en el
+código ([EXPLOCAL.H](../anexos/a-codigo-interfaz-usuario.md#a.2-cabecera-con-las-macros-explocal.h)) y también el archivo con los cálculos ([CALCULOS.H](../anexos/b-codigo-modulo-calculos.md)).
 
-Como el cabecero CALCULOS.H necesita acceder a los macros también
-incluye a EXPLOCAL.H (aunque se evite la doble inclusión mediante
+Como el cabecero [CALCULOS.H](../anexos/b-codigo-modulo-calculos.md) necesita acceder a los macros también
+incluye a [EXPLOCAL.H](../anexos/a-codigo-interfaz-usuario.md#a.2-cabecera-con-las-macros-explocal.h) (aunque se evite la doble inclusión mediante
 condiciones), la razón que obliga a que la relación de inclusión se
 disponga de este modo es poder independizar lo más posible los dos
 módulos principales.
@@ -339,7 +339,7 @@ los transforma en un archivo \*.RES, que se enlaza con el programa. Los
 recursos de ***Explocal*** son los que incluyen la información de todos
 los elementos comunes diseñados en el apartado **6.3**. Los elementos
 que constituyen los recursos de ***Explocal*** se han organizado en
-distintos archivos según la **tabla 7-2**.
+distintos archivos según la **tabla [7-2](09-codificacion.md#tabla-7-2)**.
 
 []{#tabla-7-2}
 **Tabla 7-2: Archivos de recursos**
@@ -348,9 +348,9 @@ distintos archivos según la **tabla 7-2**.
 |---|---|
 | EXPLOCAL.RC | Archivo principal, incluye todos los demás archivos. |
 | MENU.RC | Menú de la aplicación y teclas aceleradoras. |
-| DISCO.ICO, APLIC.ICO, HIJAS.ICO | Iconos gráficos de ***Explocal***. Se muestran en la **figura 6-3**. |
+| DISCO.ICO, APLIC.ICO, HIJAS.ICO | Iconos gráficos de ***Explocal***. Se muestran en la **figura [6-3](08-diseno.md#figura-6-3)**. |
 | KFILEDIA.DLG, KSTDWND.DLG, KINPUTDIA.DLG, DIALOGOS.DLG | Diálogos de acceso al disco, estándar, y de entrada de datos. Todos los diálogos se representan en las figuras desde la **6-4** a la **6-12**. |
-| EXPLOCAL.BMP | Mapa de bits: Gráfico que se muestra al cargar la aplicación. Se puede ver en la figura 6-13. |
+| EXPLOCAL.BMP | Mapa de bits: Gráfico que se muestra al cargar la aplicación. Se puede ver en la figura [6-13](08-diseno.md#figura-6-13). |
 | VERSION.RC | Descripción de la versión de ***Explocal***. |
 | EXPLOCAL.H | Archivo que contiene los macros empleados (como los identificadores de los controles de los diálogos). |
 
@@ -405,12 +405,12 @@ La relación o jerarquía entre las clases se representa en la ***figura
 
 ![Figura 7-2: Jerarquía de clases del interfaz de usuario MDI](../assets/figuras/image67.png){#figura-7-2}
 
-A las clases de la ***figura 7-2*** hay que añadir la clase *Explosivo*
-definida en el módulo CALCULOS.H e independiente de la jerarquía de las
+A las clases de la ***figura [7-2](09-codificacion.md#figura-7-2)*** hay que añadir la clase *Explosivo*
+definida en el módulo [CALCULOS.H](../anexos/b-codigo-modulo-calculos.md) e independiente de la jerarquía de las
 otras clases.
 
 El propósito de todas las clases definidas por ***Explocal*** se tiene
-en cuenta en la ***tabla 7-3***.
+en cuenta en la ***tabla [7-3](09-codificacion.md#tabla-7-3)***.
 
 []{#tabla-7-3}
 **Tabla 7-3: Propósito de las clases definidas para Explocal**

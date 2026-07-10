@@ -68,7 +68,7 @@ g/cm^3^ formadas únicamente por C, H, O y N.
 Cuanto mayor sea la proporción de otros elementos distintos de los
 cuatro anteriores, menor será la precisión obtenida.
 
-El método de cálculo se esquematiza, en la **figura 3-1**.
+El método de cálculo se esquematiza, en la **figura [3-1](05-metodo-calculo.md#figura-3-1)**.
 
 ![Figura 3-1: Hugoniot: Esquema del método de cálculo simplificado](../assets/figuras/image23.png){#figura-3-1}
 
@@ -91,7 +91,7 @@ donde:
 | **Nc** | Número de componentes de la mezcla explosiva. |
 | **a~ij~** | Átomos del elemento j en la fórmula del componente i. |
 | **p~i~** | Porcentaje en peso del componente i. (%) |
-| **Pm~i~** | Peso molecular del componente i en (g/mol), (se calcula a partir de las masas atómicas de la **tabla 3-1**) |
+| **Pm~i~** | Peso molecular del componente i en (g/mol), (se calcula a partir de las masas atómicas de la **tabla [3-1](05-metodo-calculo.md#tabla-3-1)**) |
 | **Ne** | Número de elementos químicos que forman la composición del explosivo. |
 
 ### 3.2.2 Cálculo de la energía de formación del explosivo
@@ -126,7 +126,7 @@ donde:
 | Símbolo | Significado |
 |---|---|
 | **BO** | *Balance de oxígeno* en (%) = (g/100g). |
-| **Pm[O]** | *Peso molecular del oxígeno atómico*: 15,9994 g/mol (véase **tabla 3-1**). |
+| **Pm[O]** | *Peso molecular del oxígeno atómico*: 15,9994 g/mol (véase **tabla [3-1](05-metodo-calculo.md#tabla-3-1)**). |
 | **Pm** | *Peso molecular del explosivo*, si el explosivo está expresado por su fórmula para 1 kg, en (g/mol). Pm =1 kg/mol = 1000 g/mol. |
 | **O~E~** | *Oxígeno existente* (o el oxígeno que contiene el explosivo). o los átomos de oxígeno que figuran en la fórmula de 1 kg de explosivo. |
 | **O~N~** | *Oxígeno necesario* para oxidar los elementos del explosivo. |
@@ -135,13 +135,13 @@ Nota I: **O~E~** y **O~N~**, se consideran en la norma UNE 31-002
 [[1]](13-referencias.md#referencia-1) en g/mol, es decir ya incluyen el factor: 15,9994.
 
 Para calcular el *oxígeno necesario*, se considera que los elementos se
-oxidan para formar los productos que se indican en la **tabla 3-1**.
+oxidan para formar los productos que se indican en la **tabla [3-1](05-metodo-calculo.md#tabla-3-1)**.
 
 El *oxígeno necesario* es igual a la suma de los átomos de cada
 elemento, multiplicado por el peso para el cálculo de balance de
 oxígeno.
 
-Como se puede apreciar en la ***tabla 3-1***, existen diferencias entre
+Como se puede apreciar en la ***tabla [3-1](05-metodo-calculo.md#tabla-3-1)***, existen diferencias entre
 los productos para el balance de oxígeno y los productos de explosión.
 
 Los datos de las masas atómicas que incluye la norma UNE 31-002 [[1]](13-referencias.md#referencia-1),
@@ -195,7 +195,7 @@ Con el único objetivo de simplificar el cálculo de la composición de los
 productos de detonación, se limita el número total de estos.
 
 Sólo se toman en consideración los productos de detonación mayoritarios
-(véase **tabla 3-1** o **tabla 3-2**).
+(véase **tabla [3-1](05-metodo-calculo.md#tabla-3-1)** o **tabla [3-2](05-metodo-calculo.md#tabla-3-2)**).
 
 Se tienen en cuenta los siguientes productos, según el caso:
 
@@ -322,7 +322,7 @@ donde:
 | Símbolo | Significado |
 |---|---|
 | **P** | Presión de detonación en (Pa). |
-| **n~g~** | Cantidad de gases producida en la detonación en (mol/kg). En la **tabla 3-2** se incluye la temperatura a la que los productos de explosión están en estado gaseoso. *(Tvapor)* |
+| **n~g~** | Cantidad de gases producida en la detonación en (mol/kg). En la **tabla [3-2](05-metodo-calculo.md#tabla-3-2)** se incluye la temperatura a la que los productos de explosión están en estado gaseoso. *(Tvapor)* |
 | **F** | Factor de fugacidad de la constante de equilibrio en (Pa · kg/mol). |
 | **ρ~o~** | Densidad inicial o de encartuchado en (kg/m^3^). 1 g/cm^3^ = 1000 kg/m^3^ |
 | **ρ** | Densidad después de la transformación a volumen constante en (kg/m^3^). Si se desprecia al volumen ocupado por los productos condensados se puede considerar igual a la densidad inicial. |
@@ -333,7 +333,7 @@ donde:
 | **K~2~'** | Constante de equilibrio independiente de la presión (kg/mol). |
 
 Los equilibrios químicos dependen fuertemente de la temperatura, como se
-puede apreciar en la **tabla 3-3** y en las **figuras 3-2** y **3-3**,
+puede apreciar en la **tabla [3-3](05-metodo-calculo.md#tabla-3-3)** y en las **figuras [3-2](05-metodo-calculo.md#figura-3-2)** y **[3-3](05-metodo-calculo.md#figura-3-3)**,
 dónde se incluyen los valores de ambas constantes: **K~1~** y **K~2~**
 en un intervalo de temperaturas entre 298 K y 6000 K.
 
@@ -471,7 +471,7 @@ $$2 \cdot \dfrac{K_1}{K_2'^2} \cdot nCO^3 + \dfrac{K_1+2}{K_2'} \cdot nCO^2 + \l
 
 
 El algoritmo de resolución de ecuaciones de tercer grado se representa
-en la ***figura 3-4***. (Adaptado de *Tsipkin, G.G y Tsipkin, A.G*.
+en la ***figura [3-4](05-metodo-calculo.md#figura-3-4)***. (Adaptado de *Tsipkin, G.G y Tsipkin, A.G*.
 [[8]](13-referencias.md#referencia-8))
 
 Si ninguna de las tres soluciones de la ecuación (3-20) produce un
@@ -552,8 +552,8 @@ donde:
 
 | Símbolo | Significado |
 |---|---|
-| **∆Eº~fj~** | Energía de formación del producto j a Tº, en (kcal/mol). (véase **tabla 3-2**) |
-| **(H^T^-H^0^)~j~** | Incremento de energía interna desde Tº a T del producto de explosión j, en (kcal/mol). Los valores de H^T^ - H^0^ están tabulados para cada producto de explosión en la **tabla 3-4**. |
+| **∆Eº~fj~** | Energía de formación del producto j a Tº, en (kcal/mol). (véase **tabla [3-2](05-metodo-calculo.md#tabla-3-2)**) |
+| **(H^T^-H^0^)~j~** | Incremento de energía interna desde Tº a T del producto de explosión j, en (kcal/mol). Los valores de H^T^ - H^0^ están tabulados para cada producto de explosión en la **tabla [3-4](05-metodo-calculo.md#tabla-3-4)**. |
 | **n~g~** | Moles de productos gaseosos, (mol/kg). |
 | **R** | R=1,9871917·10^-3^ (kcal·mol^-1^·kg^-1^). |
 | **n~j~** | Cantidad de producto j, formada en la reacción de explosión, (mol/kg). |
@@ -582,7 +582,7 @@ donde:
 
 *Tabla dividida en varios bloques de columnas por motivos de maquetación (35 especies químicas no caben en el ancho de una página); todas comparten las mismas filas de temperatura T (K)*
 
-*Tabla 3-4 (1/5)*
+*Tabla [3-4](05-metodo-calculo.md#tabla-3-4) (1/5)*
 
 | T (K) | Al~2~O~3~ | B~2~O~3~ | BaO | BeO | BrH | C | CO |
 |---|---|---|---|---|---|---|---|
@@ -646,7 +646,7 @@ donde:
 | 5900 | 213,102 | 242,535 | 91,351 | 224,039 | 48,948 | 32,683 | 48,595 |
 | ***6000*** | ***216,564*** | ***245,107*** | ***92,741*** | ***224,972*** | ***49,891*** | ***33,342*** | ***49,513*** |
 
-*Tabla 3-4 (2/5)*
+*Tabla [3-4](05-metodo-calculo.md#tabla-3-4) (2/5)*
 
 | T (K) | CO~2~ | CaO | ClH | CoO | CuO | FH | FeO |
 |---|---|---|---|---|---|---|---|
@@ -710,7 +710,7 @@ donde:
 | 5900 | 80,617 | 157,700 | 48,464 | 89,564 | 134,139 | 47,236 | 178,292 |
 | ***6000*** | ***82,168*** | ***161,579*** | ***49,402*** | ***91,114*** | ***136,339*** | ***48,166*** | ***179,339*** |
 
-*Tabla 3-4 (3/5)*
+*Tabla [3-4](05-metodo-calculo.md#tabla-3-4) (3/5)*
 
 | T (K) | H~2~ | H~2~O | Hg | K~2~CO~3~ | Li~2~CO~3~ | MgO | MnO |
 |---|---|---|---|---|---|---|---|
@@ -774,7 +774,7 @@ donde:
 | 5900 | 48,788 | 70,690 | 42,532 | 277,008 | 253,047 | 196,284 | 88,193 |
 | ***6000*** | ***49,796*** | ***72,131*** | ***43,037*** | ***282,008*** | ***257,479*** | ***197,245*** | ***89,543*** |
 
-*Tabla 3-4 (4/5)*
+*Tabla [3-4](05-metodo-calculo.md#tabla-3-4) (4/5)*
 
 | T (K) | MoO~3~ | N~2~ | Na~2~CO~3~ | NiO | O~2~ | PO | PbO |
 |---|---|---|---|---|---|---|---|
@@ -838,7 +838,7 @@ donde:
 | 5900 | 200,820 | 48,321 | 254,795 | 92,231 | 52,452 | 50,054 | 114,692 |
 | ***6000*** | ***202,805*** | ***49,237*** | ***259,325*** | ***93,661*** | ***53,479*** | ***50,978*** | ***115,740*** |
 
-*Tabla 3-4 (5/5)*
+*Tabla [3-4](05-metodo-calculo.md#tabla-3-4) (5/5)*
 
 | T (K) | SO~2~ | Sb~2~O~3~ | SiO~2~ | TiO~2~ | WO~3~ | ZnO | ZrO~2~ |
 |---|---|---|---|---|---|---|---|
@@ -1026,7 +1026,7 @@ donde:
 | **Γ~CJ~** | Coeficiente adiabático ( - ). Suponiendo los gases politrópicos (gases ideales con capacidad calorífica constante, la expresión se deduce de las ecuaciones mecánicas del choque.) |
 
 La expresiones (3-35), (3-36), (3-39) y (3-49), se representan en las
-**figuras 3-5**, **3-6**, **3-7** y **3-8**, para un intervalo de
+**figuras [3-5](05-metodo-calculo.md#figura-3-5)**, **[3-6](05-metodo-calculo.md#figura-3-6)**, **[3-7](05-metodo-calculo.md#figura-3-7)** y **[3-8](05-metodo-calculo.md#figura-3-8)**, para un intervalo de
 densidades iniciales de 1 g/cm^3^ a 2 g/cm^3^.
 
 ![Figura 3-5: Presión de detonación](../assets/figuras/image49.png){#figura-3-5}[^cap3-6]

@@ -50,7 +50,7 @@ explosivo, como:
 ### F.2.1 El menú
 
 
-*La tabla detallada de opciones del menú (equivalente a esta sección de la ayuda) se reproduce como **Tabla 6-7: Opciones del menú** en el apartado [6.3.3 Menú. Funciones respuesta](../capitulos/08-diseno.md#menú.-funciones-respuesta) de esta memoria; se omite aquí para no duplicar contenido.*
+*La tabla detallada de opciones del menú (equivalente a esta sección de la ayuda) se reproduce como **Tabla [6-7](../capitulos/08-diseno.md#tabla-6-7): Opciones del menú** en el apartado [6.3.3 Menú. Funciones respuesta](../capitulos/08-diseno.md#menú.-funciones-respuesta) de esta memoria; se omite aquí para no duplicar contenido.*
 
 ### F.2.2 Introducir datos adicionales
 

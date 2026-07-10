@@ -81,7 +81,7 @@
 [Anexo A: Código del interfaz de usuario](anexos/a-codigo-interfaz-usuario.md)  
     [A.1 CÓDIGO DEL MÓDULO PRINCIPAL (EXPLOCAL.CPP)](anexos/a-codigo-interfaz-usuario.md#a.1-código-del-módulo-principal-explocal.cpp)  
     [A.2 CABECERA CON LAS MACROS (EXPLOCAL.H)](anexos/a-codigo-interfaz-usuario.md#a.2-cabecera-con-las-macros-explocal.h)  
-    [A.3 ARCHIVO DE DEFINICIÓN (EXPLOCAL.CPP)](anexos/a-codigo-interfaz-usuario.md#a.3-archivo-de-definición-explocal.cpp)  
+    [A.3 ARCHIVO DE DEFINICIÓN (EXPLOCAL.DEF)](anexos/a-codigo-interfaz-usuario.md#a.3-archivo-de-definición-explocal.def)  
 [Anexo B: Código del módulo de cálculos](anexos/b-codigo-modulo-calculos.md)  
 [Anexo C: Datos de los recursos](anexos/c-datos-recursos.md)  
     [C.1 CÓDIGO DEL ARCHIVO DE RECURSOS PRINCIPAL (EXPLOCAL.RC)](anexos/c-datos-recursos.md#c.1-código-del-archivo-de-recursos-principal-explocal.rc)  

@@ -100,12 +100,12 @@ cálculos.
 
 Para ser fiel al principio de desacoplamiento entre módulos: el nexo de
 unión entre ambos módulos debe ser lo más reducido posible, como se
-puede apreciar en el esquema reflejado en la ***figura 6-1***:
+puede apreciar en el esquema reflejado en la ***figura 6-1:
 
 ***Figura 6-1: Módulos principales***
 
 El código del interfaz de usuario está recogido en el archivo
-EXPLOCAL.CPP e incluye el fichero de cabecera CALCULOS.H que contiene el
+[EXPLOCAL.CPP](../anexos/a-codigo-interfaz-usuario.md#a.1-código-del-módulo-principal-explocal.cpp) e incluye el fichero de cabecera [CALCULOS.H](../anexos/b-codigo-modulo-calculos.md) que contiene el
 código relativo al cálculo de las características teóricas de los
 explosivos.
 
@@ -139,18 +139,18 @@ Fuente: Elaboración propia.
 El diseño de las funciones necesarias para realizar los cálculos está
 fuertemente influenciado por la organización de las estructuras de
 datos. El flujo de información en el módulo de cálculos, teniendo en
-cuenta la clasificación de la ***tabla 6-1***, se representa en la
-***figura 6-2***.
+cuenta la clasificación de la ***tabla [6-1](08-diseno.md#tabla-6-1)***, se representa en la
+***figura 6-2.
 
 ***Figura 6-2: Flujo de información entre los datos de los cálculos***
 
-Cada tipo de dato, clasificado en la ***tabla 6-1*** dependiendo de la
+Cada tipo de dato, clasificado en la ***tabla [6-1](08-diseno.md#tabla-6-1)*** dependiendo de la
 misión que desempeña en los cálculos, está constituido por una serie de
 variables y estructuras que se agrupan en función de la información que
 almacenan.
 
 Una estructura de datos, se define como un conjunto de variables
-relacionadas entre sí. En las ***tablas 6-2***, ***6-3*** y ***6-4*** se
+relacionadas entre sí. En las ***tablas [6-2](08-diseno.md#tabla-6-2)***, ***[6-3](08-diseno.md#tabla-6-3)*** y ***[6-4](08-diseno.md#tabla-6-4)*** se
 organizan los datos necesarios para el cálculo de las características
 teóricas de los explosivos en: variables simples y en estructuras. Esta
 organización abre una vía para construir un algoritmo de resolución.
@@ -190,7 +190,7 @@ tabla; el contenido tabular (nombres de variables y estructuras) no se
 recuperó en la conversión desde el Word original de 1996 y no ha podido
 reconstruirse con fiabilidad a partir del texto disponible.*
 
-Las ***tablas 6-2, 6-3** y **6-4***, contienen (en negrita) los nombres
+Las ***tablas [6-2](08-diseno.md#tabla-6-2), [6-3](08-diseno.md#tabla-6-3)** y **[6-4](08-diseno.md#tabla-6-4)***, contienen (en negrita) los nombres
 con los que se va a designar a las variables y a las estructuras en el
 código C++. La organización realizada agrupa datos con una estrecha
 relación.
@@ -201,14 +201,14 @@ de temperatura, esta propiedad simplifica las funciones de acceso a
 estos datos.
 
 La tabla de datos de los productos de explosión almacena la información
-incluida en las ***tablas 3-1*** y ***3-2*** junto con los datos de las
+incluida en las ***tablas [3-1](05-metodo-calculo.md#tabla-3-1)*** y ***[3-2](05-metodo-calculo.md#tabla-3-2)*** junto con los datos de las
 entalpías de los productos de explosión que vienen en la ***tabla
 3-4***.
 
 Las tablas de las *constantes de equilibrio* contienen los datos que
 incluye la norma UNE 31-002 [[1]](13-referencias.md#referencia-1) en su ANEXO C.
 
-En la **tabla 3-3** se comparan los datos de las constantes de
+En la **tabla [3-3](05-metodo-calculo.md#tabla-3-3)** se comparan los datos de las constantes de
 equilibrio con los de *Meyer R.* [[8]](13-referencias.md#referencia-8).
 
 Como ya se tuvo en cuenta en la fase de requisitos, todos los datos se
@@ -250,7 +250,7 @@ cálculo, el interfaz de usuario debe llamar a una única función para
 conseguir los resultados.
 
 La función principal denominada **CalcResultado** se esquematiza en la
-***tabla 6-5***, teniendo en cuenta las funciones de menor nivel que
+***tabla [6-5](08-diseno.md#tabla-6-5)***, teniendo en cuenta las funciones de menor nivel que
 debe incluir en su diseño. Entre estas funciones es de hacer notar la
 inclusión de las funciones de detección de errores.
 
@@ -264,7 +264,7 @@ acceso y manejo de las tablas de datos, consiguiéndose, de este modo
 enlazar la función principal con las estructuras y variables de datos.
 
 Todas las funciones de los cálculos se incluyen, junto con una
-descripción detallada en la ***tabla 6-6***, entre ellas se incluyen las
+descripción detallada en la ***tabla [6-6](08-diseno.md#tabla-6-6)***, entre ellas se incluyen las
 funciones principales, las auxiliares, las de consigna de errores y las
 de lectura de datos del disco.
 
@@ -283,10 +283,10 @@ de lectura de datos del disco.
 | **7** | Calcula los moles gaseosos a la temperatura de explosión, la masa molecular de los productos, los parámetros adicionales y los de detonación mediante las fórmulas de Kamlet-Jacobs. | **CalcNg**, **CalcM**, **CalcParamAdic**, **CalcKamletJacobs** |
 | **8** | Verificar los resultados obtenidos. | **VerificarResultados** |
 
-Nota I: Las funciones de la **tabla 6-5** están ordenados por orden de
+Nota I: Las funciones de la **tabla [6-5](08-diseno.md#tabla-6-5)** están ordenados por orden de
 ejecución.
 
-Nota II: La **tabla 6-5**, constituye un esquema del algoritmo del
+Nota II: La **tabla [6-5](08-diseno.md#tabla-6-5)**, constituye un esquema del algoritmo del
 proceso de cálculo.
 
 []{#tabla-6-6}
@@ -312,7 +312,7 @@ proceso de cálculo.
 | **CalcQexplosion** | - | Calor de explosión. | Calcula el calor de explosión (kcal/kg) a partir de la energía interna y los productos de explosión. | - | Resultado.Qexplosion, TablaProd[i].Moles, TablaProd[i].Eformacion |
 | **CalcQsensible** | temperatura | Calor sensible de los productos de explosión (kcal/kg) | Se emplea en la resolución de la ecuación en temperatura en los procesos iterativos. | CalcNg, HT_H298 | TablaProd[i].Moles |
 | **CalcRemonte** | temperatura, Bh, Bo, Bc, nCO, Grafito | SI / NO | Realiza el remonte del sistema, determinando los moles de CO~2~, CO, C, H~2~O, H~2~. Además verifica si la solución es correcta o no. | K2_ | TablaProd[i].Moles |
-| **CalcResultado** | - | - | Enlaza todas las funciones para conseguir el algoritmo completo. | Ver tabla 3-4 | Resultado.BO, Resultado.Ng |
+| **CalcResultado** | - | - | Enlaza todas las funciones para conseguir el algoritmo completo. | Ver tabla [3-4](05-metodo-calculo.md#tabla-3-4) | Resultado.BO, Resultado.Ng |
 | **CalcSolucion** | fn_CO, CotaInf, CotaSup | Solución de la ecuación polinómica | Devuelve los moles de CO producidos (mol/kg). Teniendo en cuenta las restricciones de la solución. Cotas superior e inferior. | - | - |
 | **CalcTermindep** | j | Término independiente j. | Calcula el termino independiente del sistema de ecuaciones formado por los balances de H, O, C. Sólo funciona para explosivos deficitarios en oxígeno. | CalcNumAt | Resultado.Formula_1kg, TablaProd[i].Moles |
 | **CalcTexplosion** | - | Temperatura de explosión. | Resuelve la ecuación: *Qsensible(temperatura)=Qexplosion*. Sólo funciona si el explosivo es excedentario en oxígeno. | CalcQsensible | Resultado.Texplosion, Resultado.Qexplosion |
@@ -429,7 +429,7 @@ ficheros del disco:
 Sólo se utiliza para avisar al usuario de la grabación o lectura de
 ficheros en disco, únicamente desempeña funciones estéticas.
 
-La ***figura 6-3*** muestra el aspecto que presentan los iconos que se
+La ***figura [6-3](08-diseno.md#figura-6-3)*** muestra el aspecto que presentan los iconos que se
 han diseñado.
 
 ![Figura 6-3: Diseño de los iconos de Explocal](../assets/figuras/image54.png){#figura-6-3}
@@ -490,7 +490,7 @@ El objetivo de estas funciones se puede cumplir: directamente o con la
 ayuda de cuadros de diálogo, por lo que en muchas ocasiones es tarea del
 menú ceder el control de la aplicación a los cuadros de diálogo.
 
-En la ***tabla 6-7***, se incluyen todas las opciones del menú contando
+En la ***tabla [6-7](08-diseno.md#tabla-6-7)***, se incluyen todas las opciones del menú contando
 con: las selecciones, los submenús, el objetivo que cumplen, las teclas
 aceleradoras y las de acceso rápido.
 
@@ -546,7 +546,7 @@ Nota III: Las entradas marcadas en gris en la tabla, permanecen
 desactivadas mientras no se creen ventanas hijas puesto que corresponden
 a funciones que trabajan con estas ventanas.
 
-Como se puede apreciar en la **tabla 6-7**: la construcción del menú se
+Como se puede apreciar en la **tabla [6-7](08-diseno.md#tabla-6-7)**: la construcción del menú se
 ha diseñado procurando que (tanto en las selecciones como en los
 submenús): los nombres (y su situación), las teclas de acceso rápido y
 las teclas aceleradoras, coincidan con los de los editores incluidos en
@@ -574,7 +574,7 @@ Un *control* es un tipo específico de ventana de entrada o salida. Un
 control pertenece a su ventana padre que en este caso es el cuadro de
 diálogo.
 
-Como ya se indicó en la ***tabla 6-7***, ciertas funciones del menú
+Como ya se indicó en la ***tabla [6-7](08-diseno.md#tabla-6-7)***, ciertas funciones del menú
 necesitan el auxilio de cuadros de diálogo para ejecutarse.
 
 En general, ***Explocal***, emplea cuadros de diálogo cuando es
@@ -588,7 +588,7 @@ Existen cuadros de diálogo que necesitan que se les proporcione una
 función de autoconfiguración que cargue datos o inicialice *los cuadros
 de lista* y los *cuadros de edición*.
 
-En la ***tabla 6-8*** se listan todos los cuadros de diálogo de
+En la ***tabla [6-8](08-diseno.md#tabla-6-8)*** se listan todos los cuadros de diálogo de
 ***Explocal*** y su modo de acceso.
 
 []{#tabla-6-8}
@@ -641,7 +641,7 @@ Controls)*.
 ![Figura 6-14: DIALOGO_6](../assets/figuras/image65.png){#figura-6-14}
 
 Los diálogos que leen los datos de los reactivos almacenados en el
-archivo de texto REACTIVO.DAT (diálogos: DIALOGO_1, DIALOGO_4)
+archivo de texto [REACTIVO.DAT](../anexos/d-archivos-datos.md#d.1-datos-de-los-reactivos-reactivos.dat) (diálogos: DIALOGO_1, DIALOGO_4)
 contienen un *cuadro de lista* con los nombres de los reactivos y otro
 con los datos de un reactivo.
 
@@ -654,19 +654,19 @@ dado, recibe los mensajes del usuario. Este rectángulo se debe poder
 mover, ordenadamente, por todos los controles con la ayuda del ratón y
 sólo con el teclado.
 
-El diálogo de *Preferencias* (véase ***figura 6-14***) modifica el
-archivo de inicialización EXPLOCAL.INI.
+El diálogo de *Preferencias* (véase ***figura [6-14](08-diseno.md#figura-6-14)***) modifica el
+archivo de inicialización [EXPLOCAL.INI](../anexos/d-archivos-datos.md#d.4-archivo-de-inicialización-explocal.ini).
 
 ### 6.3.5 Mapas de Bits
 
 Al iniciar la aplicación ***Explocal***, es necesario cargar todos los
 datos necesarios para su funcionamiento, situados en los archivos
-TABLPROD.DAT, CONSTANT.DAT y ERROR.DAT.
+[TABLPROD.DAT](../anexos/d-archivos-datos.md#d.3-datos-de-los-productos-tablprod.dat), [CONSTANT.DAT](../anexos/d-archivos-datos.md#d.2-datos-de-las-constantes-de-equilibrio-constant.dat) y [ERROR.DAT](../anexos/d-archivos-datos.md#d.5-descripción-de-los-errores-error.dat).
 
 Esta operación lleva cierto tiempo y mientras transcurre: se cambia el
 cursor al cursor de espera (reloj de arena) y se muestra un *mapa de
 bits* con un logotipo del programa.
 
-El mapa de bits se muestra en la ***figura 6-15***.
+El mapa de bits se muestra en la ***figura [6-15](08-diseno.md#figura-6-15)***.
 
 ![Figura 6-15: Mapa de bits](../assets/figuras/image66.png){#figura-6-15}

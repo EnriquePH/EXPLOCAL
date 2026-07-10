@@ -7,7 +7,7 @@ teóricas de los explosivos.*
 
 El método de cálculo empleado por la aplicación informática es el
 recogido en la norma *UNE 31-002-94 "Cálculo de las principales
-características teóricas de los explosivos*" \[1\].
+características teóricas de los explosivos*" [[1]](13-referencias.md#referencia-1).
 
 La herramienta informática, además permitirá *comparar*, con una cierta
 comodidad, el efecto que produce en los resultados, cualquier variación
@@ -20,7 +20,7 @@ la aplicación informática sea de fácil manejo y que la introducción de
 datos sea lo más simple posible.
 
 La informatización del método de cálculo, según la norma *UNE 31-002*
-\[1\]*,* permitirá desarrollar una herramienta de cálculo, con que se
+[[1]](13-referencias.md#referencia-1)*,* permitirá desarrollar una herramienta de cálculo, con que se
 puedan obtener las características de cualquier mezcla explosiva, de una
 forma rápida, ágil y eficaz. Esto es debido a que se conseguirá reducir
 el tiempo necesario para efectuar el cálculo de forma manual, de
@@ -62,7 +62,7 @@ obtener una *primera estimación* de los parámetros de detonación de
 cualquier mezcla explosiva.
 
 Las principales **limitaciones** de los resultados obtenidos por el
-método de cálculo UNE 31-002 \[1\], son las siguientes:
+método de cálculo UNE 31-002 [[1]](13-referencias.md#referencia-1), son las siguientes:
 
 a\) Las *temperaturas de explosión* calculadas son excesivamente altas
 en comparación con las obtenidas mediante códigos de detonación más
@@ -102,7 +102,7 @@ mantenimiento eficiente de los programas.
 Esta metodología constituye la ***Ingeniería del software**.*
 
 La *Ingeniería del software* implica una serie de fases generales en el
-desarrollo de la aplicación informática (véase ***figura 4-1***). Estas
+desarrollo de la aplicación informática (véase ***figura [4-1](06-ingenieria-software.md#figura-4-1)***). Estas
 fases incluyen unas reglas que evitan realizar elecciones caprichosas y
 que constituyen lo que se denomina *disciplina de programación*.
 

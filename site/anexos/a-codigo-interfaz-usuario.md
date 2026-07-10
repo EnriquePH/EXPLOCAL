@@ -2072,7 +2072,7 @@ Fin del Archivo: EXPLOCAL.H
 _____________________________________________________________________*/
 ```
 
-## A.3 ARCHIVO DE DEFINICIÓN (EXPLOCAL.CPP)
+## A.3 ARCHIVO DE DEFINICIÓN (EXPLOCAL.DEF)
 
 ```cpp
 ; Archivo: Explocal.def

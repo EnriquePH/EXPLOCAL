@@ -19,7 +19,7 @@ programas de utilidad, las ayudas a la producción de información, la
 ingeniería, la enseñanza y el diseño asistido por ordenador y la
 ofimática.
 
-La Ingeniería del *software,* como se indica en la **figura 4-1**,
+La Ingeniería del *software,* como se indica en la **figura [4-1](06-ingenieria-software.md#figura-4-1)**,
 implica cinco fases generales que son aplicables al desarrollo de un
 programa.
 

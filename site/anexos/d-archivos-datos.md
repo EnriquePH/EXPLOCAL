@@ -2804,8 +2804,8 @@ directorio=c:\explocal
 en Explocal), el material de trabajo original conservado en el
 repositorio (`docs/aux/`) incluye los borradores y gráficas por
 categoría química con los que se compilaron los datos de entalpía de la
-**tabla 3-4** y del apartado D.3 (`TBLPROD.DAT`). Dos de esos ficheros
-(`TBLENT1.DOC`, un borrador de la tabla 3-4, y `TERMOTAB.DOC`, un
+**tabla [3-4](../capitulos/05-metodo-calculo.md#tabla-3-4)** y del apartado D.3 (`TBLPROD.DAT`). Dos de esos ficheros
+(`TBLENT1.DOC`, un borrador de la tabla [3-4](../capitulos/05-metodo-calculo.md#tabla-3-4), y `TERMOTAB.DOC`, un
 "Apéndice II" con datos de reactivos que se solapa con D.1) no se
 reproducen aquí de nuevo por duplicar contenido ya presentado; sí se
 incluyen las 9 gráficas, que no tienen equivalente en ningún otro punto
