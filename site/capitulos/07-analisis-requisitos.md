@@ -466,7 +466,7 @@ pueda comparar de un sólo vistazo diferentes mezclas explosivas.
 ### 5.4.3 Funciones del cálculo de una mezcla explosiva
 
 El programa debe incorporar todo el proceso de cálculo descrito en la
-norma UNE 31-002 [1].
+norma UNE 31-002 [[1]](13-referencias.md#referencia-1).
 
 Esto incluye:
 
@@ -489,7 +489,7 @@ Esto incluye:
 - f) Cálculo del número de moles gaseosos, masa molecular media de
   productos gaseosos y volumen de gases.
 
-- g) Aplicación de las **fórmulas empíricas** de *Kamlet y Jacobs* [3].
+- g) Aplicación de las **fórmulas empíricas** de *Kamlet y Jacobs* [[3]](13-referencias.md#referencia-3).
 
 - h) Detección de **errores** en el proceso de cálculo y discusión de los
   resultados obtenidos.
@@ -623,7 +623,7 @@ y su balance de oxígeno).
 Esto obliga a crear un archivo de datos (que se denominará REACTIVO.DAT)
 conteniendo información con datos de diversos componentes de explosivos.
 
-En el *ANEXO B* de la norma UNE 31-002 [1] se puede encontrar la
+En el *ANEXO B* de la norma UNE 31-002 [[1]](13-referencias.md#referencia-1) se puede encontrar la
 información necesaria para crear REACTIVO.DAT.
 
 También se necesita incorporar información sobre los productos de
@@ -636,7 +636,7 @@ el archivo TABLPROD.DAT.
 
 Los datos sobre los valores de las constantes de equilibrio se
 encuentran en el archivo CONSTANT.DAT y son los que incluye la norma UNE
-31-002 [1] en su ANEXO C.
+31-002 [[1]](13-referencias.md#referencia-1) en su ANEXO C.
 
 Como se puede deducir de todo lo anterior se intenta colocar todos los
 datos químicos y termoquímicos en archivos de texto (de fácil edición)

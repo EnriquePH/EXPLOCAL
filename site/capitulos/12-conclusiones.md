@@ -37,7 +37,7 @@ determinación de las características teóricas de los explosivos.
 detonación en cualquier mezcla explosiva.
 
 El método de cálculo que incorpora es un método simplificado y ha sido
-incluido por AENOR en la norma UNE 31-002-94 [1].
+incluido por AENOR en la norma UNE 31-002-94 [[1]](13-referencias.md#referencia-1).
 
 Es de destacar que el programa realiza un estudio a volumen constante y
 trabaja, en consecuencia, en la rama de las detonaciones de la Hugoniot,

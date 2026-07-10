@@ -13,5 +13,5 @@ texto en esta reconstrucción.
 
 Para consultar la norma, diríjase a AENOR (c/ Fernández de la Hoz, 52 —
 28010 Madrid) o a su [catálogo en línea](http://www.aenor.es). La norma
-se cita como referencia [1] en el apartado
+se cita como referencia [[1]](../capitulos/13-referencias.md#referencia-1) en el apartado
 [11. Referencias](../capitulos/13-referencias.md) de esta memoria.

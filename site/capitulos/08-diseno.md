@@ -206,10 +206,10 @@ entalpías de los productos de explosión que vienen en la ***tabla
 3-4***.
 
 Las tablas de las *constantes de equilibrio* contienen los datos que
-incluye la norma UNE 31-002 [1] en su ANEXO C.
+incluye la norma UNE 31-002 [[1]](13-referencias.md#referencia-1) en su ANEXO C.
 
 En la **tabla 3-3** se comparan los datos de las constantes de
-equilibrio con los de *Meyer R.* [8].
+equilibrio con los de *Meyer R.* [[8]](13-referencias.md#referencia-8).
 
 Como ya se tuvo en cuenta en la fase de requisitos, todos los datos se
 almacenan en disco en *archivos de texto*. Esto permite que el usuario

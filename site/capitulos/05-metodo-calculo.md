@@ -3,10 +3,10 @@
 ## 3.1 Generalidades
 
 El método de cálculo empleado que incorpora ***Explocal*** es el que ha
-sido recogido por AENOR en la norma UNE 31-002 [1] y coincide con el
-descrito por *Sanchidrián Blanco* [2].
+sido recogido por AENOR en la norma UNE 31-002 [[1]](13-referencias.md#referencia-1) y coincide con el
+descrito por *Sanchidrián Blanco* [[2]](13-referencias.md#referencia-2).
 
-La norma UNE 31-002 [1] establece un método simplificado de cálculo de
+La norma UNE 31-002 [[1]](13-referencias.md#referencia-1) establece un método simplificado de cálculo de
 las principales características de los explosivos, como son:
 
 - Balance de oxígeno.
@@ -30,7 +30,7 @@ y la densidad inicial.
 Debido a que se trata de un **método simplificado**, se asumen ciertas
 hipótesis de partida que alejan los resultados del comportamiento real
 de los explosivos. Por este motivo los resultados obtenidos por
-aplicación de la norma UNE 31-002 [1] deben considerarse como una
+aplicación de la norma UNE 31-002 [[1]](13-referencias.md#referencia-1) deben considerarse como una
 **aproximación** a las características reales de funcionamiento de los
 explosivos.
 
@@ -59,7 +59,7 @@ producto de explosión**, con las excepciones del carbono, el hidrógeno y
 el oxígeno que forman: C (grafito), CO, CO~2~, H~2~ y H~2~O.
 
 El resto de los parámetros de detonación se determinan mediante las
-fórmulas empíricas de *Kamlet, M.J y Jacobs, S.J.* [3].
+fórmulas empíricas de *Kamlet, M.J y Jacobs, S.J.* [[3]](13-referencias.md#referencia-3).
 
 Los parámetros numéricos que incluyen las fórmulas, fueron ajustados
 para mezclas explosivas de densidades comprendidas entre 1 g/cm^3^ y 2
@@ -100,17 +100,18 @@ Se tomará como temperatura de referencia: **T~o~ = 298 K**.
 
 La energía de formación del explosivo se determina a partir de las
 energías de formación a 298 K de cada componente (véase UNE 31-002
-[1]).
+[[1]](13-referencias.md#referencia-1)).
 
-A diferencia de la norma UNE 31-002 [1], se considera que todas las
+A diferencia de la norma UNE 31-002 [[1]](13-referencias.md#referencia-1), se considera que todas las
 variables energéticas están expresadas en calorías, puesto que todas las
 tablas termoquímicas están expresadas, generalmente, en calorías (o en
 kilocalorías): **1 cal = 4,184 J**.
 
 La energía de formación del explosivo se calcula mediante la fórmula:
 
-$$E_o = \Delta E_f = \sum_{i=1}^{Nc} \Delta E_{fi} \dfrac{P_i}{100}$$
-(3-3)
+$$E_o = \Delta E_f = \sum_{i=1}^{Nc} \Delta E_{fi} \dfrac{P_i}{100}
+\tag{3-3}$$
+
 
 ## 3.3 Balance de oxígeno y productos de reacción
 
@@ -131,7 +132,7 @@ donde:
 | **O~N~** | *Oxígeno necesario* para oxidar los elementos del explosivo. |
 
 Nota I: **O~E~** y **O~N~**, se consideran en la norma UNE 31-002
-[1] en g/mol, es decir ya incluyen el factor: 15,9994.
+[[1]](13-referencias.md#referencia-1) en g/mol, es decir ya incluyen el factor: 15,9994.
 
 Para calcular el *oxígeno necesario*, se considera que los elementos se
 oxidan para formar los productos que se indican en la **tabla 3-1**.
@@ -143,9 +144,9 @@ oxígeno.
 Como se puede apreciar en la ***tabla 3-1***, existen diferencias entre
 los productos para el balance de oxígeno y los productos de explosión.
 
-Los datos de las masas atómicas que incluye la norma UNE 31-002 [1],
+Los datos de las masas atómicas que incluye la norma UNE 31-002 [[1]](13-referencias.md#referencia-1),
 en su *anexo A*, son menos precisos que los del Fórum Atómico Español
-[4], por lo que se ha preferido emplear estos últimos.
+[[4]](13-referencias.md#referencia-4), por lo que se ha preferido emplear estos últimos.
 
 []{#tabla-3-1}
 **Tabla 3-1: Datos para calcular el balance de oxígeno.**[^cap3-2]
@@ -308,8 +309,9 @@ $K_1 = \dfrac{nCO \cdot nH_2O}{nCO_2 \cdot nH_2}$**;**
 $K_2 = \dfrac{P^2_{CO}}{P_{CO_2}} = \dfrac{n^2_{CO}}{n_{CO_2}} \cdot \dfrac{P}{n_g} = \dfrac{n^2_{CO}}{n_{CO_2}} \cdot F$**;**
 (3-8)
 
-$$n_g = \sum_{i=Gas}^{Np} n_i$$
-(3-9)
+$$n_g = \sum_{i=Gas}^{Np} n_i
+\tag{3-9}$$
+
 
 **F=** **P / n~g~ = ρ · n~g~·R·T≈ ρ~o~· n~g~·R·T ;** (3-10)
 
@@ -344,7 +346,7 @@ de: carbonatos, haluros y óxidos, entre otros.
 []{#tabla-3-3}
 **Tabla 3-3: Constantes de equilibrio.**[^cap3-4]
 
-| Temperatura (K) | K~1~ ( - ) — UNE 31-002-94 [1] (ANEXO C, pág. 24) | K~2~ (Pa) — UNE 31-002-94 [1] (ANEXO C, pág. 24) | K~1~ ( - ) — Meyer, R. [7] | K~2~ (Pa) — Meyer, R. [7] |
+| Temperatura (K) | K~1~ ( - ) — UNE 31-002-94 [[1]](13-referencias.md#referencia-1) (ANEXO C, pág. 24) | K~2~ (Pa) — UNE 31-002-94 [[1]](13-referencias.md#referencia-1) (ANEXO C, pág. 24) | K~1~ ( - ) — Meyer, R. [[7]](13-referencias.md#referencia-7) | K~2~ (Pa) — Meyer, R. [[7]](13-referencias.md#referencia-7) |
 |---|---|---|---|---|
 | 298 | 9,5840E-06 | 3,8030E-19 | - | - |
 | 300 | 1,0620E-05 | 5,8100E-19 | - | - |
@@ -417,7 +419,7 @@ Nota II: La constante K~1~ es adimensional a diferencia de K~2~ que
 tiene dimensiones de presión.
 
 Nota III: El programa ***Explocal*** incorpora los datos de la norma UNE
-31-002 [1].
+31-002 [[1]](13-referencias.md#referencia-1).
 
 ![Figura 3-2: Constante de equilibrio K~1~](../assets/figuras/image31.png){#figura-3-2}
 
@@ -465,12 +467,12 @@ La resolución del sistema formado por las ecuaciones de la (3-15) a la
 moles por kilo de monóxido de carbono (nCO) y calculando el resto de las
 incógnitas (nCO~2,~ nC, nH~2~ y nH~2~O) mediante proceso de remonte.
 
-$$2 \cdot \dfrac{K_1}{K_2'^2} \cdot nCO^3 + \dfrac{K_1+2}{K_2'} \cdot nCO^2 + \left[1 + \dfrac{K_1}{K_2'} \cdot (B_H - B_o)\right] \cdot nCO - B_o = 0$$
-**;** (3-20)
+$$2 \cdot \dfrac{K_1}{K_2'^2} \cdot nCO^3 + \dfrac{K_1+2}{K_2'} \cdot nCO^2 + \left[1 + \dfrac{K_1}{K_2'} \cdot (B_H - B_o)\right] \cdot nCO - B_o = 0 ; \tag{3-20}$$
+
 
 El algoritmo de resolución de ecuaciones de tercer grado se representa
 en la ***figura 3-4***. (Adaptado de *Tsipkin, G.G y Tsipkin, A.G*.
-[8])
+[[8]](13-referencias.md#referencia-8))
 
 Si ninguna de las tres soluciones de la ecuación (3-20) produce un
 resultado con significado físico (lo que implica que: todas las
@@ -493,9 +495,8 @@ nC=0 **;** (3-25)
 
 Cuya solución puede obtenerse resolviendo la ecuación de segundo grado:
 
-(3-26)
-
-$$(1 - K_1) \cdot nCO^2 + \left[K_1 \cdot (B_H - B_O - 3 \cdot B_C) + (B_O - 2 \cdot B_C)\right] \cdot nCO + K_1 \cdot B_C \cdot (B_o - B_H - 3 \cdot B_C) = 0$$
+$$(1 - K_1) \cdot nCO^2 + \left[K_1 \cdot (B_H - B_O - 3 \cdot B_C) + (B_O - 2 \cdot B_C)\right] \cdot nCO + K_1 \cdot B_C \cdot (B_o - B_H - 3 \cdot B_C) = 0
+\tag{3-26}$$
 
 Una de cuyas raíces será compatible con la positividad de las
 incógnitas.
@@ -509,13 +510,15 @@ constante, es:
 
 **E(T)-E~o~=0** (3-1)
 
-$$E_o = \sum_{i=1}^{Nc} \dfrac{p_i}{100} \cdot \Delta E^0_{fi}$$
-(3-27)
+$$E_o = \sum_{i=1}^{Nc} \dfrac{p_i}{100} \cdot \Delta E^0_{fi}
+\tag{3-27}$$
+
 
 <!-- La imagen original image37.wmf, situada entre las etiquetas de las fórmulas (3-27) y (3-28), se ha convertido a un PNG en blanco/ilegible (falló la conversión desde el Word original). No lleva número de ecuación propio en el original y, a diferencia de las imágenes 36 y 38 (que sí reproducen íntegras las fórmulas (3-27) y (3-28), confirmadas visualmente), no ha sido posible determinar con confianza razonable qué contenido matemático distinto aportaba; probablemente se trate de un objeto OLE duplicado o dañado ya en el documento Word original. FÓRMULA PENDIENTE: imagen original ilegible. -->
 
-$$E = \sum_{j=1}^{Np} n_j \cdot \left[\Delta E^0_{fj} + (E^T - E^0)_j\right]$$
-(3-28)
+$$E = \sum_{j=1}^{Np} n_j \cdot \left[\Delta E^0_{fj} + (E^T - E^0)_j\right]
+\tag{3-28}$$
+
 
 donde:
 
@@ -535,14 +538,15 @@ Como en termoquímica las reacciones a presión constante son mucho más
 comunes que a volumen constante:
 
 En la bibliografía es mucho más fácil encontrar datos tabulados de
-entalpías, que de energías internas. (véase *JANAF* [5] y *Lide, David
-R*. [6]).
+entalpías, que de energías internas. (véase *JANAF* [[5]](13-referencias.md#referencia-5) y *Lide, David
+R*. [[6]](13-referencias.md#referencia-6)).
 
 Expresando (3-28) en función de las entalpías de los productos de
 explosión, queda:
 
-$$E = \sum_{j=1}^{Np} n_j \cdot \Delta E^0_{fj} + \sum_{j=1}^{Np} n_j \cdot (H^T - H^0)_j - n_g \cdot R \cdot (T - T°)$$
-(3-29)
+$$E = \sum_{j=1}^{Np} n_j \cdot \Delta E^0_{fj} + \sum_{j=1}^{Np} n_j \cdot (H^T - H^0)_j - n_g \cdot R \cdot (T - T°)
+\tag{3-29}$$
+
 
 donde:
 
@@ -558,8 +562,9 @@ Sustituyendo (3-29) en (3-1) y pasando a un miembro los términos
 dependientes de la temperatura, la ecuación de la energía se transforma
 en:
 
-$$E_0 - \sum_{j=1}^{Np} n_j \cdot \Delta E^0_{fj} = \sum_{j=1}^{Np} n_j \cdot (H^T - H^0)_j - n_g \cdot R \cdot (T - T°)$$
-(3-30)
+$$E_0 - \sum_{j=1}^{Np} n_j \cdot \Delta E^0_{fj} = \sum_{j=1}^{Np} n_j \cdot (H^T - H^0)_j - n_g \cdot R \cdot (T - T°)
+\tag{3-30}$$
+
 
 que equivale a:
 
@@ -916,13 +921,14 @@ disminuirla en caso contrario).
 Una vez que a dos temperaturas, Q~1~ \> Q~S,1~(T~1~) y Q~2~ \<
 Q~S,2~(T~2~), se puede interpolar nuevas temperaturas, con:
 
-$$T_n = T_{n-2} + (T_{n-1} - T_{n-2}) \cdot \dfrac{Q_{n-1} - Q_{S,n-2}}{Q_{S,n-1} - Q_{S,n-2}}$$
-(3-32)
+$$T_n = T_{n-2} + (T_{n-1} - T_{n-2}) \cdot \dfrac{Q_{n-1} - Q_{S,n-2}}{Q_{S,n-1} - Q_{S,n-2}}
+\tag{3-32}$$
+
 
 Cuando la nueva temperatura estimada mediante (3-32), difiera de la
 última en menos de 10 K, se detiene el proceso iterativo.
 
-Según la norma UNE 31-002 [1]: Se tomará como temperatura de explosión
+Según la norma UNE 31-002 [[1]](13-referencias.md#referencia-1): Se tomará como temperatura de explosión
 la última estimada y como calor de explosión el último calculado, ambos
 valores redondeados al número más próximo múltiplo de cinco y el calor
 de explosión se expresará en kJ/kg y la temperatura en Kelvin.
@@ -937,8 +943,9 @@ Suponiendo el comportamiento ideal de los productos de explosión
 gaseosos, el volumen normal de gases se calcula con la siguiente
 expresión:
 
-$$V_{CN} = \dfrac{n_g \cdot R \cdot T°}{P°}$$
-(3-33)
+$$V_{CN} = \dfrac{n_g \cdot R \cdot T°}{P°}
+\tag{3-33}$$
+
 
 y la "fuerza" o energía específica con:
 
@@ -968,7 +975,7 @@ detonación CJ, como son: la presión de detonación, la densidad de
 detonación y el coeficiente adiabático.
 
 Las fórmulas empíricas que van a emplear son las propuestas por *Kamlet,
-M.J y Jacobs, S.J*. [3]. Estas fórmulas se basan en un estudio
+M.J y Jacobs, S.J*. [[3]](13-referencias.md#referencia-3). Estas fórmulas se basan en un estudio
 estadístico sobre propiedades de detonación, obtenidas mediante un
 cálculo con códigos de detonación complejos, de un gran número de
 explosivos compuestos por C, H, N y O en un intervalo de densidades
@@ -976,20 +983,25 @@ desde 1 g/cm^3^ a 2 g/cm^3^, y son:
 
 **P = K~p~ · ρ~o~^2^ · φ** (3-35)
 
-$$\phi = n_g \cdot \sqrt{\overline{M} \cdot Q}$$
-(3-36)
+$$\phi = n_g \cdot \sqrt{\overline{M} \cdot Q}
+\tag{3-36}$$
 
-$$\overline{M} = \dfrac{\displaystyle\sum_{i=Gas}^{Np} n_i \cdot Pm_i}{n_g}$$
-(3-37)
 
-$$D = a \cdot (1 + b \cdot \rho_o) \cdot \sqrt{\phi}$$
-(3-38)
+$$\overline{M} = \dfrac{\displaystyle\sum_{i=Gas}^{Np} n_i \cdot Pm_i}{n_g}
+\tag{3-37}$$
 
-$$\rho_{CJ} = \dfrac{s \cdot \rho_o}{1 + t \cdot \rho_o}$$
-(3-39)
 
-$$\Gamma_{CJ} = \dfrac{\rho_o}{\rho_{CJ} - \rho_o}$$
-(3-40)
+$$D = a \cdot (1 + b \cdot \rho_o) \cdot \sqrt{\phi}
+\tag{3-38}$$
+
+
+$$\rho_{CJ} = \dfrac{s \cdot \rho_o}{1 + t \cdot \rho_o}
+\tag{3-39}$$
+
+
+$$\Gamma_{CJ} = \dfrac{\rho_o}{\rho_{CJ} - \rho_o}
+\tag{3-40}$$
+
 
 donde:
 
@@ -1039,7 +1051,7 @@ una aproximación grosera, por lo que el calor de explosión obtenido
 mediante el método de cálculo simplificado no coincide con el calor de
 explosión a volumen constante.
 
-Según *Sanchidrián Blanco* [2], el calor de explosión calculado
+Según *Sanchidrián Blanco* [[2]](13-referencias.md#referencia-2), el calor de explosión calculado
 resulta ser de un 10 % a un 15 % superior al obtenido experimentalmente
 en el calorímetro.
 
@@ -1070,9 +1082,9 @@ excesivamente altas.
 Para obtener resultados más precisos se hace imprescindible acudir a
 ecuaciones de estado de tipo virial más apropiadas (y complejas), como
 por ejemplo la *BKW* (por *Becker-Kistiakosky-Wilson*) como hace *Mader,
-C.L* [9].
+C.L* [[9]](13-referencias.md#referencia-9).
 
-c) **Fórmulas de *Kamlet y Jacobs* [3]:**
+c) **Fórmulas de *Kamlet y Jacobs* [[3]](13-referencias.md#referencia-3):**
 
 Las expresiones (3-35) y (3-38) se obtuvieron mediante un ajuste
 estadístico con los resultados que proporcionaba un código complejo de
@@ -1092,8 +1104,8 @@ a medida que aumente la proporción de estos.
     de explosión y de los productos para el cálculo del balance de
     oxígeno.
 
-    Fuentes: Forum Atómico Español [4] (masa atómica) y UNE 31-002
-    [1]
+    Fuentes: Forum Atómico Español [[4]](13-referencias.md#referencia-4) (masa atómica) y UNE 31-002
+    [[1]](13-referencias.md#referencia-1)
 
 [^cap3-3]: **Nota I**: Los tres últimos productos de explosión, sólo se
     pueden producir en explosivos deficitarios en oxígeno, y no se
@@ -1107,15 +1119,15 @@ a medida que aumente la proporción de estos.
 
     **Nota III**: Los productos con Tvaporización \> 6000 K, se
     consideran sólidos o líquidos en el intervalo 298 K - 6000 K
-    atendiendo al criterio de la norma UNE 31-002 [1], aunque existan
+    atendiendo al criterio de la norma UNE 31-002 [[1]](13-referencias.md#referencia-1), aunque existan
     casos como el grafito que sublima 3925 K, o los carbonatos que se
     descomponen al alcanzar cierta temperatura.
 
     **Nota IV**: Fuentes:
 
-    Forum Atómico Español [4] (masa atómica)
+    Forum Atómico Español [[4]](13-referencias.md#referencia-4) (masa atómica)
 
-    JANAF [5] y Lide, David R. [6] (resto de los datos)
+    JANAF [[5]](13-referencias.md#referencia-5) y Lide, David R. [[6]](13-referencias.md#referencia-6) (resto de los datos)
 
 [^cap3-4]: Nota I: Las constantes de equilibrio tabuladas corresponden a las
     dos reacciones siguientes:
@@ -1132,9 +1144,9 @@ a medida que aumente la proporción de estos.
     tiene dimensiones de presión.
 
     Nota III: El programa ***Explocal*** incorpora los datos de la norma
-    UNE 31-002 [1].
+    UNE 31-002 [[1]](13-referencias.md#referencia-1).
 
-[^cap3-5]: Nota I: En la norma UNE 31-002 [1], pág. 10, define las
+[^cap3-5]: Nota I: En la norma UNE 31-002 [[1]](13-referencias.md#referencia-1), pág. 10, define las
     condiciones normales para el cálculo del volumen de gases a
     1,013·10^5^ Pa, pero a 298 K, para posteriormente calcular el
     volumen de gases con 273,15 K. En todos los cálculos termodinámicos,
@@ -1142,7 +1154,7 @@ a medida que aumente la proporción de estos.
     definición del *volumen de gases en condiciones normales* de la pág
     3, usa 273,15 K. Se trata, sin duda de una errata de AENOR.
 
-    Nota II: La norma UNE 31-002 [1], tampoco advierte a que
+    Nota II: La norma UNE 31-002 [[1]](13-referencias.md#referencia-1), tampoco advierte a que
     temperatura se debe considerar el estado de agregación de los
     productos de explosión: Si a la temperatura de explosión o a la
     temperatura normal.

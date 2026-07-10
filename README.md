@@ -6,13 +6,12 @@
 
 📖 **[Read the memoria / project book](https://enriqueph.github.io/EXPLOCAL/)**
 
-The objective of this project is to built computer tool, called __Explocal__, to
-compute the main theoretical characteristics of explosives. The calculus method 
-used holds the __UNE 31-002__ Spanish standard. This computer application has 
-been developed in language __C++__ and it runs under the *Windows 3.1* operative
-system. __Explocal__ includes all characteristics of a modern commercial
-computer application, as: executable module, data files, hypertext help and
-installation code.
+**Explocal** computes the main theoretical characteristics of explosives
+(detonation heat/temperature, velocity, pressure, oxygen balance...)
+following the Spanish standard **UNE 31-002**. Written in C++ for
+*Windows 3.1* in 1996. See the book's
+[Resumen / Abstract](https://enriqueph.github.io/EXPLOCAL/capitulos/02-resumen.html)
+for the full project description.
 
 ![](code/EXPLOCAL.PNG)
 
@@ -25,8 +24,30 @@ installation code.
   Quarto book (corrected, fully numbered, with figure/table indexes and the
   original annexes). Published as a website via GitHub Pages at
   **<https://enriqueph.github.io/EXPLOCAL/>**, and also buildable to
-  PDF/DOCX/LaTeX with pandoc — see `site/README.md`.
+  PDF/DOCX/LaTeX with pandoc — see below.
 - **`docs/`** — original raw source documents (1994-2015 `.DOC`/LaTeX/Word
   drafts) that `site/` was reconstructed from.
 - **`new/`** *(not versioned)* — a modern Python re-implementation of the
   calculation engine plus a Streamlit app; regenerable from `code/`.
+
+## Building the book
+
+Requires [Quarto](https://quarto.org/docs/get-started/) for the website,
+and `pandoc` + a LaTeX distribution with `xelatex` for PDF/DOCX/LaTeX.
+
+```bash
+cd site
+quarto render               # -> _site/ (HTML, same as GitHub Pages)
+quarto preview               # local server with live reload
+
+./scripts/build.sh          # -> salida/libro.md, .docx, .pdf, .tex
+./scripts/build.sh pdf      # PDF only
+./scripts/build.sh docx     # Word only
+
+python3 scripts/build_indices.py   # regenerate the general/figure/table
+                                    # indexes after editing a chapter
+```
+
+GitHub Pages deployment is automatic via Actions on every push to
+`master`/`main` that touches `site/`; it only requires the one-time
+manual setting **Settings → Pages → Source → "GitHub Actions"**.

@@ -83,8 +83,12 @@ y B) se desarrollaron con **Borland Turbo C++ 3.1 for Windows** (Borland
 International, 1992), usando la biblioteca **Object Windows Library
 (OWL) 1.0** para la parte gráfica, y compilando para el entorno de 16
 bits de Windows 3.1. Es software propietario de Borland International;
-el paquete de instalación no se incluye ni se distribuye en el
-repositorio de GitHub.
+no se incluye ni se distribuye en el repositorio de GitHub. La copia
+local de archivo de este entorno (un `.zip` de 2004 que contiene el
+instalador empaquetado como RAR multivolumen `.rar`/`.r00`-`.r04`) está
+además incompleta —falta el volumen `.r02` y el fichero está truncado—,
+por lo que no constituye un instalador funcional ni una fuente fiable
+del compilador.
 
 ## H.4 Bibliotecas de controles en tiempo de ejecución
 

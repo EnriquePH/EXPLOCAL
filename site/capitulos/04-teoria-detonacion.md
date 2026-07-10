@@ -101,17 +101,14 @@ condiciones de conservación: de la masa (2-1), de la cantidad de
 movimiento (2-2) y un balance de energía (2-3) a un dominio que englobe
 al frente de detonación.
 
-$$\dfrac{D-u}{v} = \dfrac{D-u_0}{v_0}$$
+$$\dfrac{D-u}{v} = \dfrac{D-u_0}{v_0}
+\tag{2-1}$$
 
-(2-1)
+$$\dfrac{(D-u_0)\cdot(u-u_0)}{v_0} = P - P_0
+\tag{2-2}$$
 
-$$\dfrac{(D-u_0)\cdot(u-u_0)}{v_0} = P - P_0$$
-
-(2-2)
-
-$$E(P,v) - E_0(P_0,v_0) = -\dfrac{1}{2}\cdot(P+P_0)\cdot(v-v_0)$$
-
-(2-3)
+$$E(P,v) - E_0(P_0,v_0) = -\dfrac{1}{2}\cdot(P+P_0)\cdot(v-v_0)
+\tag{2-3}$$
 
 donde:
 
@@ -135,17 +132,14 @@ energías de formación entre explosivo y productos de detonación
 (suponiendo, que el explosivo está inicialmente en el estado normal
 de referencia y en reposo), se tiene:
 
-$$\dfrac{D-u}{v} = \dfrac{D}{v_0}$$
+$$\dfrac{D-u}{v} = \dfrac{D}{v_0}
+\tag{2-4}$$
 
-(2-4)
+$$\dfrac{D\cdot u}{v_0} = P - P_0
+\tag{2-5}$$
 
-$$\dfrac{D\cdot u}{v_0} = P - P_0$$
-
-(2-5)
-
-$$E(P,v) - E(P_0,v_0) = \dfrac{1}{2}\cdot(P+P_0)\cdot(v_0-v) + Q$$
-
-(2-6)
+$$E(P,v) - E(P_0,v_0) = \dfrac{1}{2}\cdot(P+P_0)\cdot(v_0-v) + Q
+\tag{2-6}$$
 
 En (2-6), se puede observar, como a volumen constante (**v=v~0~**): El
 calor de la reacción se invierte en aumentar la energía interna de los
@@ -174,9 +168,8 @@ En un choque no reactivo: **Q = 0**, en el estado a volumen constante:
 
 (2-6) se reduce a:
 
-$$e(P,v_0) - e(P_0,v_0) = 0 \Leftrightarrow P = P_0$$
-
-(2-7)
+$$e(P,v_0) - e(P_0,v_0) = 0 \Leftrightarrow P = P_0
+\tag{2-7}$$
 
 Esto significa que la curva pasa por el punto: **(P~0~,v~0~)**, es decir
 el estado inicial es compatible con los posibles estados de choque.
@@ -187,9 +180,8 @@ En cambio en un *choque reactivo exotérmico* (como una detonación):
 y como la energía interna es una función creciente de **P**, se tiene
 que:
 
-$$e(P,v_0) - e(P_0,v_0) = Q > 0 \Leftrightarrow P > P_0$$
-
-(2-8)
+$$e(P,v_0) - e(P_0,v_0) = Q > 0 \Leftrightarrow P > P_0
+\tag{2-8}$$
 
 Estas conclusiones se representan gráficamente en la ***figura 2-2***.
 
@@ -199,9 +191,8 @@ Estas conclusiones se representan gráficamente en la ***figura 2-2***.
 
 Si se elimina la velocidad másica **u** de (2-4) y (2-5), se obtiene:
 
-$$\dfrac{P-P_0}{v-v_0} = -\left[\dfrac{D}{v_0}\right]^2$$
-
-(2-9)
+$$\dfrac{P-P_0}{v-v_0} = -\left[\dfrac{D}{v_0}\right]^2
+\tag{2-9}$$
 
 que se puede considerar como un haz de rectas, que pasa por el punto
 **(P~0~,v~0~)**, y con una pendiente variable función del parámetro
@@ -272,9 +263,8 @@ El estado CJ de las detonaciones presenta las siguientes propiedades:
 a\) La recta de Rayleigh y la hugoniot son tangentes (y la velocidad de
 detonación es mínima):
 
-$$\left(\dfrac{\partial P}{\partial v}\right)_{Hug.} = \dfrac{P-P_0}{v-v_0} = -\left(\dfrac{D}{v_0}\right)^2$$
-
-(2-10)
+$$\left(\dfrac{\partial P}{\partial v}\right)_{Hug.} = \dfrac{P-P_0}{v-v_0} = -\left(\dfrac{D}{v_0}\right)^2
+\tag{2-10}$$
 
 b\) La hugoniot es tangente a la isentrópica de los productos.
 
@@ -282,7 +272,8 @@ c\) El frente de detonación se aleja de los productos a una velocidad
 **c** que coincide con la del sonido propagándose en los productos de
 detonación; siendo:
 
-$$c^2 = \left(\dfrac{\partial P}{\partial \rho}\right)_S = -v^2 \cdot \left(\dfrac{\partial P}{\partial v}\right)_S$$
+$$c^2 = \left(\dfrac{\partial P}{\partial \rho}\right)_S = -v^2 \cdot \left(\dfrac{\partial P}{\partial v}\right)_S
+\tag{2-11}$$
 
 ## 2.7 Tipos de detonaciones y deflagraciones
 
