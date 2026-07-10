@@ -78,7 +78,11 @@ if [[ "$TARGET" == "md" || "$TARGET" == "all" ]]; then
 fi
 
 if [[ "$TARGET" == "docx" || "$TARGET" == "all" ]]; then
-  pandoc "${PANDOC_COMMON[@]}" "$COMBINED" -o "$OUT_DIR/Explocal-Memoria.docx"
+  # reference.docx: copia del reference.docx por defecto de pandoc con los
+  # estilos de párrafo "ImageCaption" y "CaptionedFigure" (pié e imagen de
+  # cada figura) centrados (<w:jc w:val="center"/>); por defecto pandoc los
+  # deja alineados a la izquierda.
+  pandoc "${PANDOC_COMMON[@]}" --reference-doc=scripts/reference.docx "$COMBINED" -o "$OUT_DIR/Explocal-Memoria.docx"
   echo "-> $OUT_DIR/Explocal-Memoria.docx"
 fi
 

@@ -4,50 +4,110 @@
 [![Website](https://img.shields.io/badge/docs-site-blue)](https://enriqueph.github.io/EXPLOCAL/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-📖 **[Read the memoria / project book](https://enriqueph.github.io/EXPLOCAL/)**
-
-**Explocal** computes the main theoretical characteristics of explosives
-(detonation heat/temperature, velocity, pressure, oxygen balance...)
-following the Spanish standard **UNE 31-002**. Written in C++ for
-*Windows 3.1* in 1996. See the book's
-[Resumen / Abstract](https://enriqueph.github.io/EXPLOCAL/capitulos/02-resumen.html)
-for the full project description.
+📖 **[Leer la memoria / libro del proyecto](https://enriqueph.github.io/EXPLOCAL/)**
 
 ![](code/EXPLOCAL.PNG)
 
-## Repository layout
+## Descripción
 
-- **`code/`** — the original 1996 C++ source (Borland C++ 3.1 + Object
-  Windows 1.0), data files, resources and the compiled `EXPLOCAL.EXE`, kept
-  untouched as the historical reference.
-- **`site/`** — the project's memoria (PFC) reconstructed as a Markdown/
-  Quarto book (corrected, fully numbered, with figure/table indexes and the
-  original annexes). Published as a website via GitHub Pages at
-  **<https://enriqueph.github.io/EXPLOCAL/>**, and also buildable to
-  PDF/DOCX/LaTeX with pandoc — see below.
-- **`docs/`** — original raw source documents (1994-2015 `.DOC`/LaTeX/Word
-  drafts) that `site/` was reconstructed from.
-- **`new/`** *(not versioned)* — a modern Python re-implementation of the
-  calculation engine plus a Streamlit app; regenerable from `code/`.
+**Explocal** es una aplicación informática que calcula las principales
+características teóricas de una mezcla explosiva (calor y temperatura de
+explosión, velocidad y presión de detonación, balance de oxígeno,
+composición de los productos de explosión...) siguiendo el método
+simplificado de la norma española **UNE 31-002**. Se desarrolló en C++
+(Borland C++ 3.1 + Object Windows 1.0) para *Windows 3.1* en 1996, como
+Proyecto Fin de Carrera de Enrique Pérez Herrero (E.T.S.I. de Minas de
+Madrid, especialidad Laboreo y Explosivos).
 
-## Building the book
+Este repositorio conserva el código y los datos originales de 1996 tal
+cual, y reconstruye la memoria completa del proyecto (texto, fórmulas,
+figuras, tablas y anexos con el código fuente) como libro digital. Para
+la descripción técnica completa, véase el
+[Resumen / Abstract](https://enriqueph.github.io/EXPLOCAL/capitulos/02-resumen.html)
+del propio libro.
 
-Requires [Quarto](https://quarto.org/docs/get-started/) for the website,
-and `pandoc` + a LaTeX distribution with `xelatex` for PDF/DOCX/LaTeX.
+## Historia del proyecto
+
+- **1996** — Proyecto Fin de Carrera original: memoria en papel/Word y
+  aplicación `EXPLOCAL.EXE` en C++ para Windows 3.1.
+- **2015-2016** — Primer intento de modernización: exploración de los
+  ficheros `*.DAT` con R/ggplot (sin llegar a reimplementar el motor de
+  cálculo).
+- **2026** — Reconstrucción completa: la memoria original (`docs/`) se
+  transcribe y corrige como libro Markdown/Quarto (`site/`), publicado en
+  GitHub Pages; en paralelo se reimplementa el motor de cálculo en Python
+  (`new/`, no versionado). El código C++ de 1996 (`code/`) se conserva sin
+  modificar como referencia histórica.
+
+## Estructura del repositorio
+
+- **`code/`** — código fuente C++ original de 1996 (Borland C++ 3.1 +
+  Object Windows 1.0), datos, recursos y el ejecutable `EXPLOCAL.EXE`
+  compilado. Referencia histórica, no se toca.
+- **`site/`** — la memoria (PFC) reconstruida como libro Markdown/Quarto:
+  capítulos numerados, índices de figuras/tablas y los anexos originales.
+  Se publica como web en GitHub Pages
+  (**<https://enriqueph.github.io/EXPLOCAL/>**) y también se compila a
+  PDF/DOCX/LaTeX con pandoc — ver «Cómo contribuir» más abajo.
+- **`docs/`** — documentos originales sin procesar (`.DOC`/LaTeX/Word de
+  1994-2015) de los que parte la reconstrucción de `site/`.
+- **`new/`** *(fuera de git)* — reimplementación moderna del motor de
+  cálculo en Python más una app Streamlit; regenerable a partir de
+  `code/`.
+- **`old/`** *(fuera de git)* — software de terceros usado en 1996
+  (compilador, editor de ayuda, bibliotecas) conservado localmente por
+  motivos históricos; no se redistribuye por ser propietario de terceros
+  (ver Anexo H del libro).
+
+## Estado actual
+
+- ✅ Memoria completa reconstruida, corregida y publicada como libro web
+  (HTML) y disponible en PDF/DOCX/LaTeX.
+- ✅ Código y datos originales de 1996 preservados íntegros en `code/`.
+- 🚧 Reimplementación en Python del motor de cálculo (`new/`): en
+  desarrollo, no forma parte del repositorio público todavía.
+
+## Cómo contribuir
+
+¿Encontraste una errata en la memoria, un enlace roto o un error en el
+código reproducido? Abre un
+[issue](https://github.com/EnriquePH/EXPLOCAL/issues) describiendo el
+apartado afectado.
+
+Para compilar el libro localmente (necesario para proponer cambios sobre
+`site/`):
 
 ```bash
 cd site
-quarto render               # -> _site/ (HTML, same as GitHub Pages)
-quarto preview               # local server with live reload
+quarto render               # -> _site/ (HTML, igual que GitHub Pages)
+quarto preview               # servidor local con recarga en caliente
 
 ./scripts/build.sh          # -> salida/libro.md, .docx, .pdf, .tex
-./scripts/build.sh pdf      # PDF only
-./scripts/build.sh docx     # Word only
+./scripts/build.sh pdf      # solo PDF
+./scripts/build.sh docx     # solo Word
 
-python3 scripts/build_indices.py   # regenerate the general/figure/table
-                                    # indexes after editing a chapter
+python3 scripts/build_indices.py   # regenera los índices general/de
+                                    # figuras/de tablas tras editar un capítulo
 ```
 
-GitHub Pages deployment is automatic via Actions on every push to
-`master`/`main` that touches `site/`; it only requires the one-time
-manual setting **Settings → Pages → Source → "GitHub Actions"**.
+Requiere [Quarto](https://quarto.org/docs/get-started/) para la web, y
+`pandoc` + una distribución LaTeX con `xelatex` para PDF/DOCX/LaTeX. El
+despliegue en GitHub Pages es automático vía Actions en cada push a
+`master`/`main` que toque `site/`.
+
+## Licencia
+
+[MIT](LICENSE) © 1996 Enrique Pérez Herrero.
+
+## Cómo citar
+
+Este repositorio incluye un [`CITATION.cff`](CITATION.cff): GitHub genera
+la cita automáticamente (botón **"Cite this repository"** en la barra
+lateral de la página del repositorio). En texto plano:
+
+```
+Pérez Herrero, Enrique (1996). Proyecto de una aplicación informática
+para el cálculo de las principales características teóricas de los
+explosivos (Explocal). Proyecto Fin de Carrera, E.T.S.I. de Minas de
+Madrid. https://enriqueph.github.io/EXPLOCAL/
+```

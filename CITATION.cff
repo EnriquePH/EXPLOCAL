@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Si usa este software o su memoria, cítelo por favor como se indica a continuación."
+title: "Explocal"
+type: software
+authors:
+  - family-names: "Pérez Herrero"
+    given-names: "Enrique"
+date-released: 1996-12-01
+url: "https://enriqueph.github.io/EXPLOCAL/"
+repository-code: "https://github.com/EnriquePH/EXPLOCAL"
+license: MIT
+abstract: >-
+  Aplicación informática que calcula las principales características
+  teóricas de una mezcla explosiva (calor y temperatura de explosión,
+  velocidad y presión de detonación, balance de oxígeno, composición de
+  los productos de explosión) siguiendo el método simplificado de la
+  norma española UNE 31-002. Desarrollada en C++ para Windows 3.1 en
+  1996 como Proyecto Fin de Carrera en la E.T.S.I. de Minas de Madrid
+  (especialidad Laboreo y Explosivos).
+keywords:
+  - explosivos
+  - detonación
+  - UNE 31-002
+  - termoquímica
+  - Windows 3.1
