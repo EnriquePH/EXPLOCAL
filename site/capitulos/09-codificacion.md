@@ -49,7 +49,7 @@ Observando el código de cada módulo se puede comprobar la gran
 importancia que los principios: a, b, c, d, e, f, han tenido en su
 elaboración.
 
-## 7.1 Características del entorno de desarrollo de *software*.
+## 7.1 Características del entorno de desarrollo de *software*
 
 Las herramientas disponibles para poder construir un aplicación,
 influyen notablemente en la codificación.
@@ -66,7 +66,7 @@ intérprete).
 El contenido de todos los archivos, conteniendo el código de
 ***Explocal*** se muestran en los anexos del proyecto.
 
-### 7.1.1 El lenguaje C.
+### 7.1.1 El lenguaje C
 
 El lenguaje de programación C fue desarrollado en 1972 por *Dennis
 Ritchie*, de los laboratorios Bell. La idea principal de Ritchie era
@@ -87,7 +87,7 @@ C incorpora, además, toda la filosofía de la *programación estructurada*
 lo que le sitúa por delante de lenguajes no estructurados (con saltos)
 tipo BASIC.
 
-### 7.1.2 El lenguaje C++.
+### 7.1.2 El lenguaje C++
 
 C++ es un superconjunto de C.
 
@@ -120,7 +120,7 @@ desarrollo de aplicaciones *Windows*.
 Puesto que C++ es un lenguaje de programación orientado a objetos y que
 *Windows* es un sistema operativo orientado a objetos.
 
-### 7.1.3 La programación orientada a objetos (OOP).
+### 7.1.3 La programación orientada a objetos (OOP)
 
 La programación orientada a objetos (o más brevemente OOP) es una nueva
 forma de abordar el trabajo de programación. Los enfoques de
@@ -223,7 +223,7 @@ que hacen que el objeto sea único dentro de su clase. El mecanismo de
 herencia es el que se encarga de que un objeto se pueda considerar como
 un caso particular de una clase más general.
 
-### 7.1.4 La biblioteca de clases *ObjectWindows* (*OWL*).
+### 7.1.4 La biblioteca de clases *ObjectWindows* (*OWL*)
 
 C++ y Turbo C++ para *Windows* proporciona una biblioteca de clases
 llamada *Object Windows* que simplifica enormemente la programación
@@ -268,9 +268,9 @@ sofisticadas para *Windows* con la biblioteca OWL requiere algunos
 esfuerzos, programar con *Object Windows* es mucho más fácil (y
 económico) que usar el tradicional paquete *SDK de Microsoft*.
 
-## 7.2 Codificación de los módulos.
+## 7.2 Codificación de los módulos
 
-### 7.2.1 Archivo de proyecto (EXPLOCAL.PRJ).
+### 7.2.1 Archivo de proyecto (EXPLOCAL.PRJ)
 
 El archivo de proyecto de una aplicación contiene toda la información
 necesaria para compilar el código ejecutable (\*.EXE), información que
@@ -296,7 +296,7 @@ Los archivos que forman parte del proyecto de la aplicación informática
 | BWCC.LIB | Biblioteca precompilada: con las funciones necesarias para incorporar a los diálogos los controles al estilo Borland (BWCC). |
 | EXPLOCAL.DEF | Archivo de definición: Contiene información técnica acerca de la estructura del archivo ejecutable completo, describe características como el tamaño de la pila local y el nombre de la función gestora de mensajes. |
 
-### 7.2.2 Relaciones de inclusión entre los módulos principales.
+### 7.2.2 Relaciones de inclusión entre los módulos principales
 
 En la inclusión de módulos se emplea la inclusión condicional:
 
@@ -320,7 +320,7 @@ La relación entre los módulos principales se esquematiza en la **figura
 
 ***Figura 7-1: Relación entre módulos***
 
-### 7.2.3 Utilización de los recursos.
+### 7.2.3 Utilización de los recursos
 
 *Windows* define como **recursos** varios tipos corrientes de objetos.
 Los recursos comprenden elementos tales como menús, iconos, cuadros de
@@ -354,7 +354,7 @@ distintos archivos según la **tabla 7-2**.
 | VERSION.RC | Descripción de la versión de ***Explocal***. |
 | EXPLOCAL.H | Archivo que contiene los macros empleados (como los identificadores de los controles de los diálogos). |
 
-## 7.3 Componentes de la aplicación MDI.
+## 7.3 Componentes de la aplicación MDI
 
 Una aplicación, como ***Explocal***, que cumpla con el estándar MDI
 consiste en los siguientes objetos (clases):
@@ -387,7 +387,7 @@ También cuando se minimiza (o se transforma en un icono) una ventana
 hija MDI, el icono correspondiente a esta ventana aparece en la parte
 inferior de la ventana marco MDI.
 
-## 7.4 Jerarquía de clases del interfaz de usuario.
+## 7.4 Jerarquía de clases del interfaz de usuario
 
 La filosofía de la programación orientada a objetos obliga a encapsular
 todos los datos (junto con las funciones que manejan esos datos) en

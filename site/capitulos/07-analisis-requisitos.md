@@ -1,4 +1,4 @@
-# 5. Análisis de requisitos.
+# 5. Análisis de requisitos
 
 La fase de *análisis de requisitos*, dentro de la Ingeniería del
 *software* persigue como fin describir de forma exhaustiva las
@@ -45,7 +45,7 @@ analistas son personas distintas, los documentos que se incluirán son:
 
 - h) Un **índice** (En este caso incluido al comienzo del proyecto)
 
-## 5.1 Necesidad, propósito y características de la aplicación informática comercial.
+## 5.1 Necesidad, propósito y características de la aplicación informática comercial
 
 El primer paso que debe dar cualquier análisis de requisitos es
 *justificar* la necesidad de la herramienta informática que se pretende
@@ -105,7 +105,7 @@ cálculo puesto que permitirá estudiar con facilidad la influencia que
 tiene cualquier variación de un componente (o componentes) en una
 familia mezclas explosivas.
 
-## 5.2 Estudio de los costes de una aplicación informática.
+## 5.2 Estudio de los costes de una aplicación informática
 
 Cuando se pretende desarrollar una aplicación informática que sustituye
 a otra (o a un método manual), hay que sopesar las ventajas e
@@ -309,7 +309,7 @@ dificultad.
 Sólo si se posee experiencia en desarrollar aplicaciones similares es
 posible realizar una estimación previa de lo que puede costar.
 
-## 5.3 Especificaciones del sistema.
+## 5.3 Especificaciones del sistema
 
 La aplicación informática ***Explocal*** está pensada para poder ser
 utilizada por cualquier usuario de ordenadores personales.
@@ -336,7 +336,7 @@ Esta circunstancia convierte a cualquiera de las versiones de *Windows*
 también lo son con los sistemas operativos *OS/2* y *OS/2 Warp* de
 IBM*.*
 
-### 5.3.1 Características del entorno *Windows*. Comparación con el DOS.
+### 5.3.1 Características del entorno *Windows*. Comparación con el DOS
 
 Se puede decir que *Windows* es más que un sistema operativo, es un
 entorno gráfico.
@@ -361,7 +361,7 @@ Estas características son las que inclinan la balanza a favor de
 *Windows* en el desarrollo de una aplicación como ***Explocal*** puesto
 que se desea una aplicación versátil y de fácil manejo.
 
-### 5.3.2 Soporte necesario mínimo y mínimo recomendado.
+### 5.3.2 Soporte necesario mínimo y mínimo recomendado
 
 El soporte mínimo necesario, para ejecutar una aplicación informática
 determinada, viene condicionado por las características que un sistema
@@ -387,7 +387,7 @@ que se va a emplear en la codificación de ***Explocal***.
 
 Fuente: Elaboración propia, basada en datos de Microsoft.
 
-## 5.4 Funciones a implementar.
+## 5.4 Funciones a implementar
 
 Los datos y resultados del problema constituyen una lista compleja de
 información e incluyen:
@@ -416,7 +416,7 @@ En consecuencia ***Explocal*** debe poseer todas las funciones de un
 procesador de textos, y si queremos acceder a datos de diferentes
 explosivos a la vez la aplicación debe poseer un interfaz tipo MDI.
 
-### 5.4.1 Funciones de un procesador de textos.
+### 5.4.1 Funciones de un procesador de textos
 
 Las funciones de un procesador de textos se pueden clasificar en:
 
@@ -436,7 +436,7 @@ Las funciones de un procesador de textos se pueden clasificar en:
 
 - f) Salida del texto por impresora.
 
-### 5.4.2 Funciones de una aplicación MDI.
+### 5.4.2 Funciones de una aplicación MDI
 
 Muchas aplicaciones de *Windows* (como el *Administrador de programas*,
 y el *Administrador de archivos)* implementan un interfaz especial de
@@ -463,7 +463,7 @@ Las funciones genéricas que incorpora una aplicación MDI son:
 Las funciones anteriores van a permitir que utilizando ***Explocal*** se
 pueda comparar de un sólo vistazo diferentes mezclas explosivas.
 
-### 5.4.3 Funciones del cálculo de una mezcla explosiva.
+### 5.4.3 Funciones del cálculo de una mezcla explosiva
 
 El programa debe incorporar todo el proceso de cálculo descrito en la
 norma UNE 31-002 [1].
@@ -498,7 +498,7 @@ Esto incluye:
 
 - j) Posibilidad de **cambiar las unidades** de los resultados.
 
-### 5.4.4 Funciones de una aplicación informática comercial.
+### 5.4.4 Funciones de una aplicación informática comercial
 
 Aunque no son intrínsecamente necesarias para el funcionamiento básico
 del programa, existe una serie de características que proporcionan un
@@ -522,7 +522,7 @@ Las más importantes son:
 
 - f) Incorporación de **información** sobre la versión del programa.
 
-### 5.4.5 Funciones de un programa de instalación.
+### 5.4.5 Funciones de un programa de instalación
 
 El programa de instalación soporta la responsabilidad de ser la primera
 impresión que cualquier usuario se va a llevar de la aplicación
@@ -604,7 +604,7 @@ Estos archivos son:
 
 - m) Archivo de inicialización.
 
-## 5.5 Bases de datos de información externa.
+## 5.5 Bases de datos de información externa
 
 Se pretende organizar toda la información que necesita ***Explocal***
 para su correcto funcionamiento en archivos de datos (extensión *.DAT).
@@ -646,7 +646,7 @@ que los datos pueden variar dependiendo de la fuente de donde se tomen.
 Por último se considera un archivo con las descripciones de los errores
 que pueden ocurrir en la aplicación de los cálculos: ERROR.DAT.
 
-## 5.6 Requisitos del mantenimiento.
+## 5.6 Requisitos del mantenimiento
 
 Se consideran las siguientes posibilidades de cambio en el código del
 programa:

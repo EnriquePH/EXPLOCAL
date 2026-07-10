@@ -86,7 +86,7 @@ fundamenta en un análisis a volumen constante y no a presión constante y
 tampoco se tienen en cuenta los efectos de difusión de materia y
 transmisión del calor.
 
-## 1.2 Características y limitaciones de la aplicación informática comercial Explocal.
+## 1.2 Características y limitaciones de la aplicación informática comercial Explocal
 
 Una aplicación informática comercial se destaca del resto por un
 conjunto de características, que cuando confluyen en un mismo producto,

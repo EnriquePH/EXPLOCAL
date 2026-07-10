@@ -62,7 +62,7 @@ El diagrama de la estructura es la representación visual de los
 principios del diseño descendente, la alta coherencia y el libre
 acoplamiento.
 
-## 6.1 Módulos principales.
+## 6.1 Módulos principales
 
 En el diseño de ***Explocal*** se consideran *dos módulos principales*:
 
@@ -117,9 +117,9 @@ En realidad es el *interfaz de usuario* el que incorpora las estructuras
 de datos y funciones de los cálculos. Esta es la razón que obliga a que
 el acceso a los datos de los cálculos sea lo más simple posible.
 
-## 6.2 Diseño del módulo de cálculo de un explosivo.
+## 6.2 Diseño del módulo de cálculo de un explosivo
 
-### 6.2.1 Estructuras de los datos del módulo de cálculo.
+### 6.2.1 Estructuras de los datos del módulo de cálculo
 
 Tras una observación minuciosa del método de cálculo, se pueden
 clasificar todos los datos, constantes y resultados según la ***tabla
@@ -238,7 +238,7 @@ Otra característica reseñable del diseño es que permite que el usuario
 introduzca el menor número de datos posible para calcular un explosivo,
 el resto se debe leer del archivo de datos.
 
-### 6.2.2 Diseño de las funciones necesarias para el cálculo.
+### 6.2.2 Diseño de las funciones necesarias para el cálculo
 
 El diseño de las funciones de los cálculos se basa en el principio
 *diseño descendente:* es decir, empieza por el diseño de las funciones
@@ -344,7 +344,7 @@ punto de C, del modo siguiente:
 
 *(Nombre_estructura).Elemento_de_la_estructura*
 
-## 6.3 Diseño del interfaz de usuario.
+## 6.3 Diseño del interfaz de usuario
 
 El *interfaz de usuario* de una aplicación informática está constituido
 por todos aquellas funciones que permiten la interacción del programa
@@ -364,7 +364,7 @@ Un diseño correcto del interfaz de usuario disminuye el tiempo de
 aprendizaje del usuario y proporciona a la aplicación un aspecto
 profesional.
 
-### 6.3.1 Funciones de un interfaz de usuario para Windows.
+### 6.3.1 Funciones de un interfaz de usuario para Windows
 
 En el paquete *del Entorno de Desarrollo Integrado (IDE) de Borland C++*
 con el que se va a codificar ***Explocal***, está incluida un aplicación
@@ -408,7 +408,7 @@ respuesta asociados.
 
 - Interacción de todos los elementos.
 
-### 6.3.2 Diseño de los iconos.
+### 6.3.2 Diseño de los iconos
 
 Explocal hace uso de tres iconos:
 
@@ -434,7 +434,7 @@ han diseñado.
 
 ![Figura 6-3: Diseño de los iconos de Explocal](../assets/figuras/image54.png){#figura-6-3}
 
-### 6.3.3 Menú. Funciones respuesta.
+### 6.3.3 Menú. Funciones respuesta
 
 El usuario selecciona la tarea que desea realizar mediante el típico
 menú *Windows* de múltiples opciones y submenús desplegables que
@@ -556,7 +556,7 @@ Word*).
 De este modo se consigue que la aplicación resulte fácil de manejar a
 cualquier usuario acostumbrado a trabajar con el entorno *Windows*.
 
-### 6.3.4 Cuadros de diálogo.
+### 6.3.4 Cuadros de diálogo
 
 Después de los menús, no hay elementos de la interfaz de *Windows* más
 importantes que los cuadros de diálogo. Un *cuadro de diálogo* es un
@@ -657,7 +657,7 @@ sólo con el teclado.
 El diálogo de *Preferencias* (véase ***figura 6-14***) modifica el
 archivo de inicialización EXPLOCAL.INI.
 
-### 6.3.5 Mapas de Bits.
+### 6.3.5 Mapas de Bits
 
 Al iniciar la aplicación ***Explocal***, es necesario cargar todos los
 datos necesarios para su funcionamiento, situados en los archivos

@@ -15,7 +15,7 @@ proyecto, se ha realizado una primera comprobación, tanto de los
 resultados del cálculo como del *interfaz de usuario*, suficiente para
 garantizar un funcionamiento libre de errores.
 
-## 8.1 Depuración de errores.
+## 8.1 Depuración de errores
 
 Para aproximarse a la depuración, es necesario en primer lugar, evitar
 errores utilizando disciplinas de programación apropiadas y tener
@@ -41,7 +41,7 @@ atención se puede ahorrar mucho tiempo en el proceso de comprobación:
 | Asignación de un valor a una expresión.<br>`var++=15; // **Error**` |
 | Uso del índice 1 en el primer elemento de un matriz o vector (*array*). En C todas las matrices comienzan en el elemento 0. |
 
-## 8.2 Archivos ejemplo.
+## 8.2 Archivos ejemplo
 
 En los anexos del proyecto se incluyen una serie de resultados que han
 sido obtenidos con la versión final de ***Explocal***.
