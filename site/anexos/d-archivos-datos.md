@@ -2797,3 +2797,34 @@ directorio=c:\explocal
 ; Fin del archivo: ERRORES.DAT
 ;_____________________________________________________________________
 ```
+
+## D.6 Datos de origen de los productos de explosión
+
+*Nota editorial: además de los ficheros `.DAT` anteriores (ya integrados
+en Explocal), el material de trabajo original conservado en el
+repositorio (`docs/auxiliar/`) incluye los borradores y gráficas por
+categoría química con los que se compilaron los datos de entalpía de la
+**tabla 3-4** y del apartado D.3 (`TBLPROD.DAT`). Dos de esos ficheros
+(`TBLENT1.DOC`, un borrador de la tabla 3-4, y `TERMOTAB.DOC`, un
+"Apéndice II" con datos de reactivos que se solapa con D.1) no se
+reproducen aquí de nuevo por duplicar contenido ya presentado; sí se
+incluyen las 9 gráficas, que no tienen equivalente en ningún otro punto
+de esta memoria.*
+
+![Figura D-1: Entalpía de los productos de explosión (Carbonatos)](../assets/figuras/aux-carbonatos.png){#figura-d-1}
+
+![Figura D-2: Entalpía de los productos de explosión (Dióxidos sólidos)](../assets/figuras/aux-dioxidos.png){#figura-d-2}
+
+![Figura D-3: Entalpía de los productos de explosión (Gases diatómicos)](../assets/figuras/aux-gases-diatomicos.png){#figura-d-3}
+
+![Figura D-4: Entalpía de los productos de explosión (Gases triatómicos)](../assets/figuras/aux-gases-triatomicos.png){#figura-d-4}
+
+![Figura D-5: Entalpía de los productos de explosión (Monóxidos sólidos - 1)](../assets/figuras/aux-monoxidos-1.png){#figura-d-5}
+
+![Figura D-6: Entalpía de los productos de explosión (Monóxidos sólidos - 2)](../assets/figuras/aux-monoxidos-2.png){#figura-d-6}
+
+![Figura D-7: Entalpía de los productos de explosión (Monóxidos sólidos - 3)](../assets/figuras/aux-monoxidos-3.png){#figura-d-7}
+
+![Figura D-8: Entalpía de los productos de explosión (Sesquióxidos)](../assets/figuras/aux-sesquioxidos.png){#figura-d-8}
+
+![Figura D-9: Entalpía de los productos de explosión (Trióxidos sólidos)](../assets/figuras/aux-trioxidos.png){#figura-d-9}

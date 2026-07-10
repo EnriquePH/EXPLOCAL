@@ -34,7 +34,8 @@ ANEXO_FILES = [
     "anexos/c-datos-recursos.md",
     "anexos/d-archivos-datos.md",
     "anexos/e-archivos-ejemplo.md",
-    "anexos/f-archivos-ejemplo.md",
+    "anexos/f-manual-usuario.md",
+    "anexos/g-norma-une.md",
 ]
 
 HEADER_RE = re.compile(r"^(#{1,3})\s+(.+?)\s*$")

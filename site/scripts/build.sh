@@ -41,7 +41,8 @@ FILES=(
   anexos/c-datos-recursos.md
   anexos/d-archivos-datos.md
   anexos/e-archivos-ejemplo.md
-  anexos/f-archivos-ejemplo.md
+  anexos/f-manual-usuario.md
+  anexos/g-norma-une.md
 )
 
 COMBINED="$OUT_DIR/libro.md"

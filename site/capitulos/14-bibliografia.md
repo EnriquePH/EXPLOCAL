@@ -1,4 +1,4 @@
-# Bibliografía
+# 12. Bibliografía
 
 - ADAMS, Lee (1994): *Programación avanzada de gráficos en C para
   Windows*. Windcrest McGraw-Hill, Madrid.

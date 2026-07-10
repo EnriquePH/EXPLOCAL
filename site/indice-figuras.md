@@ -30,5 +30,14 @@
 [Figura 6-15: Mapa de bits](capitulos/08-diseno.md#figura-6-15)  
 [Figura 7-1: Relación entre módulos](capitulos/09-codificacion.md)  
 [Figura 7-2: Jerarquía de clases del interfaz de usuario MDI](capitulos/09-codificacion.md#figura-7-2)  
+[Figura D-1: Entalpía de los productos de explosión (Carbonatos)](anexos/d-archivos-datos.md#figura-d-1)  
+[Figura D-2: Entalpía de los productos de explosión (Dióxidos sólidos)](anexos/d-archivos-datos.md#figura-d-2)  
+[Figura D-3: Entalpía de los productos de explosión (Gases diatómicos)](anexos/d-archivos-datos.md#figura-d-3)  
+[Figura D-4: Entalpía de los productos de explosión (Gases triatómicos)](anexos/d-archivos-datos.md#figura-d-4)  
+[Figura D-5: Entalpía de los productos de explosión (Monóxidos sólidos - 1)](anexos/d-archivos-datos.md#figura-d-5)  
+[Figura D-6: Entalpía de los productos de explosión (Monóxidos sólidos - 2)](anexos/d-archivos-datos.md#figura-d-6)  
+[Figura D-7: Entalpía de los productos de explosión (Monóxidos sólidos - 3)](anexos/d-archivos-datos.md#figura-d-7)  
+[Figura D-8: Entalpía de los productos de explosión (Sesquióxidos)](anexos/d-archivos-datos.md#figura-d-8)  
+[Figura D-9: Entalpía de los productos de explosión (Trióxidos sólidos)](anexos/d-archivos-datos.md#figura-d-9)  
 
-*Total: 30 figuras.*
+*Total: 39 figuras.*

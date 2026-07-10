@@ -1,3 +1,19 @@
+# Resumen
+
+El objetivo de este proyecto es construir una herramienta informática de
+cálculo, denominada ***Explocal***, que permita determinar las
+principales características teóricas de los explosivos.
+
+El método de cálculo que se va a emplear es un método simplificado que
+coincide con el incluido en la norma UNE 31-002.
+
+La aplicación informática ha sido desarrollada en lenguaje C++ y
+funciona en cualquier PC bajo el sistema operativo *Windows* 3.1.
+
+***Explocal*** incluye todas las características de una moderna
+aplicación informática comercial, desde: módulo ejecutable, archivos de
+datos, ayuda en hipertexto y programa de instalación.
+
 # Abstract
 
 The objective of this project is to built computer tool, called

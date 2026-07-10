@@ -20,7 +20,7 @@
 [Tabla 7-2: Archivos de recursos](capitulos/09-codificacion.md#tabla-7-2)  
 [Tabla 7-3: Propósito de las clases definidas para Explocal](capitulos/09-codificacion.md#tabla-7-3)  
 [Tabla 8-1: Errores comunes](capitulos/10-comprobacion.md#tabla-8-1)  
-[Tabla 12-1: Costes de personal](capitulos/15-estudio-economico.md#tabla-12-1)  
-[Tabla 12-2: Costes de material](capitulos/15-estudio-economico.md#tabla-12-2)  
+[Tabla - 1: Costes de personal](capitulos/15-estudio-economico.md#tabla-economico-1)  
+[Tabla - 2: Costes de material](capitulos/15-estudio-economico.md#tabla-economico-2)  
 
 *Total: 22 tablas.*

@@ -18,7 +18,7 @@ book:
     - indice-general.md
     - indice-figuras.md
     - indice-tablas.md
-    - part: "Memoria"
+    - part: "Documento Nº 1: Memoria"
       chapters:
         - capitulos/02-resumen.md
         - capitulos/03-objetivos-y-alcance.md
@@ -33,15 +33,18 @@ book:
         - capitulos/12-conclusiones.md
         - capitulos/13-referencias.md
         - capitulos/14-bibliografia.md
+    - part: "Documento Nº 2: Estudio Económico"
+      chapters:
         - capitulos/15-estudio-economico.md
-    - part: "Anexos"
+    - part: "Documento Nº 3: Anexos"
       chapters:
         - anexos/a-codigo-interfaz-usuario.md
         - anexos/b-codigo-modulo-calculos.md
         - anexos/c-datos-recursos.md
         - anexos/d-archivos-datos.md
         - anexos/e-archivos-ejemplo.md
-        - anexos/f-archivos-ejemplo.md
+        - anexos/f-manual-usuario.md
+        - anexos/g-norma-une.md
 
 format:
   html:

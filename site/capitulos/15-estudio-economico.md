@@ -1,8 +1,6 @@
 # Estudio económico
 
-*(Documento Nº 2 del proyecto original: Estudio económico)*
-
-## 11. Consideraciones previas
+## 1. Consideraciones previas
 
 Cuando se pretende sustituir por otra, o crear una aplicación informática,
 con el fin de satisfacer una necesidad de cálculo, se incurre en dos tipos de
@@ -32,9 +30,9 @@ datos económicos del desarrollo de aplicaciones similares. De este modo es
 posible estimar con fiabilidad el tiempo que puede llevar finalizar, por
 ejemplo, el diseño y la codificación.
 
-## 12. Presupuesto de desarrollo
+## 2. Presupuesto de desarrollo
 
-En la **Tabla 12-1** se muestra el dinero que cuesta pagar al equipo de
+En la **Tabla - 1** se muestra el dinero que cuesta pagar al equipo de
 desarrollo de *software*.
 
 El tiempo máximo que se tarda en finalizar la versión Beta de ***Explocal***
@@ -42,8 +40,8 @@ es de 1215 h (aproximadamente 7 meses a 9 h/día). En realidad algunas de las
 tareas se pueden realizar de forma simultánea, con lo que el tiempo de
 ejecución del proyecto bajaría considerablemente.
 
-[]{#tabla-12-1}
-**Tabla 12-1: Costes de personal**
+[]{#tabla-economico-1}
+**Tabla - 1: Costes de personal**
 
 | Personal | Sueldo (PTA/h) | Tiempo trabajado (h) | Coste (PTA) |
 |---|---|---|---|
@@ -55,10 +53,10 @@ ejecución del proyecto bajaría considerablemente.
 | **TOTAL PERSONAL** | **—** | **1215** | **2 392 500** |
 
 El resto de costes son los originados por la necesidad de contar con el
-equipo físico y el compilador, y se exponen en la **Tabla 12-2**.
+equipo físico y el compilador, y se exponen en la **Tabla - 2**.
 
-[]{#tabla-12-2}
-**Tabla 12-2: Costes de material**
+[]{#tabla-economico-2}
+**Tabla - 2: Costes de material**
 
 | Material | Concepto | Coste (PTA) |
 |---|---|---|
