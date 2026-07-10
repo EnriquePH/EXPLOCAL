@@ -1,0 +1,9 @@
+/* Quarto centra la imagen de cada figura (clase .quarto-figure-center)
+   pero el pie de foto (<figcaption>) es un hermano del <p>/<div> que
+   contiene la imagen, no un hijo, así que la regla de Bootstrap
+   ".quarto-figure-center>figure>p,.quarto-figure-center>figure>div
+   {text-align:center}" no lo alcanza y queda alineado a la izquierda
+   por defecto. Se centra explícitamente aquí. */
+.quarto-figure-center figcaption {
+  text-align: center;
+}

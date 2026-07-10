@@ -430,11 +430,20 @@ Nota: 1 bar = 10^5^ Pa = 10^5^ N/m^2^
 En adelante centraremos la atención en los balances de los elementos C,
 H y O. Se obtienen las ecuaciones:
 
-Carbono: **nCO~2~ + nCO + nC + nCarbonatos = b~C~ ;** (3-12)
+Carbono:
 
-Hidrógeno: **2·nH~2~O + 2·H~2~ + nHalógenos = b~H~ ;** (3-13)
+$$nCO_2 + nCO + nC + \text{nCarbonatos} = b_C
+\tag{3-12}$$
 
-Oxígeno: **2·nCO~2~ +nCO+nH~2~O+nÓxidos+3·nCarbonatos = b~O~ ;** (3-14)
+Hidrógeno:
+
+$$2 \cdot nH_2O + 2 \cdot H_2 + \text{nHalógenos} = b_H
+\tag{3-13}$$
+
+Oxígeno:
+
+$$2 \cdot nCO_2 + nCO + nH_2O + \text{nÓxidos} + 3 \cdot \text{nCarbonatos} = b_O
+\tag{3-14}$$
 
 Los valores de **b~C~**, **b~H~** y **b~O~** se toman de la fórmula de 1
 kg de explosivo.
@@ -445,16 +454,20 @@ las ecuaciones (3-7) y (3-8), se tendrá un sistema de la forma:
 
 *Sistema con formación de grafito*:
 
-**nCO~2~ + nCO + nC = b~C~ - nCarbonatos = B~C~ ;** (3-15)
+$$nCO_2 + nCO + nC = b_C - \text{nCarbonatos} = B_C
+\tag{3-15}$$
 
-**nH~2~O + H~2~ = ( b~H~ -nHalógenos) / 2 = B~H~ ;** (3-16)
+$$nH_2O + H_2 = \dfrac{b_H - \text{nHalógenos}}{2} = B_H
+\tag{3-16}$$
 
-**2·nCO~2~ + nCO + nH~2~O = b~O~ - nÓxidos- 3·nCarbonatos = B~O~ ;**
-(3-17)
+$$2 \cdot nCO_2 + nCO + nH_2O = b_O - \text{nÓxidos} - 3 \cdot \text{nCarbonatos} = B_O
+\tag{3-17}$$
 
-**nCO·nH~2~O = K~1~· nCO~2~·nH~2~ ;** (3-18)
+$$nCO \cdot nH_2O = K_1 \cdot nCO_2 \cdot nH_2
+\tag{3-18}$$
 
-**n^2^CO = K~2~' · nCO~2~ ;** (3-19)
+$$nCO^2 = K_2' \cdot nCO_2
+\tag{3-19}$$
 
 El sistema es de cinco ecuaciones con seis incógnitas (puesto que hay
 que añadir la temperatura), y se resolverá junto con la ecuación del
@@ -483,15 +496,20 @@ con el siguiente sistema:
 
 *Sistema sin formación de grafito*:
 
-nCO~2~ + nCO = B~C~ ; (3-21)
+$$nCO_2 + nCO = B_C
+\tag{3-21}$$
 
-nH~2~O + H~2~ = B~H~ ; (3-22)
+$$nH_2O + H_2 = B_H
+\tag{3-22}$$
 
-2·nCO~2~ + nCO + nH~2~O = B~O~ ; (3-23)
+$$2 \cdot nCO_2 + nCO + nH_2O = B_O
+\tag{3-23}$$
 
-nCO·nH~2~O = K~1~· nCO~2~·nH~2~ ; (3-24)
+$$nCO \cdot nH_2O = K_1 \cdot nCO_2 \cdot nH_2
+\tag{3-24}$$
 
-nC=0 **;** (3-25)
+$$nC = 0
+\tag{3-25}$$
 
 Cuya solución puede obtenerse resolviendo la ecuación de segundo grado:
 

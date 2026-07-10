@@ -58,5 +58,6 @@ format:
     code-tools: false
     highlight-style: github
     fig-align: center
+    css: assets/custom.css
 
 lang: es
