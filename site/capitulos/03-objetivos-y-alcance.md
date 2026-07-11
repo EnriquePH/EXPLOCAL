@@ -74,12 +74,12 @@ velocidad.
 
 c\) La composición de los productos de detonación obtenida no tendrá en
 consideración los componentes menores como pueden ser: el metano
-(CH~4~), el amoniaco (NH~3~), el cianhídrico (CNH) y los óxidos de
+($CH_4$), el amoniaco ($NH_3$), el cianhídrico ($CNH$) y los óxidos de
 nitrógeno entre otros.
 
 Por lo que el método no es útil para cuantificar la toxicidad de los
 humos producidos en la detonación, aunque sí determine el contenido de
-monóxido de carbono (CO).
+monóxido de carbono ($CO$).
 
 d\) El método no es aplicable a deflagraciones, puesto que el método se
 fundamenta en un análisis a volumen constante y no a presión constante y

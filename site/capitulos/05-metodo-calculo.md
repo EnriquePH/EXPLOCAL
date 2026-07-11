@@ -57,7 +57,7 @@ La energía interna total depende de la composición de los productos de
 explosión. Con el objetivo de *reducir el número de incógnitas* se
 considera que: cada elemento de la mezcla explosiva forma **un único
 producto de explosión**, con las excepciones del carbono, el hidrógeno y
-el oxígeno que forman: C (grafito), CO, CO~2~, H~2~ y H~2~O.
+el oxígeno que forman: $C$ (grafito), $CO$, $CO_2$, $H_2$ y $H_2O$.
 
 El resto de los parámetros de detonación se determinan mediante las
 fórmulas empíricas de *Kamlet, M.J y Jacobs, S.J.* [[3]](13-referencias.md#referencia-3).
@@ -82,7 +82,8 @@ reactivos), que componen el explosivo, y que constituyen los datos del
 problema planteado, se calcula la fórmula para un kilogramo de explosivo
 del siguiente modo:
 
-$b_j = 10 \cdot \displaystyle\sum_{i=1}^{Nc} a_{ij} \cdot \dfrac{p_i}{Pm_i}$, **j = 1,2,…, Ne;** (3-2)
+$$b_j = 10 \cdot \displaystyle\sum_{i=1}^{Nc} a_{ij} \cdot \dfrac{p_i}{Pm_i}, \quad j = 1,2,\ldots,Ne
+\tag{3-2}$$
 
 donde:
 
@@ -205,12 +206,12 @@ Se tienen en cuenta los siguientes productos, según el caso:
 excedentario en oxígeno: se forma un producto por cada elemento en la
 composición de la mezcla.
 
-Como: CO~2~, CO, H~2~O, O~2~ y N~2~ entre otros.
+Como: $CO_2$, $CO$, $H_2O$, $O_2$ y $N_2$ entre otros.
 
-(Nótese la presencia de oxígeno libre O~2~).
+(Nótese la presencia de oxígeno libre $O_2$).
 
 **b)** ***Balance de oxígeno negativo***: se forma un producto por cada
-elemento y además se pueden formar C, CO, y H~2~.
+elemento y además se pueden formar $C$, $CO$, y $H_2$.
 
 (No hay oxígeno libre, pero sí hidrógeno gas.)
 
@@ -288,17 +289,17 @@ muchos casos) proporciona la composición de los productos.
 
 **b) Balance de oxígeno negativo: (Np=Ne+2)**
 
-Se tienen dos productos más que elementos ya que se producen C, CO, H~2~
-pero no O~2~.
+Se tienen dos productos más que elementos ya que se producen $C$, $CO$, $H_2$
+pero no $O_2$.
 
 El sistema de ecuaciones se forma con los balances estequiométricos de
 cada elemento junto con las dos ecuaciones de equilibrio siguientes:
 
-**CO~2~ + H~2~ ⇔ CO + H~2~O ;**
+**$CO_2$ + $H_2$ ⇔ $CO$ + $H_2O$ ;**
 $K_1 = \dfrac{P_{CO} \cdot P_{H_2O}}{P_{CO_2} \cdot P_{H_2}}$**;**
 (3-5)
 
-**CO~2~ + C ⇔ 2 CO;**
+**$CO_2$ + $C$ ⇔ 2 $CO$;**
 $K_2 = \dfrac{P^2_{CO}}{P_{CO_2}}$**;**
 (3-6)
 
@@ -415,9 +416,9 @@ de: carbonatos, haluros y óxidos, entre otros.
 Nota I: Las constantes de equilibrio tabuladas corresponden a las dos
 reacciones siguientes:
 
-CO~2~ + H~2~ ⇔ CO + H~2~O ; K~1~ = PCO · PH~2~O / PCO~2~ · PH~2~
+$CO_2$ + $H_2$ ⇔ $CO$ + $H_2O$ ; K~1~ = PCO · PH~2~O / PCO~2~ · PH~2~
 
-CO~2~ + C ⇔ 2 CO ; K~2~ = PCO^2^ / PCO~2~
+$CO_2$ + $C$ ⇔ 2 $CO$ ; K~2~ = PCO^2^ / PCO~2~
 
 Nota II: La constante K~1~ es adimensional a diferencia de K~2~ que
 tiene dimensiones de presión.
@@ -1069,7 +1070,7 @@ a) **Calor de explosión:**
 
 Analizando los pasos dados en el proceso de cálculo, se puede observar
 que: La presión influye en la composición de los productos considerados:
-(CO~2~, CO, H~2~O, H~2~), puesto que el equilibrio depende de **K~2~**,
+($CO_2$, $CO$, $H_2O$, $H_2$), puesto que el equilibrio depende de **K~2~**,
 véase (3-8).
 
 La estimación de la presión mediante la ecuación de los gases ideales es
@@ -1090,7 +1091,7 @@ La suposición del comportamiento ideal de los gases afecta tanto a la
 composición los productos de explosión como a las funciones
 termodinámicas:
 
-El equilibrio (3-6) está, en realidad, más desplazado hacia el CO~2~,
+El equilibrio (3-6) está, en realidad, más desplazado hacia el $CO_2$,
 puesto que habría que efectuar una modificación de la ecuación de los
 gases ideales, por medio de un factor de corrección, lo que afectaría a
 la relación **P/n~g~** (y por lo tanto a la constante de equilibrio
@@ -1123,7 +1124,7 @@ Si aplicamos (3-35) y (3-38) a explosivos formados por otros elementos
 diferentes de los cuatro anteriores, los resultados serán menos fiables
 a medida que aumente la proporción de estos.
 
-[^cap3-2]: Nota I: Los tres últimos productos de explosión C, CO y H~2~, sólo
+[^cap3-2]: Nota I: Los tres últimos productos de explosión $C$, $CO$ y $H_2$, sólo
     se considera que se producen en explosivos deficitarios en oxígeno.
 
     Nota II: En la tabla se indican las diferencias entre los productos
@@ -1158,11 +1159,11 @@ a medida que aumente la proporción de estos.
 [^cap3-4]: Nota I: Las constantes de equilibrio tabuladas corresponden a las
     dos reacciones siguientes:
 
-    CO~2~ + H~2~ ⇔ CO + H~2~O
+    $CO_2$ + $H_2$ ⇔ $CO$ + $H_2O$
 
     K~1~ = PCO · PH~2~O / PCO~2~ · PH~2~
 
-    CO~2~ + C ⇔ 2 CO
+    $CO_2$ + $C$ ⇔ 2 $CO$
 
     K~2~ = PCO^2^ / PCO~2~
 
