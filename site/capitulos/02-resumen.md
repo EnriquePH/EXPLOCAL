@@ -5,7 +5,8 @@ cálculo, denominada ***Explocal***, que permita determinar las
 principales características teóricas de los explosivos.
 
 El método de cálculo que se va a emplear es un método simplificado que
-coincide con el incluido en la norma UNE 31-002.
+coincide con el incluido en la norma [UNE
+31-002](http://books.google.es/books/about/UNE_31_002_94.html?id=Fd_3cQAACAAJ&redir_esc=y).
 
 La aplicación informática ha sido desarrollada en lenguaje C++ y
 funciona en cualquier PC bajo el sistema operativo *Windows* 3.1.
@@ -91,7 +92,11 @@ Pérez Herrero, Enrique (1996). Proyecto de una aplicación informática
 para el cálculo de las principales características teóricas de los
 explosivos (Explocal). Proyecto Fin de Carrera, E.T.S.I. de Minas de
 Madrid. https://enriqueph.github.io/EXPLOCAL/
+DOI: 10.5281/zenodo.21306995
 ```
+
+También disponible con DOI permanente en Zenodo:
+[10.5281/zenodo.21306995](https://doi.org/10.5281/zenodo.21306995).
 
 El repositorio de GitHub incluye un fichero
 [`CITATION.cff`](https://github.com/EnriquePH/EXPLOCAL/blob/master/CITATION.cff)

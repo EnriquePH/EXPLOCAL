@@ -18,3 +18,18 @@
 % duplicar la numeración.
 \usepackage{caption}
 \captionsetup{labelformat=empty, labelsep=none, font=it, justification=centering}
+
+% Metadatos embebidos en el PDF (Título/Autor/Asunto), sin pasar `title`/
+% `author` como variables de pandoc: eso generaría una portada `\maketitle`
+% automática que duplicaría nuestra propia portada (index.md).
+% \AtBeginDocument, porque hyperref (y \hypersetup) se cargan más tarde en
+% la plantilla de pandoc, después de incluir este preámbulo.
+\AtBeginDocument{%
+  \hypersetup{
+    pdftitle={Proyecto de una aplicación informática para el cálculo de las principales características teóricas de los explosivos (Explocal)},
+    pdfauthor={Enrique Pérez Herrero},
+    pdfsubject={Proyecto Fin de Carrera, E.T.S.I. de Minas de Madrid, 1996},
+    pdfkeywords={explosivos, detonación, UNE 31-002, termoquímica},
+    pdflang={es}
+  }%
+}

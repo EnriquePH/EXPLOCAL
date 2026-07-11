@@ -9,6 +9,10 @@ date-released: 1996-12-01
 url: "https://enriqueph.github.io/EXPLOCAL/"
 repository-code: "https://github.com/EnriquePH/EXPLOCAL"
 license: MIT
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21306995"
+    description: "Versión archivada permanentemente en Zenodo."
 abstract: >-
   Aplicación informática que calcula las principales características
   teóricas de una mezcla explosiva (calor y temperatura de explosión,

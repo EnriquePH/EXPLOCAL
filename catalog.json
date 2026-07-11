@@ -7,6 +7,7 @@
   "license": "MIT",
   "license_file": "LICENSE",
   "citation_file": "CITATION.cff",
+  "doi": "10.5281/zenodo.21306995",
   "author": {
     "name": "Enrique Pérez Herrero",
     "year": 1996
@@ -16,9 +17,9 @@
     "source_dir": "site/",
     "formats": {
       "html": "https://enriqueph.github.io/EXPLOCAL/",
-      "pdf": "site/salida/Explocal-Memoria.pdf",
-      "docx": "site/salida/Explocal-Memoria.docx",
-      "tex": "site/salida/Explocal-Memoria.tex"
+      "pdf": "site/salida/Explocal-Proyecto.pdf",
+      "docx": "site/salida/Explocal-Proyecto.docx",
+      "tex": "site/salida/Explocal-Proyecto.tex"
     },
     "front_matter": [
       {

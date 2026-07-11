@@ -8,6 +8,7 @@
 [![Since 1996](https://img.shields.io/badge/since-1996-orange)](CONTRIBUTING.md)
 [![Cite this repository](https://img.shields.io/badge/cite-CITATION.cff-informational)](CITATION.cff)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21306995.svg)](https://doi.org/10.5281/zenodo.21306995)
 
 📖 **[Leer la memoria / libro del proyecto](https://enriqueph.github.io/EXPLOCAL/)**
 
@@ -99,4 +100,8 @@ Pérez Herrero, Enrique (1996). Proyecto de una aplicación informática
 para el cálculo de las principales características teóricas de los
 explosivos (Explocal). Proyecto Fin de Carrera, E.T.S.I. de Minas de
 Madrid. https://enriqueph.github.io/EXPLOCAL/
+DOI: 10.5281/zenodo.21306995
 ```
+
+También disponible con DOI permanente en Zenodo:
+<https://doi.org/10.5281/zenodo.21306995>.

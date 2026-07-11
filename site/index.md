@@ -1,28 +1,28 @@
-# PORTADA
+# **PROYECTO DE UNA APLICACIÓN INFORMÁTICA PARA EL CÁLCULO DE LAS PRINCIPALES CARACTERÍSTICAS TEÓRICAS DE LOS EXPLOSIVOS**
 
+```{=latex}
+% El título es demasiado largo para la cabecera de página que LaTeX
+% genera automáticamente a partir del encabezado de nivel superior (se
+% superpone con el número de página); se sustituye por un encabezado
+% corto solo en el PDF.
+\markboth{Portada}{Portada}
+```
 
+![](assets/figuras/image1.png){height=4.5cm}
 
-\vspace{2cm}
-
-## **PROYECTO DE UNA APLICACIÓN INFORMÁTICA PARA EL CÁLCULO DE LAS PRINCIPALES CARACTERÍSTICAS TEÓRICAS DE LOS EXPLOSIVOS**
-
-![](assets/figuras/image1.png)
-
-\vspace{1cm}
+\vspace{0.5cm}
 
 **ESCUELA TÉCNICA SUPERIOR DE INGENIEROS DE MINAS DE MADRID**    
 **DEPARTAMENTO DE INGENIERÍA QUÍMICA Y COMBUSTIBLES**
 
-**PROYECTO FIN DE CARRERA**
-
-**Especialidad: Laboreo y Explosivos**
-
-\vspace{2cm}
+**PROYECTO FIN DE CARRERA**    
+**Especialidad: Laboreo y Explosivos**   
 
 * Autor: Enrique Pérez Herrero    
 * Fecha: Diciembre de 1996    
-* https://minasyenergia.upm.es/
+* <https://minasyenergia.upm.es/>
 
+\newpage
 
 ## Descargar el código fuente
 

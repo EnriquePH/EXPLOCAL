@@ -82,26 +82,26 @@ if [[ "$TARGET" == "docx" || "$TARGET" == "all" ]]; then
   # estilos de párrafo "ImageCaption" y "CaptionedFigure" (pié e imagen de
   # cada figura) centrados (<w:jc w:val="center"/>); por defecto pandoc los
   # deja alineados a la izquierda.
-  pandoc "${PANDOC_COMMON[@]}" --reference-doc=scripts/reference.docx "$COMBINED" -o "$OUT_DIR/Explocal-Memoria.docx"
-  echo "-> $OUT_DIR/Explocal-Memoria.docx"
+  pandoc "${PANDOC_COMMON[@]}" --reference-doc=scripts/reference.docx "$COMBINED" -o "$OUT_DIR/Explocal-Proyecto.docx"
+  echo "-> $OUT_DIR/Explocal-Proyecto.docx"
 fi
 
 if [[ "$TARGET" == "tex" || "$TARGET" == "all" ]]; then
   pandoc "${PANDOC_COMMON[@]}" --standalone -V documentclass=book -V lang=es \
     -V mainfont="DejaVu Serif" -V sansfont="DejaVu Sans" -V monofont="DejaVu Sans Mono" \
     -H scripts/preamble.tex \
-    "$COMBINED" -o "$OUT_DIR/Explocal-Memoria.tex"
-  echo "-> $OUT_DIR/Explocal-Memoria.tex (compilar con xelatex o lualatex, no pdflatex, por los caracteres Unicode)"
+    "$COMBINED" -o "$OUT_DIR/Explocal-Proyecto.tex"
+  echo "-> $OUT_DIR/Explocal-Proyecto.tex (compilar con xelatex o lualatex, no pdflatex, por los caracteres Unicode)"
 fi
 
 if [[ "$TARGET" == "pdf" || "$TARGET" == "all" ]]; then
   # xelatex maneja UTF-8/Unicode (ρ, φ, Δ, ~, superíndices...) sin
   # configuración extra de paquetes LaTeX de codificación.
   pandoc "${PANDOC_COMMON[@]}" -V documentclass=book -V lang=es \
-    -V geometry:margin=2.5cm -V geometry:headsep=1.2cm --pdf-engine=xelatex \
+    -V papersize=a4 -V geometry:margin=2.5cm -V geometry:headsep=1.2cm --pdf-engine=xelatex \
     -V mainfont="DejaVu Serif" -V sansfont="DejaVu Sans" -V monofont="DejaVu Sans Mono" \
     -H scripts/preamble.tex \
-    "$COMBINED" -o "$OUT_DIR/Explocal-Memoria.pdf" || \
+    "$COMBINED" -o "$OUT_DIR/Explocal-Proyecto.pdf" || \
     echo "AVISO: la generación de PDF falló. Prueba './scripts/build.sh docx' mientras tanto." >&2
-  [[ -f "$OUT_DIR/Explocal-Memoria.pdf" ]] && echo "-> $OUT_DIR/Explocal-Memoria.pdf"
+  [[ -f "$OUT_DIR/Explocal-Proyecto.pdf" ]] && echo "-> $OUT_DIR/Explocal-Proyecto.pdf"
 fi
