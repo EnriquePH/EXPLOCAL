@@ -5,6 +5,7 @@ on:
     paths:
       - "site/**"
       - ".github/workflows/check-site.yml"
+  workflow_dispatch: {}
 
 jobs:
   render:
