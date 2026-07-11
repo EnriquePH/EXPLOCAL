@@ -21,8 +21,8 @@ explosión, velocidad y presión de detonación, balance de oxígeno,
 composición de los productos de explosión...) siguiendo el método
 simplificado de la norma española **UNE 31-002**. Se desarrolló en C++
 (Borland C++ 3.1 + Object Windows 1.0) para *Windows 3.1* en 1996, como
-Proyecto Fin de Carrera de Enrique Pérez Herrero (E.T.S.I. de Minas de
-Madrid, especialidad Laboreo y Explosivos).
+Proyecto Fin de Carrera de Enrique Pérez Herrero ([E.T.S.I. de Minas de
+Madrid](https://minasyenergia.upm.es/), especialidad Laboreo y Explosivos).
 
 Este repositorio conserva el código y los datos originales de 1996 tal
 cual, y reconstruye la memoria completa del proyecto (texto, fórmulas,
