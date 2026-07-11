@@ -295,22 +295,21 @@ pero no $O_2$.
 El sistema de ecuaciones se forma con los balances estequiométricos de
 cada elemento junto con las dos ecuaciones de equilibrio siguientes:
 
-**$CO_2$ + $H_2$ ⇔ $CO$ + $H_2O$ ;**
-$K_1 = \dfrac{P_{CO} \cdot P_{H_2O}}{P_{CO_2} \cdot P_{H_2}}$**;**
-(3-5)
+$$CO_2 + H_2 \Leftrightarrow CO + H_2O \: ; \quad K_1 = \dfrac{P_{CO} \cdot P_{H_2O}}{P_{CO_2} \cdot P_{H_2}}
+\tag{3-5}$$
 
-**$CO_2$ + $C$ ⇔ 2 $CO$;**
-$K_2 = \dfrac{P^2_{CO}}{P_{CO_2}}$**;**
-(3-6)
+$$CO_2 + C \Leftrightarrow 2\,CO \: ; \quad K_2 = \dfrac{P^2_{CO}}{P_{CO_2}}
+\tag{3-6}$$
 
 La constante **K~1~** es adimensional a diferencia de **K~2~** que tiene
 dimensiones de presión. Si tenemos en cuenta que la presión es
 proporcional a la cantidad de gas obtendremos:
 
-$K_1 = \dfrac{nCO \cdot nH_2O}{nCO_2 \cdot nH_2}$**;**
-(3-7)
-$K_2 = \dfrac{P^2_{CO}}{P_{CO_2}} = \dfrac{n^2_{CO}}{n_{CO_2}} \cdot \dfrac{P}{n_g} = \dfrac{n^2_{CO}}{n_{CO_2}} \cdot F$**;**
-(3-8)
+$$K_1 = \dfrac{nCO \cdot nH_2O}{nCO_2 \cdot nH_2}
+\tag{3-7}$$
+
+$$K_2 = \dfrac{P^2_{CO}}{P_{CO_2}} = \dfrac{n^2_{CO}}{n_{CO_2}} \cdot \dfrac{P}{n_g} = \dfrac{n^2_{CO}}{n_{CO_2}} \cdot F
+\tag{3-8}$$
 
 $$n_g = \sum_{i=Gas}^{Np} n_i
 \tag{3-9}$$
