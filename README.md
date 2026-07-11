@@ -1,8 +1,13 @@
 # EXPLOCAL
 
 [![Deploy site](https://github.com/EnriquePH/EXPLOCAL/actions/workflows/publish-site.yml/badge.svg)](https://github.com/EnriquePH/EXPLOCAL/actions/workflows/publish-site.yml)
+[![Check site](https://github.com/EnriquePH/EXPLOCAL/actions/workflows/check-site.yml/badge.svg)](https://github.com/EnriquePH/EXPLOCAL/actions/workflows/check-site.yml)
 [![Website](https://img.shields.io/badge/docs-site-blue)](https://enriqueph.github.io/EXPLOCAL/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Made with Quarto](https://img.shields.io/badge/made%20with-Quarto-3a86ff)](https://quarto.org)
+[![Since 1996](https://img.shields.io/badge/since-1996-orange)](CONTRIBUTING.md)
+[![Cite this repository](https://img.shields.io/badge/cite-CITATION.cff-informational)](CITATION.cff)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 📖 **[Leer la memoria / libro del proyecto](https://enriqueph.github.io/EXPLOCAL/)**
 
@@ -58,6 +63,9 @@ del propio libro.
   (compilador, editor de ayuda, bibliotecas) conservado localmente por
   motivos históricos; no se redistribuye por ser propietario de terceros
   (ver Anexo H del libro).
+- **[`catalog.json`](catalog.json)** — índice machine-readable de todos
+  los capítulos y anexos del libro (título, ruta y URL de cada uno) más
+  los formatos disponibles (HTML/PDF/DOCX/LaTeX).
 
 ## Estado actual
 
@@ -71,29 +79,10 @@ del propio libro.
 
 ¿Encontraste una errata en la memoria, un enlace roto o un error en el
 código reproducido? Abre un
-[issue](https://github.com/EnriquePH/EXPLOCAL/issues) describiendo el
-apartado afectado.
-
-Para compilar el libro localmente (necesario para proponer cambios sobre
-`site/`):
-
-```bash
-cd site
-quarto render               # -> _site/ (HTML, igual que GitHub Pages)
-quarto preview               # servidor local con recarga en caliente
-
-./scripts/build.sh          # -> salida/libro.md, .docx, .pdf, .tex
-./scripts/build.sh pdf      # solo PDF
-./scripts/build.sh docx     # solo Word
-
-python3 scripts/build_indices.py   # regenera los índices general/de
-                                    # figuras/de tablas tras editar un capítulo
-```
-
-Requiere [Quarto](https://quarto.org/docs/get-started/) para la web, y
-`pandoc` + una distribución LaTeX con `xelatex` para PDF/DOCX/LaTeX. El
-despliegue en GitHub Pages es automático vía Actions en cada push a
-`master`/`main` que toque `site/`.
+[issue](https://github.com/EnriquePH/EXPLOCAL/issues). Para proponer
+cambios (incluidas las instrucciones para compilar el libro localmente)
+y las convenciones del proyecto, ver [CONTRIBUTING.md](CONTRIBUTING.md).
+Este proyecto se rige por un [Código de Conducta](CODE_OF_CONDUCT.md).
 
 ## Licencia
 

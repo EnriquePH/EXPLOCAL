@@ -19,8 +19,9 @@
 
 \vspace{2cm}
 
-* **Autor:** Enrique Pérez Herrero    
-* **Fecha:** Diciembre de 1996    
+* Autor: Enrique Pérez Herrero    
+* Fecha: Diciembre de 1996    
+* https://minasyenergia.upm.es/
 
 
 ## Descargar el código fuente
