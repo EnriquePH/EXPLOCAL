@@ -33,24 +33,4 @@ en el repositorio de GitHub:
 - [Descargar `EXPLOCAL.EXE` directamente](https://github.com/EnriquePH/EXPLOCAL/raw/master/code/EXPLOCAL.EXE)
 - [Descargar el repositorio completo (.zip)](https://github.com/EnriquePH/EXPLOCAL/archive/refs/heads/master.zip) — incluye también los documentos originales de la memoria (`docs/`) y los ficheros fuente del sistema de ayuda (`docs/hlp/`).
 
-## Cómo citar
-
-```
-Pérez Herrero, Enrique (1996). Proyecto de una aplicación informática
-para el cálculo de las principales características teóricas de los
-explosivos (Explocal). Proyecto Fin de Carrera, E.T.S.I. de Minas de
-Madrid. https://enriqueph.github.io/EXPLOCAL/
-```
-
-El repositorio de GitHub incluye un fichero
-[`CITATION.cff`](https://github.com/EnriquePH/EXPLOCAL/blob/master/CITATION.cff)
-que permite generar esta cita automáticamente (botón **"Cite this
-repository"** en la página del repositorio).
-
-## Licencia
-
-Este proyecto se distribuye bajo licencia
-[MIT](https://github.com/EnriquePH/EXPLOCAL/blob/master/LICENSE) ©
-1996 Enrique Pérez Herrero.
-
 \newpage

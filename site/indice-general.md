@@ -4,6 +4,8 @@
 [Resumen](capitulos/02-resumen.md)  
 [Abstract](capitulos/02-resumen.md#abstract)  
 [Síntesis del proyecto](capitulos/02-resumen.md#síntesis-del-proyecto)  
+    [Cómo citar](capitulos/02-resumen.md#cómo-citar)  
+    [Licencia](capitulos/02-resumen.md#licencia)  
 [1. Objetivos y alcance del proyecto](capitulos/03-objetivos-y-alcance.md)  
     [1.1 Características y limitaciones del método de cálculo descrito en la norma UNE 31-002-94](capitulos/03-objetivos-y-alcance.md#características-y-limitaciones-del-método-de-cálculo-descrito-en-la-norma-une-31-002-94)  
     [1.2 Características y limitaciones de la aplicación informática comercial Explocal](capitulos/03-objetivos-y-alcance.md#características-y-limitaciones-de-la-aplicación-informática-comercial-explocal)  

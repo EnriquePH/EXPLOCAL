@@ -45,7 +45,8 @@ A *volumen constante:* el volumen específico de explosión es igual al
 inicial (**v=v~o~**) y la ecuación de la energía (2-3) de la
 detonación queda:
 
-**E-E~o~=0** (3-1)
+$$E - E_o = 0
+\tag{3-1}$$
 
 La expresión (3-1) es una *ecuación en temperatura* que se resolverá
 suponiendo que la energía interna depende en exclusiva de la
@@ -119,7 +120,8 @@ $$E_o = \Delta E_f = \sum_{i=1}^{Nc} \Delta E_{fi} \dfrac{P_i}{100}
 
 Se calcula, expresado en porcentaje, mediante la expresión:
 
-**BO = 100 · Pm[O] · ( O~E~ - O~N~ )/ Pm** (3-4)
+$$BO = \dfrac{100 \cdot Pm[O] \cdot (O_E - O_N)}{Pm}
+\tag{3-4}$$
 
 donde:
 
@@ -313,9 +315,11 @@ $$n_g = \sum_{i=Gas}^{Np} n_i
 \tag{3-9}$$
 
 
-**F=** **P / n~g~ = ρ · n~g~·R·T≈ ρ~o~· n~g~·R·T ;** (3-10)
+$$F = \dfrac{P}{n_g} = \rho \cdot n_g \cdot R \cdot T \approx \rho_o \cdot n_g \cdot R \cdot T
+\tag{3-10}$$
 
-**K~2~' = K~2~ / F ;** (3-11)
+$$K_2' = \dfrac{K_2}{F}
+\tag{3-11}$$
 
 donde:
 
@@ -526,7 +530,8 @@ incógnitas.
 La ecuación de la energía, suponiendo en proceso de reacción a volumen
 constante, es:
 
-**E(T)-E~o~=0** (3-1)
+$$E(T) - E_o = 0
+\tag{3-1}$$
 
 $$E_o = \sum_{i=1}^{Nc} \dfrac{p_i}{100} \cdot \Delta E^0_{fi}
 \tag{3-27}$$
@@ -586,7 +591,8 @@ $$E_0 - \sum_{j=1}^{Np} n_j \cdot \Delta E^0_{fj} = \sum_{j=1}^{Np} n_j \cdot (H
 
 que equivale a:
 
-**Q = Q~S~(T)** (3-31)
+$$Q = Q_S(T)
+\tag{3-31}$$
 
 donde:
 
@@ -967,7 +973,8 @@ $$V_{CN} = \dfrac{n_g \cdot R \cdot T°}{P°}
 
 y la "fuerza" o energía específica con:
 
-**f = n~g~·R·T** (3-34)
+$$f = n_g \cdot R \cdot T
+\tag{3-34}$$
 
 donde:
 
@@ -999,7 +1006,8 @@ cálculo con códigos de detonación complejos, de un gran número de
 explosivos compuestos por C, H, N y O en un intervalo de densidades
 desde 1 g/cm^3^ a 2 g/cm^3^, y son:
 
-**P = K~p~ · ρ~o~^2^ · φ** (3-35)
+$$P = K_p \cdot \rho_o^2 \cdot \phi
+\tag{3-35}$$
 
 $$\phi = n_g \cdot \sqrt{\overline{M} \cdot Q}
 \tag{3-36}$$

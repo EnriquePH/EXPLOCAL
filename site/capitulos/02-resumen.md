@@ -83,3 +83,23 @@ de conseguirlas.
 
 El proyecto incluye, también, un estudio de los costes de desarrollo,
 desgranado el conjunto en costes de personal y de material.
+
+## Cómo citar
+
+```
+Pérez Herrero, Enrique (1996). Proyecto de una aplicación informática
+para el cálculo de las principales características teóricas de los
+explosivos (Explocal). Proyecto Fin de Carrera, E.T.S.I. de Minas de
+Madrid. https://enriqueph.github.io/EXPLOCAL/
+```
+
+El repositorio de GitHub incluye un fichero
+[`CITATION.cff`](https://github.com/EnriquePH/EXPLOCAL/blob/master/CITATION.cff)
+que permite generar esta cita automáticamente (botón **"Cite this
+repository"** en la página del repositorio).
+
+## Licencia
+
+Este proyecto se distribuye bajo licencia
+[MIT](https://github.com/EnriquePH/EXPLOCAL/blob/master/LICENSE) ©
+1996 Enrique Pérez Herrero.
