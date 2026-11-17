@@ -50,8 +50,8 @@ book:
 format:
   html:
     theme:
-      light: cosmo
-      dark: darkly
+      light: [cosmo, sin-google-fonts.scss]
+      dark: [darkly, sin-google-fonts.scss]
     toc: true
     toc-depth: 3
     number-sections: false
